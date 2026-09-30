@@ -1383,6 +1383,12 @@
 			(uuid "332a9125-42cd-4f71-a3d5-1084a71124d8")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR01")
@@ -1461,6 +1467,12 @@
 			(uuid "9391cf70-c39b-45b2-9d79-6a54baee4506")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR05")
@@ -1539,6 +1551,12 @@
 			(uuid "2672e548-cadd-4c2e-9776-48831123fd34")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR02")
@@ -1621,6 +1639,12 @@
 			(uuid "77023910-2b0c-458a-a51e-60feccaced1d")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R2")
@@ -1699,6 +1723,12 @@
 			(uuid "ede860f6-aefc-453b-b5d1-bc32dce3418d")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR04")
@@ -1781,6 +1811,12 @@
 			(uuid "7a9ea4cc-0cc9-4677-b918-52721ece4dad")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C1")
@@ -1859,6 +1895,12 @@
 			(uuid "fad7f61f-f0ef-49ab-895e-4a2ecebe74d7")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR03")
@@ -1941,6 +1983,12 @@
 			(uuid "5ac73144-f4f3-4ed5-b49d-9d2011ca1528")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R1")
@@ -2019,6 +2067,12 @@
 			(uuid "3b8f18bc-3286-49d9-bd4b-e4e2bec062c0")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR06")
@@ -2099,6 +2153,12 @@
 			(uuid "0ee15c24-2b33-443b-bdae-a4ba24144028")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "L1")
@@ -2193,6 +2253,12 @@
 			(uuid "4049682b-7d4d-476d-a777-d51db6b5b52a")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "U1")
@@ -2275,6 +2341,12 @@
 			(uuid "44398efe-1206-4ec9-b9f9-f4fc2fac35fd")
 		)
 		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C2")
@@ -2288,5 +2360,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )

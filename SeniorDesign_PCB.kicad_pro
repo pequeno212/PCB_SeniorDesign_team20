@@ -434,12 +434,28 @@
   },
   "sheets": [
     [
+      "31f163eb-679a-41ad-bd95-ba79c79ee532",
+      "Sensors"
+    ],
+    [
       "88e1ced0-9576-4565-ab29-f74bf51ccbda",
       "Block Diagram"
     ],
     [
       "27166b61-357c-42c1-9fa2-b71231f12fe0",
       "STM32G491RET6"
+    ],
+    [
+      "f9ef2c8a-940c-4bd3-9d49-5676059e2f63",
+      "Analog"
+    ],
+    [
+      "ab582717-e2bf-4603-b10c-c3fa663dfded",
+      "Power"
+    ],
+    [
+      "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5",
+      "Peripherials"
     ]
   ],
   "text_variables": {},
