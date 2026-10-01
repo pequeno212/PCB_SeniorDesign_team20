@@ -3432,7 +3432,7 @@
 		)
 		(uuid "0b95e8c8-da66-42b4-a833-97b5f9deeb5d")
 	)
-	(label "VCC_3V3_AMPS"
+	(label "VCC_5V_AMPS"
 		(at 177.8 129.54 0)
 		(effects
 			(font
@@ -3632,7 +3632,7 @@
 		)
 		(uuid "91c8fa0f-49ae-49d1-bc0b-024bf07d49a3")
 	)
-	(label "VCC_5_VOLTS"
+	(label "VCC_3V3_VOLTS"
 		(at 177.8 135.89 0)
 		(effects
 			(font
@@ -3802,7 +3802,7 @@
 		)
 		(uuid "e7143171-504f-4490-b346-d2f8851a8b07")
 	)
-	(label "VCC_5_AMPS"
+	(label "VCC_5V_AMPS"
 		(at 177.8 127 0)
 		(effects
 			(font
