@@ -1599,7 +1599,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.192 71.12 90)
 			(hide yes)
 			(show_name no)
@@ -1771,7 +1771,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.1752 64.77 0)
 			(hide yes)
 			(show_name no)
@@ -1943,7 +1943,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.192 58.42 90)
 			(hide yes)
 			(show_name no)
@@ -2113,7 +2113,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 130.81 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -2301,7 +2301,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 94.9452 63.5 0)
 			(hide yes)
 			(show_name no)
