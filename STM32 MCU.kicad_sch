@@ -2994,6 +2994,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 57.15) (xy 167.64 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6927d1b8-d7ef-4f40-b208-d4ef25554a85")
+	)
+	(wire
+		(pts
 			(xy 40.64 88.9) (xy 40.64 92.71)
 		)
 		(stroke
@@ -3274,6 +3284,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 95.25) (xy 116.84 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e363ae5d-c766-492d-a399-139af47e2cb7")
+	)
+	(wire
+		(pts
 			(xy 99.06 105.41) (xy 116.84 105.41)
 		)
 		(stroke
@@ -3344,6 +3364,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 100.33) (xy 99.06 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0c2104c-c90c-4aaf-b0a0-d78cdec01fc5")
+	)
+	(wire
+		(pts
 			(xy 30.48 100.33) (xy 30.48 102.87)
 		)
 		(stroke
@@ -3371,6 +3401,16 @@
 			(type default)
 		)
 		(uuid "f6180928-1a8e-401a-a69f-a83e5abf9cdd")
+	)
+	(wire
+		(pts
+			(xy 152.4 54.61) (xy 166.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f698010a-c925-4e64-adc8-804174475213")
 	)
 	(wire
 		(pts
@@ -3811,6 +3851,50 @@
 			(justify left bottom)
 		)
 		(uuid "e78c289e-c07e-412c-863a-05b88c197db6")
+	)
+	(hierarchical_label "PA_3"
+		(shape input)
+		(at 166.37 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "00d22021-b22e-4e25-8a28-a37a6b176bbf")
+	)
+	(hierarchical_label "I2S3_WS"
+		(shape input)
+		(at 167.64 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2e1bf60f-719a-43f1-b50f-b98dba9e3aed")
+	)
+	(hierarchical_label "I2S3_SD"
+		(shape input)
+		(at 99.06 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90a64356-8f52-4083-8636-04926a283d35")
+	)
+	(hierarchical_label "I2S3_CK"
+		(shape input)
+		(at 99.06 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ef68589d-1209-48c7-afe1-1e1d63e628cc")
 	)
 	(symbol
 		(lib_id "power:GND")
