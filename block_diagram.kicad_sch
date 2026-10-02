@@ -7,27 +7,67 @@
 	(lib_symbols)
 	(wire
 		(pts
-			(xy 101.6 92.71) (xy 114.3 92.71)
+			(xy 101.6 95.25) (xy 114.3 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0ff08fcd-c32b-44d3-a8c2-d819848125bb")
+		(uuid "253ce321-aa89-4cff-abd9-d545ac4d1d6c")
 	)
 	(wire
 		(pts
-			(xy 101.6 88.9) (xy 114.3 88.9)
+			(xy 101.6 83.82) (xy 114.3 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e5915e0-6062-4ef2-9f77-6e83b2dfadac")
+		(uuid "25fd8190-b65d-4431-8072-f023ab80d060")
 	)
 	(wire
 		(pts
-			(xy 143.51 53.34) (xy 152.4 53.34)
+			(xy 101.6 91.44) (xy 114.3 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "742a5d57-3b9f-474c-9b81-cdf70571a110")
+	)
+	(wire
+		(pts
+			(xy 139.7 91.44) (xy 151.13 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83973039-1fee-4193-b77c-0b4f96a60bd5")
+	)
+	(wire
+		(pts
+			(xy 151.13 91.44) (xy 151.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84de8465-7118-49d7-9813-451486395e93")
+	)
+	(wire
+		(pts
+			(xy 151.13 59.69) (xy 156.21 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a475c213-9a19-4dfa-9b8c-f09dd4b96b0d")
+	)
+	(wire
+		(pts
+			(xy 143.51 45.72) (xy 156.21 45.72)
 		)
 		(stroke
 			(width 0)
@@ -37,17 +77,17 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 85.09) (xy 114.3 85.09)
+			(xy 101.6 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c3bf0f4c-5df7-4842-8190-23e497e55185")
+		(uuid "b92f9c9b-7039-42ce-a83a-244f8d8ae540")
 	)
 	(wire
 		(pts
-			(xy 143.51 82.55) (xy 143.51 53.34)
+			(xy 143.51 83.82) (xy 143.51 45.72)
 		)
 		(stroke
 			(width 0)
@@ -57,13 +97,43 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 82.55) (xy 143.51 82.55)
+			(xy 139.7 83.82) (xy 143.51 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cbd12803-e6e0-4158-826d-9ba590a4dcc5")
+	)
+	(wire
+		(pts
+			(xy 147.32 87.63) (xy 139.7 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2dd997-80d4-4f55-9259-ef079829b76e")
+	)
+	(wire
+		(pts
+			(xy 156.21 52.07) (xy 147.32 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a4f32d-bde5-477a-a25e-85c2f1cfa038")
+	)
+	(wire
+		(pts
+			(xy 147.32 52.07) (xy 147.32 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "efec35fd-ce7b-4805-8539-b1a3b5c5ec46")
 	)
 	(sheet
 		(at 114.3 78.74)
@@ -104,7 +174,7 @@
 			)
 		)
 		(pin "PA_3" input
-			(at 139.7 82.55 0)
+			(at 139.7 83.82 0)
 			(uuid "993032d9-9e15-4641-afe9-0e4cb88ffed2")
 			(effects
 				(font
@@ -114,7 +184,7 @@
 			)
 		)
 		(pin "I2S3_SD" input
-			(at 114.3 85.09 180)
+			(at 114.3 87.63 180)
 			(uuid "2c02cf7f-7d8c-4229-95c8-9a031b9fdffa")
 			(effects
 				(font
@@ -124,7 +194,7 @@
 			)
 		)
 		(pin "I2S3_WS" input
-			(at 114.3 88.9 180)
+			(at 114.3 91.44 180)
 			(uuid "ca15aa66-2044-4a4e-b632-028453f9a21b")
 			(effects
 				(font
@@ -134,8 +204,38 @@
 			)
 		)
 		(pin "I2S3_CK" input
-			(at 114.3 92.71 180)
+			(at 114.3 95.25 180)
 			(uuid "4eb3e178-0727-449c-9bda-0068a70daf6a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC" input
+			(at 139.7 87.63 0)
+			(uuid "276ba07d-e7cc-4423-a67f-8a1e50066d33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PAPIR" input
+			(at 139.7 91.44 0)
+			(uuid "75a206f8-25dd-4321-8c9b-dbe35d6630e1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_11" input
+			(at 114.3 83.82 180)
+			(uuid "b314054a-3529-4baa-8e00-0c84f2f4d1ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +257,7 @@
 		)
 	)
 	(sheet
-		(at 152.4 41.91)
+		(at 156.21 41.91)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -173,7 +273,7 @@
 		)
 		(uuid "31f163eb-679a-41ad-bd95-ba79c79ee532")
 		(property "Sheetname" "Sensors"
-			(at 152.4 41.1984 0)
+			(at 156.21 41.1984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -184,7 +284,7 @@
 			)
 		)
 		(property "Sheetfile" "Sensors.kicad_sch"
-			(at 152.4 62.8146 0)
+			(at 156.21 62.8146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -195,8 +295,28 @@
 			)
 		)
 		(pin "PA_3" input
-			(at 152.4 53.34 180)
+			(at 156.21 45.72 180)
 			(uuid "f19a7938-27c7-4240-8f83-c4cf309765c8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PAPIR" input
+			(at 156.21 59.69 180)
+			(uuid "0df46bc2-47c9-43a9-9251-8e9c24ba937d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MIC" input
+			(at 156.21 52.07 180)
+			(uuid "74fcf27d-88c8-4cad-b65b-8987c3a28498")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -343,7 +463,7 @@
 			)
 		)
 		(pin "I2S3_CK" input
-			(at 101.6 92.71 0)
+			(at 101.6 95.25 0)
 			(uuid "335b13ac-1c2d-4cfa-b968-804e113433cd")
 			(effects
 				(font
@@ -353,7 +473,7 @@
 			)
 		)
 		(pin "I2S3_SD" input
-			(at 101.6 85.09 0)
+			(at 101.6 87.63 0)
 			(uuid "ece7a569-2eb3-4c7e-b4b4-74615fcd81e3")
 			(effects
 				(font
@@ -363,8 +483,18 @@
 			)
 		)
 		(pin "I2S3_WS" input
-			(at 101.6 88.9 0)
+			(at 101.6 91.44 0)
 			(uuid "1ea29d2f-5ea2-42a9-be1d-45eb12038d49")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_11" input
+			(at 101.6 83.82 0)
+			(uuid "c7ebe951-2fc5-4b02-a55a-5f9a969f760f")
 			(effects
 				(font
 					(size 1.27 1.27)
