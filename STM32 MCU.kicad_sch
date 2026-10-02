@@ -3174,6 +3174,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 52.07) (xy 166.37 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3e74428-233f-4e60-a731-dda3c5522272")
+	)
+	(wire
+		(pts
 			(xy 21.59 88.9) (xy 31.75 88.9)
 		)
 		(stroke
@@ -3955,6 +3965,17 @@
 			(justify right)
 		)
 		(uuid "4010a24b-5b1c-4937-a8e4-6cb06b1a15a7")
+	)
+	(hierarchical_label "ADC1_IN3"
+		(shape input)
+		(at 166.37 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "684a752b-ac80-4779-be90-226e91d53902")
 	)
 	(hierarchical_label "PC_11"
 		(shape input)
