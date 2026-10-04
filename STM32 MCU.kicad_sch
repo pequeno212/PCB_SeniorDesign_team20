@@ -4039,16 +4039,6 @@
 		)
 		(uuid "217a848f-6fd3-4a4b-92dd-fe9472c0d46a")
 	)
-	(label "FAN_PWM"
-		(at 177.8 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "308caf5b-d029-4dfa-8e8b-b7625a348e0e")
-	)
 	(label "Speaker_DAC"
 		(at 177.8 52.07 0)
 		(effects
@@ -4498,6 +4488,17 @@
 			(justify right)
 		)
 		(uuid "b052f717-0e04-41fb-93a5-d3d19217ce5a")
+	)
+	(hierarchical_label "FAN_PWM"
+		(shape input)
+		(at 177.8 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eaf28df9-1269-4782-9ec2-f0e292a8ce26")
 	)
 	(hierarchical_label "I2S3_CK"
 		(shape input)
