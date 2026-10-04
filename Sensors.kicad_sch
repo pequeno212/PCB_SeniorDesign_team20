@@ -413,161 +413,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:C"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C"
-				(at 0.635 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0.9652 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "C_0_1"
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -1292,18 +1137,6 @@
 		)
 	)
 	(rectangle
-		(start 100.33 21.59)
-		(end 172.72 54.61)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "0893274c-066f-4ea5-9a44-46e1f15b453b")
-	)
-	(rectangle
 		(start 107.95 63.5)
 		(end 172.72 107.95)
 		(stroke
@@ -1371,16 +1204,6 @@
 		)
 		(uuid "63fe8fe9-3d4a-478c-9d92-23849da1e146")
 	)
-	(text "MIC: CMEJ-4618-42-L177\n\n"
-		(exclude_from_sim no)
-		(at 115.824 20.32 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "827b7b2c-4df5-49ed-a9f4-0b75ef0a3561")
-	)
 	(text "Internal Temp: TMP117AIDRVR"
 		(exclude_from_sim no)
 		(at 35.814 62.23 0)
@@ -1429,12 +1252,6 @@
 		(color 0 0 0 0)
 		(uuid "abd8cdd5-ea63-4565-bb09-0e8472ff0663")
 	)
-	(junction
-		(at 137.16 40.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f70502fe-9ced-4612-9911-56c714fe0267")
-	)
 	(wire
 		(pts
 			(xy 78.74 81.28) (xy 85.09 81.28)
@@ -1444,16 +1261,6 @@
 			(type default)
 		)
 		(uuid "0f3ed1b6-613b-4d85-b7e6-e220d2122850")
-	)
-	(wire
-		(pts
-			(xy 119.38 40.64) (xy 125.73 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10c04c21-2fc2-40b8-8461-13bf49dd09a8")
 	)
 	(wire
 		(pts
@@ -1504,16 +1311,6 @@
 			(type default)
 		)
 		(uuid "3875ba96-a680-4ce9-8218-003b786929fc")
-	)
-	(wire
-		(pts
-			(xy 137.16 40.64) (xy 142.24 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "389b3c8a-ee45-4432-b3a4-de91ed9aa72c")
 	)
 	(wire
 		(pts
@@ -1637,16 +1434,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 29.21) (xy 137.16 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2d8344e-215f-49fa-8084-3ba13058b132")
-	)
-	(wire
-		(pts
 			(xy 53.34 38.1) (xy 53.34 36.83)
 		)
 		(stroke
@@ -1657,16 +1444,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 43.18) (xy 137.16 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5799a5c-e800-41dc-88fe-c5f09cdc08d1")
-	)
-	(wire
-		(pts
 			(xy 215.9 41.91) (xy 215.9 40.64)
 		)
 		(stroke
@@ -1674,16 +1451,6 @@
 			(type default)
 		)
 		(uuid "bbe72948-fcf5-4de1-a38a-f2469a32d688")
-	)
-	(wire
-		(pts
-			(xy 137.16 43.18) (xy 137.16 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bd272ab0-40fc-46e0-9d43-f0be43988452")
 	)
 	(wire
 		(pts
@@ -1714,16 +1481,6 @@
 			(type default)
 		)
 		(uuid "d0d9b762-2445-4038-a269-86f691348b81")
-	)
-	(wire
-		(pts
-			(xy 133.35 40.64) (xy 137.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d71ab490-3515-44fc-a6c0-ae3720bfda01")
 	)
 	(wire
 		(pts
@@ -1764,27 +1521,6 @@
 			(type default)
 		)
 		(uuid "ee5a1cd8-4ab1-4e38-843c-9acca89d51c9")
-	)
-	(wire
-		(pts
-			(xy 137.16 38.1) (xy 137.16 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f6192ae4-0033-4e4e-93b6-9f03a458ba05")
-	)
-	(hierarchical_label "MIC"
-		(shape input)
-		(at 119.38 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "4a47a754-6da7-49e3-a0a5-cce5e8e19f9d")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape input)
@@ -1941,90 +1677,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "U?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 137.16 29.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0a333af5-c8d2-4d7d-b216-7501bb6ff651")
-		(property "Reference" "#PWR03"
-			(at 137.16 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 137.16 24.13 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 137.16 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "26d67fb3-61a5-4ac9-9eaa-8048083fc406")
-		)
-		(instances
-			(project "Sensors"
-				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2689,94 +2341,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 137.16 34.29 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "67fe64a0-f145-45b3-9fcc-a8c0b010c190")
-		(property "Reference" "R?"
-			(at 139.7 33.0199 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 139.7 35.5599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.382 34.29 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 137.16 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1bc49532-3a97-4ca6-b161-cf838110b1c3")
-		)
-		(pin "2"
-			(uuid "7a12a564-f7f0-47c8-8b72-af188dd12daf")
-		)
-		(instances
-			(project "Sensors"
-				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 41.91 91.44 0)
 		(unit 1)
@@ -2849,92 +2413,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 129.54 40.64 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f307653-665f-45e0-98c4-0fb09ef40edf")
-		(property "Reference" "C?"
-			(at 129.54 33.02 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 129.54 35.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 133.35 39.6748 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 129.54 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f5bf4991-2c29-49f5-b564-357cb58a8d27")
-		)
-		(pin "2"
-			(uuid "ba6b46fb-efcf-4764-a96e-39d7a2bbbf52")
-		)
-		(instances
-			(project "Sensors"
-				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -3419,90 +2897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 137.16 46.99 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ca705433-0cfc-4d3b-90f0-5a2ea70be28f")
-		(property "Reference" "#PWR04"
-			(at 137.16 53.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 52.07 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 137.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 137.16 46.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1eab3f00-fdc9-448a-a9e3-65d4b87fb0cd")
-		)
-		(instances
-			(project "Sensors"
-				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 146.05 78.74 0)
 		(unit 1)
@@ -3579,94 +2973,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 147.32 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ee40a7a7-b87f-4783-ad0c-46e251f65ca2")
-		(property "Reference" "J2"
-			(at 148.59 40.6399 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Socket"
-			(at 148.59 43.1799 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias"
-			(at 147.32 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 147.32 40.64 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "273daaba-bcab-4db4-8fc3-d51dd22d5dd7")
-		)
-		(pin "1"
-			(uuid "cff0a4b9-4a83-4e9c-8121-cf2a04fdc600")
-		)
-		(instances
-			(project "Sensors"
-				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "J2")
 					(unit 1)
 				)
 			)
