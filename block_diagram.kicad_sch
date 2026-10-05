@@ -7,6 +7,16 @@
 	(lib_symbols)
 	(wire
 		(pts
+			(xy 154.94 147.32) (xy 171.45 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "044bcf73-d8cd-4187-9688-d613f93e0a5b")
+	)
+	(wire
+		(pts
 			(xy 154.94 102.87) (xy 140.97 102.87)
 		)
 		(stroke
@@ -67,6 +77,26 @@
 	)
 	(wire
 		(pts
+			(xy 143.51 151.13) (xy 154.94 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27453f85-8f2b-47fb-908c-dbf0663bfc32")
+	)
+	(wire
+		(pts
+			(xy 140.97 118.11) (xy 171.45 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32a98212-327f-47d9-b767-72f717cb78b4")
+	)
+	(wire
+		(pts
 			(xy 152.4 73.66) (xy 171.45 73.66)
 		)
 		(stroke
@@ -107,6 +137,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 143.51) (xy 171.45 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a189a5c-9a74-4830-b1a8-cd5c56778d47")
+	)
+	(wire
+		(pts
 			(xy 101.6 91.44) (xy 114.3 91.44)
 		)
 		(stroke
@@ -137,6 +177,26 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 146.05) (xy 149.86 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80c65353-9476-4004-a562-56a5ccd8e635")
+	)
+	(wire
+		(pts
+			(xy 143.51 146.05) (xy 149.86 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "819d5430-0369-4718-9a0a-11a92fe55143")
+	)
+	(wire
+		(pts
 			(xy 140.97 91.44) (xy 148.59 91.44)
 		)
 		(stroke
@@ -154,6 +214,16 @@
 			(type default)
 		)
 		(uuid "84de8465-7118-49d7-9813-451486395e93")
+	)
+	(wire
+		(pts
+			(xy 140.97 114.3) (xy 171.45 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a773f2e-d1f4-43a9-a7b4-160f92ca2c10")
 	)
 	(wire
 		(pts
@@ -224,6 +294,16 @@
 			(type default)
 		)
 		(uuid "cf950b62-8725-421a-8558-858d35e1c793")
+	)
+	(wire
+		(pts
+			(xy 154.94 151.13) (xy 154.94 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2a05e8f-69aa-4551-b5f8-fc8c3db02d36")
 	)
 	(wire
 		(pts
@@ -383,6 +463,26 @@
 				(justify right)
 			)
 		)
+		(pin "FAN_PWM" input
+			(at 140.97 114.3 0)
+			(uuid "660412bd-935f-47b7-aca9-74c09f8ff5dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_STM" input
+			(at 140.97 118.11 0)
+			(uuid "ecd164c7-fe1a-40ae-8a27-46247756252f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
@@ -503,7 +603,7 @@
 		)
 	)
 	(sheet
-		(at 114.3 140.97)
+		(at 118.11 138.43)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -519,7 +619,7 @@
 		)
 		(uuid "8dbcbcde-a963-4a54-aef5-5a4212c7899c")
 		(property "Sheetname" "ESP32C3"
-			(at 114.3 140.2584 0)
+			(at 118.11 137.7184 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -530,7 +630,7 @@
 			)
 		)
 		(property "Sheetfile" "Wireless.kicad_sch"
-			(at 114.3 161.8746 0)
+			(at 118.11 159.3346 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -538,6 +638,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ESP32_USB_D_N" input
+			(at 143.51 146.05 0)
+			(uuid "89b65436-6b32-46fe-9fbc-a589b75ef525")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ESP32_USB_D_P" input
+			(at 143.51 151.13 0)
+			(uuid "705a8b7b-e801-4377-8faa-2f4e6abf1a23")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -595,8 +715,8 @@
 		)
 	)
 	(sheet
-		(at 171.45 102.87)
-		(size 25.4 20.32)
+		(at 171.45 111.76)
+		(size 25.4 39.37)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -611,7 +731,7 @@
 		)
 		(uuid "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5")
 		(property "Sheetname" "Peripherials"
-			(at 171.45 102.1584 0)
+			(at 171.45 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -622,7 +742,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherials.kicad_sch"
-			(at 171.45 123.7746 0)
+			(at 171.45 151.7146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -630,6 +750,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "ESP32_USB_D_N" input
+			(at 171.45 147.32 180)
+			(uuid "a1492a46-b9b4-4700-bc75-1c47b8f850f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ESP32_USB_D_P" input
+			(at 171.45 143.51 180)
+			(uuid "471d5604-2dda-4394-bdb5-1d5c56860972")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "FAN_PWM" input
+			(at 171.45 114.3 180)
+			(uuid "275db7ee-f8cf-468a-b038-0ae90bda1434")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "STM32_USB_D_N" input
+			(at 196.85 120.65 0)
+			(uuid "b61bca4c-edbb-4213-8876-5098859f5527")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "STM32_USB_D_P" input
+			(at 171.45 128.27 180)
+			(uuid "e0fcb49a-26f2-41c5-ba3a-a7f478f291be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_ESP" input
+			(at 171.45 139.7 180)
+			(uuid "34420e51-9109-477c-8d73-272974d6d278")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_STM" input
+			(at 171.45 118.11 180)
+			(uuid "bf4230cc-9080-47b3-8250-dffdd4c1809c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
