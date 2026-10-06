@@ -1084,6 +1084,192 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_SwitchedCapacitor:TPS60400DBV"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 6.35 8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TPS60400DBV"
+				(at 7.62 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+				(at 0 12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps60400.pdf"
+				(at 0 -22.86 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unregulated 60-mA Charge Pump Voltage Inverter with Variable Switching Frequency 50 kHz - 250 kHz, SOT-23-5"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "unregulated charge pump inverter variable switching frequency"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPS60400DBV_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_out line
+					(at 10.16 5.08 180)
+					(length 2.54)
+					(name "OUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 5.08 0)
+					(length 2.54)
+					(name "IN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 -5.08 180)
+					(length 2.54)
+					(name "C_{FLY-}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "C_{FLY+}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -1341,7 +1527,7 @@
 	)
 	(rectangle
 		(start 21.59 95.25)
-		(end 241.3 156.21)
+		(end 278.13 156.21)
 		(stroke
 			(width 0)
 			(type default)
@@ -1363,16 +1549,6 @@
 		)
 		(uuid "a61f169c-191c-4f0e-ad7b-66ddb087831f")
 	)
-	(text "Microphone --> gain of 50x --> Bias"
-		(exclude_from_sim no)
-		(at 219.71 98.298 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "14fa7d68-6134-4a44-9555-33dcf52e9591")
-	)
 	(text "sensitivity = -44dB ==> 10^(-44/20) = 6.31mVrms per pascal = +-89mV\n178mV range to 3.3V range ==> 3.3/.178 = gain of 18.5 (make it 18 to not clip) (\nto make sure it doesnt clip at the bottom, need to add >89 mV bias , then gain of that doesnt make it > 3.3V\nadd 100mV (gain of 17)\n\n"
 		(exclude_from_sim no)
 		(at 196.596 150.876 0)
@@ -1385,7 +1561,7 @@
 	)
 	(text "https://www.electronics-tutorials.ws/opamp/opamp_4.html\n"
 		(exclude_from_sim no)
-		(at 124.206 161.036 0)
+		(at 246.634 142.494 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1414,15 +1590,15 @@
 		)
 		(uuid "8bbd8d35-23ec-4392-8a74-cc44352883f0")
 	)
-	(text "Gain of 1+50\n"
+	(text "prob want to add a buffer between mic and op amps for votlage division\n"
 		(exclude_from_sim no)
-		(at 124.714 153.162 0)
+		(at 59.944 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "d21f7e74-158a-4d33-a897-25a96dd686b5")
+		(uuid "e1836318-50d2-479e-b22c-c2f39f389548")
 	)
 	(junction
 		(at 77.47 123.19)
@@ -1871,7 +2047,7 @@
 		(uuid "fe82ed93-3aae-42c2-a3de-83d7fe1ea109")
 	)
 	(image
-		(at 104.14 180.34)
+		(at 52.07 172.72)
 		(scale 0.229285)
 		(uuid "45283b69-212e-4f37-9613-bc632379812e")
 		(data "iVBORw0KGgoAAAANSUhEUgAABeQAAAJCCAYAAACh2scVAAAMP2lDQ1BJQ0MgUHJvZmlsZQAASImV"
@@ -5497,7 +5673,7 @@
 		)
 	)
 	(image
-		(at 44.45 177.8)
+		(at 252.73 128.27)
 		(scale 0.213501)
 		(uuid "ab8e3fde-5072-47d6-a159-813597d8c45f")
 		(data "iVBORw0KGgoAAAANSUhEUgAABOAAAAI0CAYAAAC0xFZzAAAMP2lDQ1BJQ0MgUHJvZmlsZQAASImV"
@@ -8806,8 +8982,8 @@
 		)
 	)
 	(image
-		(at 246.38 113.03)
-		(scale 0.415251)
+		(at 240.57 105.3291)
+		(scale 0.38707)
 		(uuid "fbc3565d-db8f-414f-8217-66198fe29cc7")
 		(data "iVBORw0KGgoAAAANSUhEUgAABCYAAAEKCAYAAADO/VTVAAAMP2lDQ1BJQ0MgUHJvZmlsZQAASImV"
 			"VwdYU8kWnltSIbQAAlJCb4KAlABSQmih92YjJAFCiTEQVOxlUcG1iwrY0FURBSsgdkSxsCj2vlhQ"
@@ -9681,6 +9857,95 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/f9ef2c8a-940c-4bd3-9d49-5676059e2f63"
 					(reference "#PWR014")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_SwitchedCapacitor:TPS60400DBV")
+		(at 119.38 176.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "396710fb-5ebc-4d69-8f88-d5e6583a6aaf")
+		(property "Reference" "U8"
+			(at 119.38 163.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TPS60400DBV"
+			(at 119.38 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 119.38 163.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/tps60400.pdf"
+			(at 119.38 199.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unregulated 60-mA Charge Pump Voltage Inverter with Variable Switching Frequency 50 kHz - 250 kHz, SOT-23-5"
+			(at 119.38 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a5a705d8-d3cf-4bdd-8883-e4ea3abf0c35")
+		)
+		(pin "5"
+			(uuid "884c3d16-09eb-4a9f-9ec6-a5164327722f")
+		)
+		(pin "4"
+			(uuid "096ecb23-fc12-4f73-a744-77af88473750")
+		)
+		(pin "3"
+			(uuid "2f07b192-c425-4028-bcaa-f3043fda1c07")
+		)
+		(pin "2"
+			(uuid "0421c196-fbdd-473f-8ffc-3b12475976c0")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/f9ef2c8a-940c-4bd3-9d49-5676059e2f63"
+					(reference "U8")
 					(unit 1)
 				)
 			)
