@@ -1083,6 +1083,16 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "https://webench.ti.com/power-designer/switching-regulator/export/12?noparams=0\n"
+		(exclude_from_sim no)
+		(at 93.472 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "64f3470c-ff0f-4240-aa61-49f594f8fd64")
+	)
 	(junction
 		(at 105.41 54.61)
 		(diameter 0)
