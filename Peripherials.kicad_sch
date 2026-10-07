@@ -3135,10 +3135,22 @@
 		(uuid "c8f812e3-02c7-4b42-af98-5bfa3f9ec819")
 	)
 	(junction
+		(at 213.36 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03f2fcf0-9588-476d-86dc-cefa77b3d356")
+	)
+	(junction
 		(at 157.48 26.67)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18900f7f-cd63-45b5-bbe9-6d26bfcd0c9c")
+	)
+	(junction
+		(at 213.36 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2766e8b9-3dbc-4651-aba7-a9b1ef7a3913")
 	)
 	(junction
 		(at 58.42 130.81)
@@ -3412,6 +3424,16 @@
 	)
 	(wire
 		(pts
+			(xy 213.36 111.76) (xy 213.36 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4219b373-7470-44dc-86d6-4c7f3357c021")
+	)
+	(wire
+		(pts
 			(xy 157.48 48.26) (xy 157.48 50.8)
 		)
 		(stroke
@@ -3472,7 +3494,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 116.84) (xy 207.01 116.84)
+			(xy 190.5 116.84) (xy 213.36 116.84)
 		)
 		(stroke
 			(width 0)
@@ -3922,7 +3944,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 116.84) (xy 207.01 118.11)
+			(xy 213.36 116.84) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +4024,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 207.01 111.76)
+			(xy 190.5 111.76) (xy 213.36 111.76)
 		)
 		(stroke
 			(width 0)
@@ -4122,7 +4144,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 127) (xy 199.39 127)
+			(xy 190.5 127) (xy 213.36 127)
 		)
 		(stroke
 			(width 0)
@@ -4312,7 +4334,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 127) (xy 199.39 128.27)
+			(xy 213.36 127) (xy 213.36 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4433,7 +4455,7 @@
 		)
 		(uuid "1390aacb-8c34-448b-a285-5c06fda696dc")
 	)
-	(hierarchical_label "HA"
+	(hierarchical_label "MATRIX_A"
 		(shape input)
 		(at 168.91 119.38 180)
 		(effects
@@ -4444,7 +4466,7 @@
 		)
 		(uuid "1dc13d1a-6c74-4ac0-850a-9269df1ab2ec")
 	)
-	(hierarchical_label "R1"
+	(hierarchical_label "MATRIX_R1"
 		(shape input)
 		(at 168.91 109.22 180)
 		(effects
@@ -4455,7 +4477,7 @@
 		)
 		(uuid "23137d1c-b543-4174-8b6f-a8a933f9a46d")
 	)
-	(hierarchical_label "CLK"
+	(hierarchical_label "MATRIX_CLK"
 		(shape input)
 		(at 168.91 124.46 180)
 		(effects
@@ -4466,7 +4488,7 @@
 		)
 		(uuid "2cffa0d4-367b-4c38-aba3-1c4c8c899a8a")
 	)
-	(hierarchical_label "HC"
+	(hierarchical_label "MATRIX_C"
 		(shape input)
 		(at 168.91 121.92 180)
 		(effects
@@ -4477,7 +4499,7 @@
 		)
 		(uuid "391889bf-53c6-4b6c-996b-5155cf460983")
 	)
-	(hierarchical_label "C2"
+	(hierarchical_label "MATRIX_G2"
 		(shape input)
 		(at 199.39 114.3 0)
 		(effects
@@ -4510,7 +4532,7 @@
 		)
 		(uuid "57434a40-ae5c-417a-95f9-7fc7fa821c07")
 	)
-	(hierarchical_label "LAT"
+	(hierarchical_label "MATRIX_LAT"
 		(shape input)
 		(at 199.39 124.46 0)
 		(effects
@@ -4521,7 +4543,7 @@
 		)
 		(uuid "6105d38d-ca1e-418d-bd0c-4203b4951ace")
 	)
-	(hierarchical_label "B2"
+	(hierarchical_label "MATRIX_B2"
 		(shape input)
 		(at 168.91 116.84 180)
 		(effects
@@ -4543,7 +4565,7 @@
 		)
 		(uuid "66df5f26-6124-4c72-80f1-023b38db1730")
 	)
-	(hierarchical_label "C1"
+	(hierarchical_label "MATRIX_G1"
 		(shape input)
 		(at 199.39 109.22 0)
 		(effects
@@ -4554,7 +4576,7 @@
 		)
 		(uuid "7271034f-8929-4f67-8dde-ab090363d389")
 	)
-	(hierarchical_label "HB"
+	(hierarchical_label "MATRIX_B"
 		(shape input)
 		(at 199.39 119.38 0)
 		(effects
@@ -4576,7 +4598,7 @@
 		)
 		(uuid "7c069bac-572d-4016-b7f3-5fd88ba01c9e")
 	)
-	(hierarchical_label "HD"
+	(hierarchical_label "MATRIX_D"
 		(shape input)
 		(at 199.39 121.92 0)
 		(effects
@@ -4609,7 +4631,7 @@
 		)
 		(uuid "cee4fb87-8081-465b-a5fc-dc911000dfb8")
 	)
-	(hierarchical_label "R2"
+	(hierarchical_label "MATRIX_R2"
 		(shape input)
 		(at 168.91 114.3 180)
 		(effects
@@ -4620,7 +4642,7 @@
 		)
 		(uuid "ea5c6624-0667-488b-8413-2e1e6da2aa57")
 	)
-	(hierarchical_label "B1"
+	(hierarchical_label "MATRIX_B1"
 		(shape input)
 		(at 168.91 111.76 180)
 		(effects
@@ -4631,7 +4653,7 @@
 		)
 		(uuid "f3897989-7868-4968-8620-8a52b62053b9")
 	)
-	(hierarchical_label "OE"
+	(hierarchical_label "MATRIX_OE"
 		(shape input)
 		(at 168.91 127 180)
 		(effects
@@ -4716,83 +4738,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0f33da8a-3e30-4b7c-a912-1a593f608e9a")
-		(property "Reference" "#PWR066"
-			(at 207.01 124.46 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 206.756 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a7bcfcc7-957c-461c-83cd-4690907da0b4")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
-					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -5074,7 +5019,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 199.39 128.27 0)
+		(at 213.36 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5084,7 +5029,7 @@
 		(dnp no)
 		(uuid "1b916971-0493-4eae-a1fd-ef561e162b64")
 		(property "Reference" "#PWR065"
-			(at 199.39 134.62 0)
+			(at 213.36 134.62 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5095,7 +5040,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 199.39 132.588 0)
+			(at 213.36 132.588 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5105,7 +5050,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 199.39 128.27 0)
+			(at 213.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5116,7 +5061,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 128.27 0)
+			(at 213.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5127,7 +5072,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 128.27 0)
+			(at 213.36 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6165,83 +6110,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 207.01 111.76 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6487b3a0-e5d9-495e-8901-08fe10ae9c6e")
-		(property "Reference" "#PWR067"
-			(at 207.01 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 110.744 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 207.01 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ca1f9711-ac58-49f3-b8a2-3a59117913d3")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
-					(reference "#PWR067")
 					(unit 1)
 				)
 			)

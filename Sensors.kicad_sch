@@ -1577,7 +1577,7 @@
 		)
 		(uuid "f46d238f-5092-4818-88d6-0d2a330268d9")
 	)
-	(hierarchical_label "PA_3"
+	(hierarchical_label "EXT_TEMP"
 		(shape input)
 		(at 39.37 40.64 180)
 		(effects
