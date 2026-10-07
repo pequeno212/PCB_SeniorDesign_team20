@@ -5108,6 +5108,17 @@
 		)
 		(uuid "817592a5-7208-42eb-951f-9d01f895d97f")
 	)
+	(hierarchical_label "LED_On"
+		(shape input)
+		(at 85.09 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "818ae3f6-4d9c-4470-ac47-d577030ee574")
+	)
 	(hierarchical_label "3V3_AMPS"
 		(shape input)
 		(at 207.01 64.77 0)
