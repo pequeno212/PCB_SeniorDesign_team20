@@ -856,6 +856,52 @@
 		)
 	)
 	(sheet
+		(at 156.21 34.29)
+		(size 22.86 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "3f08d4c8-f763-42fe-995a-e00dd8980b40")
+		(property "Sheetname" "Duplicate Sensors"
+			(at 156.21 33.5784 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "duplicate_sensors.kicad_sch"
+			(at 156.21 53.9246 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 116.84 166.37)
 		(size 25.4 20.32)
 		(exclude_from_sim no)
