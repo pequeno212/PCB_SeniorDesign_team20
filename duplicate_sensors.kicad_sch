@@ -2333,7 +2333,6 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a89c0248-cccd-40d0-93f6-f61391b60d68")
 		(property "Reference" "J1"
 			(at 64.77 46.9899 0)
@@ -2346,8 +2345,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SENO232_MIC"
-			(at 64.77 49.5299 0)
+		(property "Value" "AOM-5035L-HD3-LW100"
+			(at 63.5 55.118 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
