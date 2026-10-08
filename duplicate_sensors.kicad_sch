@@ -1634,6 +1634,16 @@
 		)
 		(uuid "abfdfe25-11c1-4932-90e8-7feae05386b0")
 	)
+	(label ""
+		(at 107.95 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b28b894d-e264-48d9-8b63-bd6e5009609f")
+	)
 	(hierarchical_label "TV_IR_PWM"
 		(shape input)
 		(at 147.32 67.31 0)
