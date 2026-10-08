@@ -69,16 +69,6 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 74.93) (xy 92.71 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25fd8190-b65d-4431-8072-f023ab80d060")
-	)
-	(wire
-		(pts
 			(xy 142.24 179.07) (xy 154.94 179.07)
 		)
 		(stroke
@@ -86,16 +76,6 @@
 			(type default)
 		)
 		(uuid "27453f85-8f2b-47fb-908c-dbf0663bfc32")
-	)
-	(wire
-		(pts
-			(xy 92.71 83.82) (xy 107.95 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e44682-ad07-4234-8baf-2494dd087946")
 	)
 	(wire
 		(pts
@@ -292,16 +272,6 @@
 			(color 0 0 194 1)
 		)
 		(uuid "989bcea9-e4ab-4a57-9cd1-6f98a8ae7fff")
-	)
-	(wire
-		(pts
-			(xy 92.71 74.93) (xy 92.71 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4036469-b17d-4e6a-88c3-c69d679788a9")
 	)
 	(wire
 		(pts
@@ -529,16 +499,6 @@
 		(pin "PAPIR" input
 			(at 107.95 123.19 180)
 			(uuid "75a206f8-25dd-4321-8c9b-dbe35d6630e1")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SD_MODE" input
-			(at 107.95 83.82 180)
-			(uuid "b314054a-3529-4baa-8e00-0c84f2f4d1ba")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1327,9 +1287,9 @@
 				(justify right)
 			)
 		)
-		(pin "SD_MODE" input
-			(at 69.85 74.93 0)
-			(uuid "c7ebe951-2fc5-4b02-a55a-5f9a969f760f")
+		(pin "MIC" input
+			(at 69.85 91.44 0)
+			(uuid "4ecc7002-f4e8-407c-9be1-1925bd760214")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,9 +1297,19 @@
 				(justify right)
 			)
 		)
-		(pin "MIC" input
-			(at 69.85 91.44 0)
-			(uuid "4ecc7002-f4e8-407c-9be1-1925bd760214")
+		(pin "DAC_LEFT_SD_MODE" input
+			(at 69.85 95.25 0)
+			(uuid "627343ec-7cdc-4516-ada4-03baba6a9daf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "DAC_RIGHT_SD_MODE" input
+			(at 69.85 97.79 0)
+			(uuid "5af59ac0-9732-406e-a788-223915fa4b33")
 			(effects
 				(font
 					(size 1.27 1.27)
