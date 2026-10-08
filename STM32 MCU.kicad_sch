@@ -3956,6 +3956,17 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 140.97) (xy 176.53 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "12092740-b567-4fe6-adcc-18a472cff225")
+	)
+	(wire
+		(pts
 			(xy 21.59 45.72) (xy 31.75 45.72)
 		)
 		(stroke
@@ -4136,6 +4147,17 @@
 			(type default)
 		)
 		(uuid "32d5b647-fdc1-4984-a73f-fa7e3029502c")
+	)
+	(wire
+		(pts
+			(xy 170.18 143.51) (xy 176.53 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "331b6197-2c82-424d-90ab-a8588e00e013")
 	)
 	(wire
 		(pts
@@ -4523,6 +4545,28 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 156.21) (xy 176.53 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "7557c489-12a7-4285-850e-3e39d06987c8")
+	)
+	(wire
+		(pts
+			(xy 170.18 153.67) (xy 176.53 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "78055e0c-f5a4-4d80-8204-a240a910e24d")
+	)
+	(wire
+		(pts
 			(xy 68.58 25.4) (xy 68.58 27.94)
 		)
 		(stroke
@@ -4551,6 +4595,17 @@
 			(type default)
 		)
 		(uuid "7d269525-2687-4af1-bb36-e2e26d4e37b5")
+	)
+	(wire
+		(pts
+			(xy 170.18 138.43) (xy 176.53 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "7fedf800-b7ed-4799-b118-e337e61ab012")
 	)
 	(wire
 		(pts
@@ -4632,6 +4687,17 @@
 			(type default)
 		)
 		(uuid "8d2fb820-1478-40c1-b255-60c4b2b07805")
+	)
+	(wire
+		(pts
+			(xy 170.18 151.13) (xy 176.53 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "8e2c1e5c-ce89-4da0-a153-beed0bbbbb12")
 	)
 	(wire
 		(pts
@@ -4926,6 +4992,17 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 146.05) (xy 176.53 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "c9f64ec1-c365-42c9-a381-b4b93e3c1f7f")
+	)
+	(wire
+		(pts
 			(xy 83.82 166.37) (xy 87.63 166.37)
 		)
 		(stroke
@@ -4953,6 +5030,17 @@
 			(type default)
 		)
 		(uuid "ce038105-1550-45e0-b99f-72a9d0a0ef0b")
+	)
+	(wire
+		(pts
+			(xy 170.18 148.59) (xy 176.53 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 194 1)
+		)
+		(uuid "cfbecdf8-5423-40eb-99ce-d2f54d1e493b")
 	)
 	(wire
 		(pts
@@ -5703,7 +5791,7 @@
 		)
 		(uuid "780fa65e-0b64-44f9-b148-0955ccf331e8")
 	)
-	(hierarchical_label "PC_11"
+	(hierarchical_label "SD_MODE"
 		(shape input)
 		(at 210.82 93.98 180)
 		(effects

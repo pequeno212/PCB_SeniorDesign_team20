@@ -6398,7 +6398,7 @@
 		)
 		(uuid "2b1f446b-f331-4805-94f0-aa17aacf4148")
 	)
-	(hierarchical_label "PC_11"
+	(hierarchical_label "SD_MODE"
 		(shape input)
 		(at 55.88 55.88 180)
 		(effects
@@ -6464,7 +6464,7 @@
 		)
 		(uuid "f76fd88c-002c-49ae-918f-9225b53691ce")
 	)
-	(hierarchical_label "PC_11"
+	(hierarchical_label "SD_MODE"
 		(shape input)
 		(at 185.42 55.88 180)
 		(effects
