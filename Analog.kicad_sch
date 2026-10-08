@@ -7113,7 +7113,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 63.1952 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -7903,7 +7903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4eb328a9-73f6-4c2b-bacd-dd9a6237799d")
-		(property "Reference" "C?"
+		(property "Reference" "C37"
 			(at 48.26 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7967,7 +7967,7 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/f9ef2c8a-940c-4bd3-9d49-5676059e2f63"
-					(reference "C?")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -8141,7 +8141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58cdbd02-02c1-4fef-85b9-2a541a968ed7")
-		(property "Reference" "C?"
+		(property "Reference" "C38"
 			(at 34.29 67.3099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8205,7 +8205,7 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/f9ef2c8a-940c-4bd3-9d49-5676059e2f63"
-					(reference "C?")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -9078,7 +9078,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_ThermalVias"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 66.04 125.73 0)
 			(hide yes)
 			(show_name no)
