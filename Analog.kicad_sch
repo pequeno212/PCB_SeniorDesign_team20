@@ -1686,16 +1686,6 @@
 		)
 		(uuid "2b31e66e-61ab-45ac-87b4-1a100dfdbf1b")
 	)
-	(text "LEFT CHANNEL"
-		(exclude_from_sim no)
-		(at 108.712 36.576 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "43da1cd8-e16a-4b5e-9d48-d13f07af4fbb")
-	)
 	(text "sensitivity = -44dB ==> 10^(-44/20) = 6.31mVrms per pascal = +-89mV\ngain of 18 to get +- 1.6V\nadd 1.65V to get .05V to 3.25V swing\n\n\n"
 		(exclude_from_sim no)
 		(at 131.064 153.162 0)
@@ -1736,36 +1726,6 @@
 			(justify left)
 		)
 		(uuid "8bbd8d35-23ec-4392-8a74-cc44352883f0")
-	)
-	(text "RIGHT CHANNEL\n"
-		(exclude_from_sim no)
-		(at 194.056 37.846 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-			)
-		)
-		(uuid "be511461-14df-4dad-b567-9feb6f3f3625")
-	)
-	(text_box "Gain: Connect to VDD = 6dB"
-		(exclude_from_sim no)
-		(at 60.96 67.31 0)
-		(size 19.05 5.9929)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "6b571b7d-9848-41ad-9f89-52d99449352b")
 	)
 	(junction
 		(at 77.47 123.19)
@@ -6438,7 +6398,7 @@
 		)
 		(uuid "2b1f446b-f331-4805-94f0-aa17aacf4148")
 	)
-	(hierarchical_label "DAC_LEFT_SD_MODE"
+	(hierarchical_label "SD_MODE"
 		(shape input)
 		(at 55.88 55.88 180)
 		(effects
@@ -6459,17 +6419,6 @@
 			(justify right)
 		)
 		(uuid "64db1dd9-b3e8-41c8-8dac-69d62c63d1d6")
-	)
-	(hierarchical_label "DAC_RIGHT_SD_MODE"
-		(shape input)
-		(at 185.42 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "9e4b0c67-9a33-4c20-b26e-66c18e47acad")
 	)
 	(hierarchical_label "MIC"
 		(shape input)
@@ -6514,6 +6463,17 @@
 			(justify right)
 		)
 		(uuid "f76fd88c-002c-49ae-918f-9225b53691ce")
+	)
+	(hierarchical_label "SD_MODE"
+		(shape input)
+		(at 185.42 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe46bdeb-1a58-4c32-a0f7-89958ccf6a3b")
 	)
 	(symbol
 		(lib_id "power:GND")
@@ -9834,7 +9794,7 @@
 			)
 		)
 		(property "Value" "-3V3"
-			(at 110.49 132.08 0)
+			(at 107.95 129.794 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
