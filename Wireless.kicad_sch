@@ -3556,16 +3556,6 @@
 	)
 	(wire
 		(pts
-			(xy 201.93 59.69) (xy 201.93 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b58dc199-230b-49a2-a3ec-9f6927333108")
-	)
-	(wire
-		(pts
 			(xy 167.64 91.44) (xy 203.2 91.44)
 		)
 		(stroke
@@ -3663,26 +3653,6 @@
 			(type default)
 		)
 		(uuid "ca9de22c-82a0-49d7-926c-f5f55a1672c7")
-	)
-	(wire
-		(pts
-			(xy 201.93 69.85) (xy 201.93 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cadfacab-837c-4774-bba1-e781464eee27")
-	)
-	(wire
-		(pts
-			(xy 201.93 52.07) (xy 201.93 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc5e17b7-7169-41e7-a546-bcff6625164c")
 	)
 	(wire
 		(pts
@@ -3823,16 +3793,6 @@
 			(type default)
 		)
 		(uuid "e72ca753-fb11-4932-969f-ee9a7450a493")
-	)
-	(wire
-		(pts
-			(xy 201.93 50.8) (xy 194.31 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb0c9dc9-5b7e-456e-af57-b7603811cc86")
 	)
 	(wire
 		(pts
@@ -12043,7 +12003,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -12290,7 +12250,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -12701,7 +12661,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
@@ -12788,7 +12748,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 49.2252 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -12875,7 +12835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 100.33 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -13045,7 +13005,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 104.14 116.078 90)
 			(hide yes)
 			(show_name no)
@@ -13305,7 +13265,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 90.678 90)
 			(hide yes)
 			(show_name no)
@@ -13390,7 +13350,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 57.15 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -13531,83 +13491,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 201.93 73.66 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "53cec084-18dd-4f92-a009-c593bb8f5edd")
-		(property "Reference" "#PWR067"
-			(at 201.93 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 201.93 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 201.93 73.66 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0a1e335b-4cbe-45e4-9112-cc76ed11b204")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
-					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 241.3 96.52 0)
 		(unit 1)
@@ -13640,7 +13523,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -13727,7 +13610,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 171.1452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13814,7 +13697,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 164.7952 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -13899,7 +13782,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 254 130.048 90)
 			(hide yes)
 			(show_name no)
@@ -13986,7 +13869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 184.912 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -14150,7 +14033,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector:Tag-Connect_TC2030-IDC-NL_2x03_P1.27mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical"
 			(at 100.33 36.83 0)
 			(hide yes)
 			(show_name no)
@@ -14302,7 +14185,7 @@
 				)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "DNP"
 			(at 80.01 82.804 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14312,7 +14195,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relay_THT:Relay_DPDT_Finder_30.22"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
 			(at 80.01 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -14399,7 +14282,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 81.28 90)
 			(hide yes)
 			(show_name no)
@@ -14486,7 +14369,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 195.2752 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -14573,7 +14456,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 32.512 111.76 90)
 			(hide yes)
 			(show_name no)
@@ -14653,7 +14536,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 266.7 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -14675,7 +14558,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "TL1105AF160Q"
 			(at 266.7 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -14823,7 +14706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 192.532 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -14910,7 +14793,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.34 108.458 90)
 			(hide yes)
 			(show_name no)
@@ -14980,7 +14863,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "DNP"
 			(at 73.914 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14991,7 +14874,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 74.6252 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15046,87 +14929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 201.93 55.88 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "c57403e6-5fbc-4733-9b96-e0ce7b5cec9c")
-		(property "Reference" "R35"
-			(at 203.2 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "330R"
-			(at 203.2 57.658 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 200.152 55.88 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 201.93 55.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "65c141af-ed56-4e9b-b963-4ee030423191")
-		)
-		(pin "2"
-			(uuid "a95b06da-3101-4083-b742-d0515ef716a1")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
-					(reference "R35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 241.3 135.89 0)
 		(unit 1)
@@ -15159,7 +14961,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 242.2652 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -15246,7 +15048,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 95.25 113.538 90)
 			(hide yes)
 			(show_name no)
@@ -15289,99 +15091,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "R39")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 201.93 66.04 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb599a25-6138-4b96-95eb-dac6bd558705")
-		(property "Reference" "D5"
-			(at 205.74 66.3574 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 205.74 68.8974 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 201.93 66.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce202c9f-cf46-404d-aef0-86f40b61521a")
-		)
-		(pin "2"
-			(uuid "f0840f19-3a7e-4203-a52d-d69342fb2e13")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -15492,7 +15201,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "DNP"
 			(at 63.754 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15503,7 +15212,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 64.4652 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -15673,7 +15382,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 183.8452 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15843,7 +15552,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 180.34 118.618 90)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15632,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+		(property "Footprint" "Button_Switch_THT:SW_PUSH_6mm"
 			(at 266.7 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -15945,7 +15654,7 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "TL1105AF160Q"
 			(at 266.7 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -16011,7 +15720,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 34.29 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -16092,7 +15801,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "DNP"
 			(at 86.614 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16103,7 +15812,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 87.3252 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16190,7 +15899,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 39.0652 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -16526,7 +16235,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 177.4952 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -16613,7 +16322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 168.6052 35.56 0)
 			(hide yes)
 			(show_name no)
@@ -16689,7 +16398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "DNP"
 			(at 51.054 89.662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16700,7 +16409,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 51.7652 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -16787,7 +16496,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 183.8452 35.56 0)
 			(hide yes)
 			(show_name no)
