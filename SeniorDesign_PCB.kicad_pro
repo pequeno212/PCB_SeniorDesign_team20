@@ -286,6 +286,15 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/Block Diagram/ESP32C3/LNA_IN": [
+        "RF_50R"
+      ],
+      "/Block Diagram/ESP32C3/L_to_L": [
+        "RF_50R"
+      ],
+      "/Block Diagram/ESP32C3/RF_ANT": [
+        "RF_50R"
+      ],
       "/ESP32C3/LNA_IN": [
         "RF_50R"
       ],
@@ -437,9 +446,14 @@
         "filename": "block_diagram.kicad_sch",
         "name": "Block Diagram",
         "uuid": "88e1ced0-9576-4565-ab29-f74bf51ccbda"
+      },
+      {
+        "filename": "duplicate_sensors.kicad_sch",
+        "name": "Duplicate Sensors",
+        "uuid": "184177c0-3e7e-4188-9f5f-898803f1e02b"
       }
     ],
-    "used_designators": "U1-2,U4-6,#PWR1-4,#PWR7-9,#PWR28-56,#PWR66,#PWR89,L2-4,C1-11,C17-33,C37-39,Y1-3,R3-24,J6-8,P1-3,D1-3,SW1-4,Q1",
+    "used_designators": "U1-2,U4-6,U11-13,#PWR1-4,#PWR7-9,#PWR28-56,#PWR66-67,#PWR81,#PWR89-107,AE1,L2-4,C1-11,C17-33,C37-41,Y1-3,R3-24,R35-55,J6-8,J14-16,P1-3,D1-3,D5-9,SW1-4,Q1",
     "variants": []
   },
   "sheets": [
@@ -470,6 +484,10 @@
     [
       "8dbcbcde-a963-4a54-aef5-5a4212c7899c",
       "ESP32C3"
+    ],
+    [
+      "184177c0-3e7e-4188-9f5f-898803f1e02b",
+      "Duplicate Sensors"
     ]
   ],
   "text_variables": {},
