@@ -673,8 +673,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at -25.4 35.56 0)
+			(property "Reference" "U1"
+				(at 2.1433 -30.48 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -685,7 +685,7 @@
 				)
 			)
 			(property "Value" "ESP32-C3"
-				(at -25.4 33.02 0)
+				(at 2.1433 -33.02 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -773,60 +773,6 @@
 						)
 					)
 				)
-				(pin output line
-					(at -27.94 17.78 0)
-					(length 2.54)
-					(name "XTAL_32K_P/ADC1_CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -27.94 15.24 0)
-					(length 2.54)
-					(name "XTAL_32K_N/ADC1_CH1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 2.54 180)
-					(length 2.54)
-					(name "GPIO2/ADC1_CH2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin input line
 					(at -27.94 22.86 0)
 					(length 2.54)
@@ -845,60 +791,6 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 27.94 0 180)
-					(length 2.54)
-					(name "GPIO3/ADC1_CH3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 2.54 0)
-					(length 2.54)
-					(name "MTMS/GPIO4/ADC1_CH4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 0 0)
-					(length 2.54)
-					(name "MTDI/GPIO5/ADC2_CH0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "10"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
 				(pin power_in line
 					(at 2.54 33.02 270)
 					(length 2.54)
@@ -910,42 +802,6 @@
 						)
 					)
 					(number "11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -2.54 0)
-					(length 2.54)
-					(name "MTCK/GPIO6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -5.08 0)
-					(length 2.54)
-					(name "MTDO/GPIO7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "13"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1026,132 +882,6 @@
 					)
 				)
 				(pin bidirectional line
-					(at -27.94 -10.16 0)
-					(length 2.54)
-					(name "VDD_SPI/GPIO11"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -12.7 0)
-					(length 2.54)
-					(name "SPIHD/GPIO12"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -15.24 0)
-					(length 2.54)
-					(name "SPIWP/GPIO13"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -17.78 0)
-					(length 2.54)
-					(name "SPICS0/GPIO14"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -20.32 0)
-					(length 2.54)
-					(name "SPICLK/GPIO15"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -22.86 0)
-					(length 2.54)
-					(name "SPID/GPIO16"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 -25.4 0)
-					(length 2.54)
-					(name "SPIQ/GPIO17"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
 					(at 27.94 17.78 180)
 					(length 2.54)
 					(name "GPIO18/USB_D-"
@@ -1162,60 +892,6 @@
 						)
 					)
 					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 20.32 180)
-					(length 2.54)
-					(name "GPIO19/USB_D+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 25.4 180)
-					(length 2.54)
-					(name "U0RXD/GPIO20"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at 27.94 27.94 180)
-					(length 2.54)
-					(name "U0TXD/GPIO21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1339,6 +1015,332 @@
 						)
 					)
 					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "ESP32-C3_1_0"
+				(pin output line
+					(at -27.94 17.78 0)
+					(length 2.54)
+					(name "XTAL_32K_P"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -27.94 15.24 0)
+					(length 2.54)
+					(name "XTAL_32K_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 2.54 180)
+					(length 2.54)
+					(name "GPIO2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 0 180)
+					(length 2.54)
+					(name "GPIO3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 2.54 0)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 0 0)
+					(length 2.54)
+					(name "GPIO5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -2.54 0)
+					(length 2.54)
+					(name "GPIO6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -5.08 0)
+					(length 2.54)
+					(name "GPIO7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -10.16 0)
+					(length 2.54)
+					(name "GPIO11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -12.7 0)
+					(length 2.54)
+					(name "GPIO12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -15.24 0)
+					(length 2.54)
+					(name "GPIO13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -17.78 0)
+					(length 2.54)
+					(name "GPIO14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -20.32 0)
+					(length 2.54)
+					(name "GPIO15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -22.86 0)
+					(length 2.54)
+					(name "GPIO16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -27.94 -25.4 0)
+					(length 2.54)
+					(name "GPIO17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 20.32 180)
+					(length 2.54)
+					(name "GPIO19/USB_D+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 25.4 180)
+					(length 2.54)
+					(name "GPIO20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 27.94 27.94 180)
+					(length 2.54)
+					(name "GPIO21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1843,6 +1845,27 @@
 		)
 		(uuid "9b26bbdc-e7ca-4876-a8d9-6bf118eb4779")
 	)
+	(text_box "PWR For RF"
+		(exclude_from_sim no)
+		(at 182.88 39.2317 0)
+		(size 13.97 3.9483)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type color)
+			(color 0 0 0 0)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "a6274c69-db2b-4512-aed3-76ca70d04eba")
+	)
 	(junction
 		(at 241.3 128.27)
 		(diameter 0)
@@ -1980,6 +2003,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc4ca499-db97-440b-9819-01d452cb9046")
+	)
+	(junction
+		(at 196.85 106.68)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ca70fed3-305f-4047-9b92-726f8b8cbf40")
 	)
 	(junction
 		(at 73.66 81.28)
@@ -2453,7 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 88.9) (xy 177.8 88.9)
+			(xy 167.64 88.9) (xy 173.99 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2500,6 +2529,16 @@
 			(type default)
 		)
 		(uuid "705843a5-c2d3-4063-b5b6-58634cacae70")
+	)
+	(wire
+		(pts
+			(xy 196.85 104.14) (xy 196.85 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "718919eb-7df1-454e-8b6a-985cd471d99f")
 	)
 	(wire
 		(pts
@@ -2553,7 +2592,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 106.68) (xy 177.8 106.68)
+			(xy 167.64 106.68) (xy 204.47 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2623,7 +2662,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 116.84) (xy 177.8 116.84)
+			(xy 167.64 116.84) (xy 173.99 116.84)
 		)
 		(stroke
 			(width 0)
@@ -2673,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 196.85 93.98) (xy 196.85 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3d33e77-4933-473e-9bd2-62dc3a121cd9")
+	)
+	(wire
+		(pts
 			(xy 60.96 81.28) (xy 63.5 81.28)
 		)
 		(stroke
@@ -2713,7 +2762,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 91.44) (xy 177.8 91.44)
+			(xy 167.64 91.44) (xy 173.99 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2753,7 +2802,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 114.3) (xy 184.15 114.3)
+			(xy 167.64 114.3) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -10681,7 +10730,7 @@
 		(uuid "4ceafa7c-9071-45aa-9253-e92c32becfaa")
 	)
 	(label "BOOT"
-		(at 184.15 114.3 180)
+		(at 179.07 114.3 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10763,7 +10812,7 @@
 	)
 	(hierarchical_label "SPI_CS_ESP"
 		(shape input)
-		(at 177.8 116.84 0)
+		(at 173.99 116.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10785,7 +10834,7 @@
 	)
 	(hierarchical_label "SPI_MISO"
 		(shape input)
-		(at 177.8 106.68 0)
+		(at 204.47 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10796,7 +10845,7 @@
 	)
 	(hierarchical_label "ESP32_USB_D_N"
 		(shape input)
-		(at 177.8 91.44 0)
+		(at 173.99 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10807,7 +10856,7 @@
 	)
 	(hierarchical_label "ESP32_USB_D_P"
 		(shape input)
-		(at 177.8 88.9 0)
+		(at 173.99 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10994,6 +11043,12 @@
 			(uuid "3237d02f-7a78-4f9b-9f00-a276956a8746")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C12")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C12")
@@ -11071,6 +11126,12 @@
 			(uuid "ce6cd44c-4d50-491a-877f-7ce92dc62d12")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR032")
@@ -11152,6 +11213,12 @@
 			(uuid "52e482b9-502c-46c7-b29a-e4fc9076388b")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "R7")
@@ -11229,6 +11296,12 @@
 			(uuid "04078e2a-840f-4f3b-941a-620109b6e775")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR026")
@@ -11306,6 +11379,12 @@
 			(uuid "ad3d2cb1-cf10-4f31-af97-709efc25834e")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR066")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR066")
@@ -11383,6 +11462,12 @@
 			(uuid "cb9209e2-d7a1-46a3-8a05-228b5918c06d")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR031")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR031")
@@ -11462,6 +11547,12 @@
 			(uuid "43a05d63-144d-4efd-bb07-e1258497d499")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "L4")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "L4")
@@ -11543,6 +11634,12 @@
 			(uuid "04ba5bcd-6073-429d-bbfb-01db0e471f8d")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C18")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C18")
@@ -11620,6 +11717,12 @@
 			(uuid "ca158dad-c22c-4e40-9dab-a0a115336863")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR046")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR046")
@@ -11880,6 +11983,12 @@
 			(uuid "0a8433be-6db0-4718-b9d8-ff26c3f7f937")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R9")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "R9")
@@ -11959,6 +12068,12 @@
 			(uuid "3fb1ddbf-3942-4329-942b-ea2ab723389c")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "L3")
@@ -11989,7 +12104,7 @@
 				)
 			)
 		)
-		(property "Value" "Crystal"
+		(property "Value" "10MHz"
 			(at 40.64 160.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12039,6 +12154,12 @@
 			(uuid "360bfcdc-1688-46df-aced-8410452709ee")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "Y2")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "Y2")
@@ -12120,6 +12241,12 @@
 			(uuid "cbfac433-bf46-4779-b2a7-e3bb16136cc0")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C30")
@@ -12201,6 +12328,12 @@
 			(uuid "a0c98f02-c96f-41e0-b49f-3c9bf888c8ed")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C14")
@@ -12282,6 +12415,12 @@
 			(uuid "b9dfcde3-66f2-4700-9bf1-a847743320f0")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C13")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C13")
@@ -12361,6 +12500,12 @@
 			(uuid "69e4cec7-c1dc-4fca-9677-ee8c25dac2ad")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R18")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "R18")
@@ -12438,6 +12583,12 @@
 			(uuid "f3a9d921-2810-45e3-9f48-a549ee057dd6")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR027")
@@ -12517,6 +12668,12 @@
 			(uuid "65ef1d14-d9e6-40f4-8b24-b741b43c0744")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "L2")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "L2")
@@ -12598,6 +12755,12 @@
 			(uuid "47693a1d-f7d5-4c23-b886-73b5e7761f48")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R6")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "R6")
@@ -12679,6 +12842,12 @@
 			(uuid "04cc6578-085b-4a2c-9e43-221671e5d41f")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C39")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C39")
@@ -12759,6 +12928,12 @@
 			(uuid "c72c2836-d89e-4a38-a1fc-e70948aa24fa")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "SW2")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "SW2")
@@ -12836,9 +13011,102 @@
 			(uuid "08f8b080-481a-441f-8af9-6f012299fc16")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR033")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 196.85 100.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c214b850-01a5-4d2a-87ef-90ccba17016e")
+		(property "Reference" "R8"
+			(at 197.866 98.552 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 197.866 102.362 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 195.072 100.33 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 196.85 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf7136ef-44db-4412-8711-0846fc00e6e4")
+		)
+		(pin "2"
+			(uuid "190d7de0-3416-4e42-a306-395ccf46a70e")
+		)
+		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -12917,6 +13185,12 @@
 			(uuid "73346364-c9b0-48cb-a062-d67df06def6e")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C20")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C20")
@@ -12998,6 +13272,12 @@
 			(uuid "aef38ecf-99b5-4e91-886d-7c30fa7e4262")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C31")
@@ -13075,6 +13355,12 @@
 			(uuid "1e311acb-9943-4b9a-8253-26c15fc594c8")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR042")
@@ -13156,6 +13442,12 @@
 			(uuid "b93985f8-0480-4e6f-9784-9214d4b2922b")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C19")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C19")
@@ -13233,6 +13525,12 @@
 			(uuid "c0dff3a8-3513-4568-b929-41685aa2aa32")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR045")
@@ -13314,6 +13612,12 @@
 			(uuid "6fdd8ce7-26e4-40a1-8bd9-d60ee0cbd99b")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C16")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C16")
@@ -13391,6 +13695,12 @@
 			(uuid "c5800504-cc7f-4dc8-b2f1-d8e658af533d")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR044")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR044")
@@ -13471,6 +13781,12 @@
 			(uuid "1c0c106f-e15c-4a73-97a8-c94494bd1b72")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "SW1")
@@ -13552,6 +13868,12 @@
 			(uuid "9170e345-5306-4d8a-8ee9-66d1966a38e3")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C21")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C21")
@@ -13633,9 +13955,98 @@
 			(uuid "28de285c-f301-4f05-942b-678797c34169")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C17")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 196.85 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f015bb2b-da89-454e-b23d-1e7d7e154467")
+		(property "Reference" "#PWR029"
+			(at 196.85 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 196.85 90.424 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 196.85 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf6aff8f-cd09-4e35-bab3-8f3a3e1b479d")
+		)
+		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -13710,6 +14121,12 @@
 			(uuid "7391ffe9-4c5b-4a34-ab9c-5f57bd50ae9e")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR030")
@@ -13787,6 +14204,12 @@
 			(uuid "e23eca1f-85a7-42ec-9d0f-bba26b36d9a3")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR043")
@@ -13868,6 +14291,12 @@
 			(uuid "a3905785-3375-4eda-87c9-2c0da8f15076")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C15")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C15")
@@ -13949,6 +14378,12 @@
 			(uuid "9f28a81c-c302-47bd-b0aa-62236b9df818")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C23")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C23")
@@ -14030,6 +14465,12 @@
 			(uuid "79f79345-bb9f-4a5f-9096-db780f8db209")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C22")
@@ -14111,6 +14552,12 @@
 			(uuid "b5c960e4-fd6d-4fbe-98bb-ebefc7af2e44")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C24")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "C24")
@@ -14188,6 +14635,12 @@
 			(uuid "a6a44ea6-81c7-41f0-81d9-18308605cff7")
 		)
 		(instances
+			(project "Wireless"
+				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/8dbcbcde-a963-4a54-aef5-5a4212c7899c"
 					(reference "#PWR028")
