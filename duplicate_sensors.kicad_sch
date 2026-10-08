@@ -1874,6 +1874,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1952,6 +1958,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2026,6 +2038,12 @@
 		(instances
 			(project "duplicate_sensors"
 				(path "/0640bf3e-8797-4587-8cbe-0d7373e96ec8"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
 					(reference "#PWR01")
 					(unit 1)
 				)
@@ -2112,6 +2130,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2192,6 +2216,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2266,6 +2296,12 @@
 		(instances
 			(project "duplicate_sensors"
 				(path "/0640bf3e-8797-4587-8cbe-0d7373e96ec8"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
 					(reference "#PWR07")
 					(unit 1)
 				)
@@ -2352,6 +2388,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2426,6 +2468,12 @@
 		(instances
 			(project "duplicate_sensors"
 				(path "/0640bf3e-8797-4587-8cbe-0d7373e96ec8"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
 					(reference "#PWR04")
 					(unit 1)
 				)
@@ -2523,6 +2571,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "TSAL6200")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2605,6 +2659,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2683,6 +2743,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -2756,6 +2822,12 @@
 		(instances
 			(project "duplicate_sensors"
 				(path "/0640bf3e-8797-4587-8cbe-0d7373e96ec8"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
 					(reference "#PWR08")
 					(unit 1)
 				)
@@ -2848,6 +2920,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/3f08d4c8-f763-42fe-995a-e00dd8980b40"
+					(reference "Q1")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -2855,5 +2933,4 @@
 			(page "8")
 		)
 	)
-	(embedded_fonts no)
 )
