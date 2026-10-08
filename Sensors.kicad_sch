@@ -1267,20 +1267,30 @@
 		(uuid "34bdaff4-8633-4b24-a2dc-c01bcc952f3e")
 	)
 	(junction
-		(at 78.74 81.28)
+		(at 72.39 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "abd8cdd5-ea63-4565-bb09-0e8472ff0663")
 	)
 	(wire
 		(pts
-			(xy 78.74 81.28) (xy 85.09 81.28)
+			(xy 72.39 69.85) (xy 72.39 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0f3ed1b6-613b-4d85-b7e6-e220d2122850")
+		(uuid "06c4145f-3461-4781-a12f-104f2fe44280")
+	)
+	(wire
+		(pts
+			(xy 54.61 73.66) (xy 54.61 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c08b5f8-6b57-436e-84c0-5017e2869a30")
 	)
 	(wire
 		(pts
@@ -1324,7 +1334,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 78.74) (xy 78.74 81.28)
+			(xy 72.39 78.74) (xy 72.39 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1354,7 +1364,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 81.28) (xy 78.74 81.28)
+			(xy 64.77 81.28) (xy 76.2 81.28)
 		)
 		(stroke
 			(width 0)
@@ -1586,9 +1596,9 @@
 		)
 		(uuid "f34a6f33-5a58-447e-8451-dd272f0833a7")
 	)
-	(hierarchical_label "PC_7"
+	(hierarchical_label "INT_TEMP_ALERT"
 		(shape input)
-		(at 85.09 81.28 0)
+		(at 76.2 81.28 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1618,10 +1628,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "00bb72e5-547f-40a6-a85f-b29a3674d7ea")
 		(property "Reference" "U?"
-			(at 69.85 74.8598 0)
+			(at 62.484 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1631,7 +1640,7 @@
 			)
 		)
 		(property "Value" "TMP117xxDRV"
-			(at 69.85 77.3998 0)
+			(at 62.484 76.708 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2361,6 +2370,87 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 72.39 74.93 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6fda5835-c2ea-4cad-b073-f4bdc0028d73")
+		(property "Reference" "R57"
+			(at 73.406 73.406 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 73.406 76.454 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 70.612 74.93 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 72.39 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 72.39 74.93 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4e4cc691-3a11-4328-9dc4-d7922a66c7b8")
+		)
+		(pin "2"
+			(uuid "da43d87c-888b-4ecd-8288-3f66820b7467")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
+					(reference "R57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 41.91 91.44 0)
 		(unit 1)
@@ -2601,88 +2691,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 78.74 74.93 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9383c9f8-a443-4d5b-b49a-db2d48a2ee76")
-		(property "Reference" "R?"
-			(at 81.28 73.6599 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 81.28 76.1999 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:WSON-6-1EP_2x2mm_P0.65mm_EP1x1.6mm"
-			(at 76.962 74.93 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 78.74 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 78.74 74.93 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "1ed4a189-39bb-496b-a889-66b0b307956d")
-		)
-		(pin "1"
-			(uuid "bc791c31-4a6a-41b9-8f20-b0edcc2d410c")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 54.61 97.79 0)
 		(unit 1)
@@ -2762,7 +2770,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 54.61 76.2 0)
+		(at 54.61 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2773,7 +2781,7 @@
 		(fields_autoplaced yes)
 		(uuid "b484986f-2e47-4d10-90f0-96d78d8f3dd0")
 		(property "Reference" "#PWR020"
-			(at 54.61 80.01 0)
+			(at 54.61 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +2792,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 54.61 71.12 0)
+			(at 54.61 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2794,7 +2802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 54.61 76.2 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2805,7 +2813,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 76.2 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2816,7 +2824,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 54.61 76.2 0)
+			(at 54.61 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2840,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 78.74 71.12 0)
+		(at 72.39 69.85 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2848,10 +2856,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c656b652-0c99-4053-ab16-ef343996fc84")
 		(property "Reference" "#PWR022"
-			(at 78.74 74.93 0)
+			(at 72.39 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2862,7 +2869,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 78.74 66.04 0)
+			(at 72.39 66.294 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2872,7 +2879,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 71.12 0)
+			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2883,7 +2890,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 71.12 0)
+			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2894,7 +2901,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 78.74 71.12 0)
+			(at 72.39 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
