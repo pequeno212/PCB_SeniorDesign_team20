@@ -1105,207 +1105,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -2690,6 +2489,16 @@
 	)
 	(wire
 		(pts
+			(xy 217.17 44.45) (xy 217.17 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9ff168-c797-42c5-9fc7-3b1d74569fda")
+	)
+	(wire
+		(pts
 			(xy 139.7 86.36) (xy 147.32 86.36)
 		)
 		(stroke
@@ -2710,7 +2519,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 49.53) (xy 270.51 52.07)
+			(xy 270.51 44.45) (xy 270.51 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2887,16 +2696,6 @@
 			(type default)
 		)
 		(uuid "58786c35-c448-4ea9-bf99-550cad9e5d68")
-	)
-	(wire
-		(pts
-			(xy 217.17 49.53) (xy 217.17 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c07e7e9-eda1-4dca-b402-622aeb3e0240")
 	)
 	(wire
 		(pts
@@ -3878,6 +3677,12 @@
 			(uuid "13bdc9a1-cb2b-4385-9355-b34e42886180")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "Q5")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "Q5")
@@ -3965,6 +3770,12 @@
 			(uuid "e02fa650-8762-468c-b39e-ec04f81b6b0f")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "Q4")
@@ -4042,6 +3853,12 @@
 			(uuid "f42acc1c-b2ce-4d1b-ad28-f46ca9961270")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0130")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0130")
@@ -4120,9 +3937,102 @@
 			(uuid "f072866d-7b3a-4f1a-afc5-8bddbe440472")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR011")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR011")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 222.25 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "210e719f-cf53-4677-b984-8525f9d643a7")
+		(property "Reference" "J19"
+			(at 213.36 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 213.36 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 222.25 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "dbf79964-2a88-4844-9fd8-d4ea0fdfca94")
+		)
+		(pin "1"
+			(uuid "7083f867-2497-428c-93f8-963aa1af7a3a")
+		)
+		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J19")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -4197,6 +4107,12 @@
 			(uuid "891d8051-0da1-483b-a909-864d3792764f")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0148")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0148")
@@ -4278,6 +4194,12 @@
 			(uuid "37b2cb6b-cf02-43fd-8e17-121d03e08cbb")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R81")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R81")
@@ -4356,9 +4278,102 @@
 			(uuid "4d799ea1-d086-48f8-9314-05021e2992be")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 275.59 41.91 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3a782fc4-97ab-4a30-a6ea-3cce8b3233f0")
+		(property "Reference" "J20"
+			(at 266.7 46.736 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02_Socket"
+			(at 266.7 49.276 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 275.59 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "17b98c6c-9092-4d51-874b-437ec7cf3de6")
+		)
+		(pin "1"
+			(uuid "f1d1e42a-6927-41b8-af2a-11c97040bb04")
+		)
+		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -4434,6 +4449,12 @@
 			(uuid "98b84629-5456-4933-89fe-e36a372ca8ae")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR09")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR09")
@@ -4516,6 +4537,12 @@
 			(uuid "4ee7d001-513d-4eac-a79d-9422abd8ba8f")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R3")
@@ -4593,101 +4620,15 @@
 			(uuid "9828ee80-b890-4f7e-95b0-67534818f7a8")
 		)
 		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
 					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 217.17 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "68108dcb-3468-450c-a191-548e14ddf1f5")
-		(property "Reference" "TSAL2"
-			(at 209.55 45.212 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 211.328 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 217.17 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "8a983f9c-eb7c-4f67-94d7-60c918d8cdf7")
-		)
-		(pin "1"
-			(uuid "7a98d7af-6348-4126-bdd1-9c4c43ab260d")
-		)
-		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "TSAL2")
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -4764,6 +4705,12 @@
 			(uuid "9226819a-97d7-41df-a955-a538982152f1")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0154")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0154")
@@ -4845,6 +4792,12 @@
 			(uuid "4e557ceb-9e22-49da-8756-4de2ac77a00d")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "C52")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "C52")
@@ -4924,101 +4877,15 @@
 			(uuid "c9bf8c07-9614-4924-9264-a6d9a0d069e8")
 		)
 		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
 					(reference "R83")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 270.51 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "902ba217-be83-4f31-87ca-c7645f4fccb9")
-		(property "Reference" "TSAL3"
-			(at 262.89 45.212 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 264.668 47.752 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
-			(at 270.51 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 270.51 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 270.51 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 270.51 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "27d8d995-6452-4f3b-9a70-44dcedac57b3")
-		)
-		(pin "1"
-			(uuid "889b4463-1bf2-4122-812b-008ef684b922")
-		)
-		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
-					(reference "TSAL3")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -5110,6 +4977,12 @@
 			(uuid "6171e57f-4144-4831-be78-d20004127453")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J21")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "J21")
@@ -5187,6 +5060,12 @@
 			(uuid "02495896-f3c6-4fa9-9c8c-dcab5e142595")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0153")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0153")
@@ -5268,6 +5147,12 @@
 			(uuid "2731a141-92ef-411e-9766-966a8ccb5927")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R82")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R82")
@@ -5345,6 +5230,12 @@
 			(uuid "bbc1bcc4-68af-42e0-b3e1-7ff90988468c")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0152")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0152")
@@ -5422,6 +5313,12 @@
 			(uuid "4fd5183e-98f3-4fbb-ae75-344a90159579")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0143")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0143")
@@ -5503,6 +5400,12 @@
 			(uuid "205ea459-e848-4762-9b39-c0765cb13075")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J2")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "J2")
@@ -5580,6 +5483,12 @@
 			(uuid "2fb0c98b-532a-4b3e-8da8-dc580dc66518")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0150")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0150")
@@ -5657,6 +5566,12 @@
 			(uuid "f290e521-f1aa-4c9f-af9a-7863f9c97c17")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0140")
@@ -5742,6 +5657,12 @@
 			(uuid "8d21a42a-4a6a-4988-b070-38183004c80a")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J3")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "J3")
@@ -5819,6 +5740,12 @@
 			(uuid "59e1638a-7c3d-490d-8881-9dfa2b40ab33")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0151")
@@ -5896,6 +5823,12 @@
 			(uuid "64870104-9947-47cd-8a9f-a7e908a3f134")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0134")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0134")
@@ -5975,6 +5908,12 @@
 			(uuid "ac81dd75-7388-420e-99f9-a66088694179")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R80")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R80")
@@ -6052,6 +5991,12 @@
 			(uuid "d427b9e2-d606-4a8c-80e6-41a4c7e09f11")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR014")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR014")
@@ -6133,6 +6078,12 @@
 			(uuid "ee54d5b1-7146-485d-90c8-228beb17c3ee")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R85")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R85")
@@ -6226,6 +6177,12 @@
 			(uuid "5dacf0e3-6900-4931-991a-b32fc779ae5d")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "U1")
@@ -6307,6 +6264,12 @@
 			(uuid "31e5be08-41be-4327-8a3a-4766333a17f6")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R84")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R84")
@@ -6388,6 +6351,12 @@
 			(uuid "68519fb3-1147-4b41-8b49-ea7522b2c991")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "C14")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "C14")
@@ -6469,6 +6438,12 @@
 			(uuid "11cef7b5-9588-4f0d-941e-6214ebdbaeca")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R2")
@@ -6547,6 +6522,12 @@
 			(uuid "e99f55f7-bce2-47d1-95c9-67130bc04f03")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR06")
@@ -6624,6 +6605,12 @@
 			(uuid "fe8637d0-dcc9-4a8f-9f9c-f3581abfcaa9")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0142")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0142")
@@ -6705,6 +6692,12 @@
 			(uuid "ead8d21b-0c8d-4a01-a636-142238ba5209")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "R36")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "R36")
@@ -6793,6 +6786,12 @@
 			(uuid "81455164-d732-4f83-bb59-9447184d6e09")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "J1")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "J1")
@@ -6870,6 +6869,12 @@
 			(uuid "7a35fc85-c7ca-49cb-9f48-cf398e1474c3")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR013")
@@ -6947,6 +6952,12 @@
 			(uuid "e6e38d05-2ff1-48a1-8fb6-e9a4e059a1ff")
 		)
 		(instances
+			(project "Sensors"
+				(path "/050f41c1-ed89-42a7-b085-4160be7e3461"
+					(reference "#PWR0141")
+					(unit 1)
+				)
+			)
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/31f163eb-679a-41ad-bd95-ba79c79ee532"
 					(reference "#PWR0141")
@@ -6960,4 +6971,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
