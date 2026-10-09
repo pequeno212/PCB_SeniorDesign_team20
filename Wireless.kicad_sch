@@ -3072,16 +3072,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 95.25 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3659b4f9-ad99-4ac0-9412-2af01c0acf6f")
-	)
-	(wire
-		(pts
 			(xy 194.31 25.4) (xy 194.31 26.67)
 		)
 		(stroke
@@ -3202,6 +3192,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 52.07) (xy 95.25 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558d6ea8-cb2b-4677-a27f-4e88b4b682ae")
+	)
+	(wire
+		(pts
 			(xy 39.37 45.72) (xy 39.37 48.26)
 		)
 		(stroke
@@ -3219,6 +3219,16 @@
 			(type default)
 		)
 		(uuid "572ac932-1b5f-43a2-97d0-7555a25e1a01")
+	)
+	(wire
+		(pts
+			(xy 80.01 49.53) (xy 95.25 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58e13884-4e6b-4c8c-b345-3636ecd48054")
 	)
 	(wire
 		(pts
@@ -3379,16 +3389,6 @@
 			(type default)
 		)
 		(uuid "7d43b63f-fced-4d06-a0c0-6930fd249841")
-	)
-	(wire
-		(pts
-			(xy 80.01 49.53) (xy 95.25 49.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d45afa2-6df9-4ca3-95ca-0087bef37689")
 	)
 	(wire
 		(pts
@@ -11711,7 +11711,7 @@
 		(uuid "61403d51-fe74-48de-84d3-0db50b16f12a")
 	)
 	(label "BOOT"
-		(at 80.01 52.07 0)
+		(at 80.01 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11721,7 +11721,7 @@
 		(uuid "6989e693-1f3c-4f5a-aa3e-8e45b7ab7420")
 	)
 	(label "GPIO8"
-		(at 80.01 49.53 0)
+		(at 80.01 52.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12525,7 +12525,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0402_1005Metric"
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 175.26 26.67 0)
 			(hide yes)
 			(show_name no)
