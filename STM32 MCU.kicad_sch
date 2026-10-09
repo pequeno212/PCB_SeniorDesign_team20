@@ -3154,250 +3154,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Timer_RTC:RV-3028-C7"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U2"
-				(at 2.1433 -10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "RV-3028-C7"
-				(at 2.1433 -12.7 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
-				(at 25.4 -8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "Low-power RTC I2C"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "MicroCrystal*C7*1.5x3.2mm*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "RV-3028-C7_0_1"
-				(rectangle
-					(start -10.16 7.62)
-					(end 10.16 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "RV-3028-C7_1_1"
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "CLKOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin open_collector line
-					(at 12.7 2.54 180)
-					(length 2.54)
-					(name "~{INT}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "SCL"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SDA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 10.16 270)
-					(length 2.54)
-					(name "VBACKUP"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 10.16 270)
-					(length 2.54)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "EVI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:+3V3"
 			(power global)
 			(pin_numbers
@@ -3732,19 +3488,6 @@
 		(uuid "4b6de2ba-d89d-42d7-9a96-4541335b915c")
 	)
 	(rectangle
-		(start 14.986 144.78)
-		(end 69.85 190.5)
-		(stroke
-			(width 0.254)
-			(type dash)
-			(color 0 0 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "71c3bdd2-8463-4078-bbda-8a2cc713f324")
-	)
-	(rectangle
 		(start 19.05 101.6)
 		(end 82.55 135.89)
 		(stroke
@@ -3854,20 +3597,6 @@
 		)
 		(uuid "5b65d8d9-a756-4112-ab8f-8729f41853b6")
 	)
-	(text "REAL TIME CLOCK"
-		(exclude_from_sim no)
-		(at 42.926 142.748 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-				(color 0 0 0 1)
-			)
-		)
-		(uuid "ae8f5472-bfd9-426a-b2c2-964a4719688c")
-	)
 	(text "STM32G4 MCU"
 		(exclude_from_sim no)
 		(at 143.256 25.654 0)
@@ -3915,26 +3644,6 @@
 			(justify left top)
 		)
 		(uuid "8f731a82-eac3-4887-ab81-c9d428eb8e0d")
-	)
-	(text_box "I2C Address: 0x52"
-		(exclude_from_sim no)
-		(at 48.26 185.2817 0)
-		(size 20.32 3.9483)
-		(margins 0.9525 0.9525 0.9525 0.9525)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "e584d998-9920-42d7-b424-e65eb18e14ca")
 	)
 	(junction
 		(at 39.37 120.65)
@@ -4003,12 +3712,6 @@
 		(uuid "4287e94d-c6d6-4cd1-8368-f4756c74e889")
 	)
 	(junction
-		(at 43.18 182.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4310b120-cd8a-4731-9f40-76bfda87c6fb")
-	)
-	(junction
 		(at 71.12 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4069,12 +3772,6 @@
 		(uuid "abf9e107-1aa4-43d1-a308-b7f9e761b26d")
 	)
 	(junction
-		(at 58.42 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b365c47a-a484-44b6-8aeb-d092739d37df")
-	)
-	(junction
 		(at 148.59 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4111,12 +3808,6 @@
 		(uuid "e7cf779b-d374-4a20-bc06-0e207ae9e1c1")
 	)
 	(junction
-		(at 40.64 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ead3314e-3445-43fd-850a-2c6cd512a433")
-	)
-	(junction
 		(at 64.77 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4131,10 +3822,6 @@
 	(no_connect
 		(at 125.73 106.68)
 		(uuid "0038ec4a-f951-4653-aafd-37682dd0ce0e")
-	)
-	(no_connect
-		(at 55.88 173.99)
-		(uuid "5b851005-92d3-4fb8-b588-58b2bdbfe2b2")
 	)
 	(no_connect
 		(at 125.73 104.14)
@@ -4174,26 +3861,6 @@
 			(type default)
 		)
 		(uuid "03ab6c17-ca9d-4c63-9fcc-0b893541e51d")
-	)
-	(wire
-		(pts
-			(xy 30.48 173.99) (xy 27.94 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03fd67a7-1a3e-4698-9211-47979a50b8af")
-	)
-	(wire
-		(pts
-			(xy 40.64 149.86) (xy 40.64 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "052a3a88-eec0-4c3a-8fbc-90f96a8597eb")
 	)
 	(wire
 		(pts
@@ -4359,16 +4026,6 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 166.37) (xy 58.42 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e65f013-9f47-4287-8dcb-054a26d5d175")
-	)
-	(wire
-		(pts
 			(xy 233.68 83.82) (xy 233.68 86.36)
 		)
 		(stroke
@@ -4427,16 +4084,6 @@
 			(type default)
 		)
 		(uuid "256798e4-9bee-44f7-a662-afa80c388a0c")
-	)
-	(wire
-		(pts
-			(xy 27.94 182.88) (xy 43.18 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27391952-6082-4d70-9fb6-69c505aca50b")
 	)
 	(wire
 		(pts
@@ -4680,16 +4327,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 166.37) (xy 30.48 166.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f878c54-a3f5-4b8b-ba07-47d468e716a4")
-	)
-	(wire
-		(pts
 			(xy 154.94 182.88) (xy 160.02 182.88)
 		)
 		(stroke
@@ -4711,16 +4348,6 @@
 	)
 	(wire
 		(pts
-			(xy 17.78 168.91) (xy 30.48 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "533e23ba-dc2b-4e20-a9ed-f1fcf875f1c0")
-	)
-	(wire
-		(pts
 			(xy 34.29 26.67) (xy 38.1 26.67)
 		)
 		(stroke
@@ -4728,16 +4355,6 @@
 			(type default)
 		)
 		(uuid "5423c7b7-5c08-4eb6-9ea2-89e0cb8d37c2")
-	)
-	(wire
-		(pts
-			(xy 43.18 151.13) (xy 40.64 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55c3cf05-f938-42d0-986f-7c9f970d09dc")
 	)
 	(wire
 		(pts
@@ -4761,16 +4378,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 181.61) (xy 43.18 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "58a408ec-03b6-43fa-95c8-bc5cca531ebb")
-	)
-	(wire
-		(pts
 			(xy 161.29 48.26) (xy 181.61 48.26)
 		)
 		(stroke
@@ -4788,16 +4395,6 @@
 			(type default)
 		)
 		(uuid "5a76303f-3255-4224-8826-e4c46053ce1f")
-	)
-	(wire
-		(pts
-			(xy 55.88 168.91) (xy 67.31 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5a871a91-4f60-48e9-9cd4-f96c2dfd48ff")
 	)
 	(wire
 		(pts
@@ -4972,16 +4569,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 173.99) (xy 27.94 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d269525-2687-4af1-bb36-e2e26d4e37b5")
-	)
-	(wire
-		(pts
 			(xy 270.51 114.3) (xy 270.51 121.92)
 		)
 		(stroke
@@ -5019,16 +4606,6 @@
 			(type default)
 		)
 		(uuid "8670c6cf-f3e2-4288-be13-fa7b51c14852")
-	)
-	(wire
-		(pts
-			(xy 43.18 152.4) (xy 43.18 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "867a748a-d262-47ff-af62-a1d9da7c5e01")
 	)
 	(wire
 		(pts
@@ -5542,26 +5119,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 160.02) (xy 43.18 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d85199df-05e9-4a4d-9222-de78f4fba231")
-	)
-	(wire
-		(pts
-			(xy 58.42 156.21) (xy 58.42 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9e1a600-33a1-4b40-9767-da7d796ae520")
-	)
-	(wire
-		(pts
 			(xy 105.41 83.82) (xy 125.73 83.82)
 		)
 		(stroke
@@ -5619,16 +5176,6 @@
 			(type default)
 		)
 		(uuid "e820f26e-22b4-4915-bbf8-bf11388410eb")
-	)
-	(wire
-		(pts
-			(xy 40.64 151.13) (xy 40.64 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e8d37b22-97cd-474d-8f6d-077f34f8345b")
 	)
 	(wire
 		(pts
@@ -5732,16 +5279,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 182.88) (xy 43.18 185.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f57ab596-d907-48be-b77e-0db7043bd25e")
-	)
-	(wire
-		(pts
 			(xy 58.42 119.38) (xy 58.42 120.65)
 		)
 		(stroke
@@ -5829,16 +5366,6 @@
 			(justify left bottom)
 		)
 		(uuid "3f3cc528-3f9f-4283-9682-833ce415e9cc")
-	)
-	(label "INT_RTC"
-		(at 67.31 168.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4384ce0c-3b24-4ec9-a9dd-16695a57f7b5")
 	)
 	(label "TEST_LED"
 		(at 105.41 86.36 0)
@@ -5940,16 +5467,6 @@
 		)
 		(uuid "9f331ce8-8c13-4aa1-be32-fa6eedcedbd2")
 	)
-	(label "INT_RTC"
-		(at 105.41 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a09f941d-bfaf-4a5a-9374-7ba044a15b25")
-	)
 	(label "CLK_IN"
 		(at 105.41 55.88 0)
 		(effects
@@ -5989,16 +5506,6 @@
 			(justify left bottom)
 		)
 		(uuid "ba624fb7-485d-4b8e-a111-89e0a1014f20")
-	)
-	(label "I2C3_SCL"
-		(at 17.78 166.37 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0658c19-3574-4754-a522-300e565be8c5")
 	)
 	(label "USB_VBUS_DETECT"
 		(at 181.61 68.58 180)
@@ -6049,16 +5556,6 @@
 			(justify right bottom)
 		)
 		(uuid "d1fbfa43-4efb-47ec-af5d-4f59584fb5ed")
-	)
-	(label "I2C3_SDA"
-		(at 17.78 168.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d810c397-c3c3-4a1e-be66-c0a176c1f1f5")
 	)
 	(label "CLK_IN"
 		(at 140.97 168.91 0)
@@ -6353,6 +5850,17 @@
 			(justify right)
 		)
 		(uuid "a26f7f6a-23fc-4544-8f50-d3de8399d023")
+	)
+	(hierarchical_label "INT_RTC"
+		(shape input)
+		(at 105.41 83.82 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a4d7ccfb-96bb-4e1a-b964-fa2185d437db")
 	)
 	(hierarchical_label "MATRIX_LAT"
 		(shape input)
@@ -6843,83 +6351,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 40.64 149.86 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "0e26b6ca-1053-4d17-a63e-8a3bc8232939")
-		(property "Reference" "#PWR0113"
-			(at 40.64 153.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 40.64 146.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 40.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 40.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 40.64 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "7453ec6a-d5bb-4c9b-bf8a-a6ce83c501c5")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "#PWR0113")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 64.77 87.63 0)
 		(unit 1)
@@ -7072,83 +6503,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 43.18 185.42 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "180a09ff-96c2-45ec-869d-4d134ad23b0b")
-		(property "Reference" "#PWR018"
-			(at 43.18 191.77 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 43.18 189.23 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 43.18 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 43.18 185.42 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09b5c88e-556d-4de9-9c50-f35f2f429e1e")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -7315,106 +6669,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Timer_RTC:RV-3028-C7")
-		(at 43.18 171.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "21d45888-4ecb-4230-a765-a2c0a6f7e95b")
-		(property "Reference" "U2"
-			(at 45.3233 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "RV-3028-C7"
-			(at 45.3233 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SON:MicroCrystal_C7_SON-8_1.5x3.2mm_P0.9mm"
-			(at 68.58 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.microcrystal.com/fileadmin/Media/Products/RTC/Datasheet/RV-3028-C7.pdf"
-			(at 43.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Realtime Clock/Calendar I2C Interface, Extreme Low Power, 1.1 V to 5.5 V, MicroCrystal C7"
-			(at 43.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "d9fd72cc-a3d8-4f41-b549-37bea50f850c")
-		)
-		(pin "6"
-			(uuid "b96e490e-2176-49c7-af61-c6218e089e36")
-		)
-		(pin "5"
-			(uuid "660af4f6-ed1c-4e4e-8019-93854f9e7cbe")
-		)
-		(pin "4"
-			(uuid "9ac7d191-35bd-49ee-b76d-1e2603bb1cdb")
-		)
-		(pin "3"
-			(uuid "3156a5c3-983e-4672-8f89-0a15282aa042")
-		)
-		(pin "8"
-			(uuid "ea099422-6408-4347-9025-29c974a84825")
-		)
-		(pin "7"
-			(uuid "aca720a9-c365-4cce-8f74-892ee817dcd1")
-		)
-		(pin "1"
-			(uuid "31e747b5-4992-4454-a0eb-42f876b46416")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -8635,87 +7889,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 43.18 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6cf5fe75-3e90-4e6d-961a-5dda8dd032c9")
-		(property "Reference" "R7"
-			(at 44.196 154.432 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 44.196 158.242 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 41.402 156.21 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 43.18 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a6ca7e97-2345-4571-aec8-5e560f79b51f")
-		)
-		(pin "2"
-			(uuid "d0c84962-c5b7-41fe-be69-643a17fcf289")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10195,83 +9368,6 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 58.42 156.21 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bb99aa48-d33a-4130-9417-c4898d775076")
-		(property "Reference" "#PWR0117"
-			(at 58.42 160.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 58.42 152.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 58.42 156.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ea9020e3-7422-4db0-b20b-34ceb9a4ce95")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "#PWR0117")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
 		(at 200.66 43.18 0)
 		(unit 1)
 		(body_style 1)
@@ -10832,87 +9928,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
 					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 58.42 162.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e40e5e43-90cc-49c6-912c-660991b2f511")
-		(property "Reference" "R8"
-			(at 59.436 160.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 59.436 164.592 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 56.642 162.56 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 58.42 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "9bee1e25-6015-4c5b-b075-e73c87457785")
-		)
-		(pin "2"
-			(uuid "650ff676-c592-4b97-8a1d-ceb181ed2baf")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "R8")
 					(unit 1)
 				)
 			)
