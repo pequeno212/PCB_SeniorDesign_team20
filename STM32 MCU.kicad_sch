@@ -3755,8 +3755,8 @@
 		(uuid "4b6de2ba-d89d-42d7-9a96-4541335b915c")
 	)
 	(rectangle
-		(start 19.05 101.6)
-		(end 82.55 135.89)
+		(start 21.59 101.6)
+		(end 85.09 135.89)
 		(stroke
 			(width 0.254)
 			(type dash)
@@ -4879,16 +4879,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 110.49) (xy 19.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7ad77065-5c5d-401d-8c5e-20dffabdf4e7")
-	)
-	(wire
-		(pts
 			(xy 105.41 78.74) (xy 125.73 78.74)
 		)
 		(stroke
@@ -5250,16 +5240,6 @@
 	)
 	(wire
 		(pts
-			(xy 19.05 128.27) (xy 19.05 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bdb87e0a-b4b6-47f2-b37b-b77c314b59eb")
-	)
-	(wire
-		(pts
 			(xy 77.47 111.76) (xy 77.47 110.49)
 		)
 		(stroke
@@ -5377,16 +5357,6 @@
 			(type default)
 		)
 		(uuid "cce128a4-3406-4349-9c1e-3ed9ee495a97")
-	)
-	(wire
-		(pts
-			(xy 19.05 119.38) (xy 19.05 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce038105-1550-45e0-b99f-72a9d0a0ef0b")
 	)
 	(wire
 		(pts
