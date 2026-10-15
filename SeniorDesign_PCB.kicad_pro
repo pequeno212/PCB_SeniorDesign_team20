@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2032,
-          "min_island_area": 9.99999999996,
+          "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 1,
@@ -81,7 +81,56 @@
           "width": 0.2032
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|144571500|103798500|1ce5739b-dad1-4629-a668-aab7de0e6528|93e2214c-c577-4cac-8b45-97bc56d7bd0b",
+          ""
+        ],
+        [
+          "clearance|144571500|103973500|1ce5739b-dad1-4629-a668-aab7de0e6528|e0bcff00-440e-4d9e-885a-aca0a8606dd1",
+          ""
+        ],
+        [
+          "clearance|145996500|103798500|678dc4da-d295-403a-9d00-da549ed31a92|c1b97402-c5fe-4b8c-9b35-18a7bd6be327",
+          ""
+        ],
+        [
+          "clearance|145996500|104298500|1ef9524b-6dd7-44af-b801-c5edf4323023|678dc4da-d295-403a-9d00-da549ed31a92",
+          ""
+        ],
+        [
+          "hole_clearance|107821000|121110000|5e2a55e0-a170-4548-8e2e-1542dd792824|164dd253-8ce7-4856-885b-af6432841c04",
+          ""
+        ],
+        [
+          "hole_clearance|107821000|121110000|9c7fe3fc-e910-4cde-9c66-0cca352666b4|164dd253-8ce7-4856-885b-af6432841c04",
+          ""
+        ],
+        [
+          "hole_clearance|113921000|121110000|ae716c6b-bc6b-4937-8576-626ded349972|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          ""
+        ],
+        [
+          "hole_clearance|113921000|121110000|ff7682e1-3853-49fb-ad8d-59e9b8e20173|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          ""
+        ],
+        [
+          "hole_clearance|67060300|64529000|6d9a094e-0c78-47df-82a4-ca0dcf9b6012|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          ""
+        ],
+        [
+          "hole_clearance|67060300|64529000|b4853df9-1bd8-46c4-82c9-0e9edf8523f2|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          ""
+        ],
+        [
+          "hole_clearance|67060300|70629000|06711c73-e9a0-4836-aeff-04d6886e2169|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          ""
+        ],
+        [
+          "hole_clearance|67060300|70629000|b404b5ff-9cbd-4fb5-9e7c-f29dee23a629|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -216,8 +265,8 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
         0.254,
+        0.37084,
         0.508,
         1.27
       ],

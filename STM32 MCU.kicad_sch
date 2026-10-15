@@ -3820,16 +3820,18 @@
 		(uuid "fa4ad83b-fb71-49d8-b54c-6b825eb7a677")
 	)
 	(no_connect
-		(at 125.73 106.68)
-		(uuid "0038ec4a-f951-4653-aafd-37682dd0ce0e")
-	)
-	(no_connect
-		(at 125.73 104.14)
-		(uuid "6d8c8c36-2401-45d9-b881-306a67eba2c9")
-	)
-	(no_connect
 		(at 125.73 63.5)
 		(uuid "c18c1a90-2dce-4aa6-baef-bad10f1f2131")
+	)
+	(wire
+		(pts
+			(xy 161.29 104.14) (xy 193.04 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "013cc4fa-e6b8-492e-ba1e-32dce54a362a")
 	)
 	(wire
 		(pts
@@ -3864,13 +3866,13 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 99.06) (xy 181.61 99.06)
+			(xy 161.29 99.06) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "05d03749-d2b8-42a5-8111-bd2b78afdb0b")
+		(uuid "0714ff1a-d9c6-4375-847a-2980c616ce4f")
 	)
 	(wire
 		(pts
@@ -4287,6 +4289,16 @@
 	)
 	(wire
 		(pts
+			(xy 111.76 106.68) (xy 125.73 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "44fd096e-4e2c-47b8-a3e9-3794e431f14d")
+	)
+	(wire
+		(pts
 			(xy 39.37 110.49) (xy 71.12 110.49)
 		)
 		(stroke
@@ -4498,16 +4510,6 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 104.14) (xy 181.61 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6a196d8b-64e3-476c-8767-d1b22771cbed")
-	)
-	(wire
-		(pts
 			(xy 160.02 168.91) (xy 160.02 172.72)
 		)
 		(stroke
@@ -4596,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "7dd8cd4f-4294-4ffb-b15d-78b691bc15d6")
+	)
+	(wire
+		(pts
+			(xy 111.76 104.14) (xy 125.73 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7de7ecf5-535e-4043-a496-a881c44ab428")
 	)
 	(wire
 		(pts
@@ -5790,6 +5802,17 @@
 		)
 		(uuid "99aab086-0ce1-4c3c-8eb9-d5589b6552ee")
 	)
+	(hierarchical_label "USB-C_CC1"
+		(shape input)
+		(at 193.04 104.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c6dc562-ae58-405d-89ab-eb90dcfadb68")
+	)
 	(hierarchical_label "MATRIX_PWR_EN"
 		(shape input)
 		(at 105.41 91.44 180)
@@ -5847,12 +5870,12 @@
 	)
 	(hierarchical_label "MATRIX_R1"
 		(shape input)
-		(at 181.61 104.14 0)
+		(at 111.76 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "bbe7d456-870b-482c-bb1a-808d68252cc7")
 	)
@@ -5922,6 +5945,17 @@
 		)
 		(uuid "e8dc0289-d995-4b09-a97f-e785608b2b6b")
 	)
+	(hierarchical_label "USB-C_CC2"
+		(shape input)
+		(at 193.04 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ea1f0fc5-ac5a-4408-b9a4-0efc31869f01")
+	)
 	(hierarchical_label "FAN_PWM"
 		(shape input)
 		(at 105.41 81.28 180)
@@ -5957,12 +5991,12 @@
 	)
 	(hierarchical_label "MATRIX_C"
 		(shape input)
-		(at 181.61 99.06 0)
+		(at 111.76 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ef8ee11b-7d7b-4d9d-bbb7-820c5879667c")
 	)

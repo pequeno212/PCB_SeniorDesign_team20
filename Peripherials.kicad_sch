@@ -4148,6 +4148,12 @@
 		(uuid "a4474b5c-4341-4d01-98cd-c9ce2e697898")
 	)
 	(junction
+		(at 64.77 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac54414f-db8e-45da-b845-04a049317f68")
+	)
+	(junction
 		(at 55.88 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4164,6 +4170,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bb7ce8f9-5979-456e-bdef-3dbf5172520a")
+	)
+	(junction
+		(at 58.42 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bde30bb1-1b2a-4295-9f0c-75d3de10a8da")
 	)
 	(junction
 		(at 58.42 62.23)
@@ -4204,8 +4216,8 @@
 		(uuid "7e4f578a-adcf-472a-9de4-576ac9ff16b8")
 	)
 	(no_connect
-		(at 167.64 106.68)
-		(uuid "accb941e-65a1-441a-a033-fd46ab6f485f")
+		(at 167.64 121.92)
+		(uuid "f5fcd714-fa68-4695-a8b6-cb910a635979")
 	)
 	(wire
 		(pts
@@ -4689,16 +4701,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 109.22) (xy 167.64 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75194fa5-bbd5-4495-82e3-0d0e6d01dfb5")
-	)
-	(wire
-		(pts
 			(xy 135.89 176.53) (xy 138.43 176.53)
 		)
 		(stroke
@@ -4709,6 +4711,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 36.83) (xy 74.93 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79b37a48-b3f0-441e-a67e-33b210fd3ad0")
+	)
+	(wire
+		(pts
 			(xy 157.48 29.21) (xy 157.48 31.75)
 		)
 		(stroke
@@ -4716,6 +4728,16 @@
 			(type default)
 		)
 		(uuid "7a9b91df-6137-434b-bcbf-f8239d5fcf7d")
+	)
+	(wire
+		(pts
+			(xy 163.83 109.22) (xy 167.64 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7cf4f225-e844-41e2-bbef-1eb17b87dab9")
 	)
 	(wire
 		(pts
@@ -4836,6 +4858,16 @@
 			(type default)
 		)
 		(uuid "89bd277b-c53d-4107-ab01-e425fc1215e5")
+	)
+	(wire
+		(pts
+			(xy 64.77 34.29) (xy 74.93 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c98642b-790e-4f80-ae2d-5e2c11982591")
 	)
 	(wire
 		(pts
@@ -5319,13 +5351,13 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 121.92) (xy 167.64 121.92)
+			(xy 163.83 106.68) (xy 167.64 106.68)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ccb6d793-7e7a-491e-a1a4-f7806ab10005")
+		(uuid "ccb200b3-33a6-4218-a74f-edb50bed7883")
 	)
 	(wire
 		(pts
@@ -5833,9 +5865,20 @@
 		)
 		(uuid "23137d1c-b543-4174-8b6f-a8a933f9a46d")
 	)
+	(hierarchical_label "USB-C_CC2"
+		(shape input)
+		(at 74.93 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "233b375f-d5d5-42b2-8caf-cd68f3063ecf")
+	)
 	(hierarchical_label "SPI1_MOSI"
 		(shape input)
-		(at 160.02 121.92 180)
+		(at 163.83 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5879,7 +5922,7 @@
 	)
 	(hierarchical_label "SPI_CS_SD_CARD"
 		(shape input)
-		(at 163.83 109.22 180)
+		(at 163.83 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5975,6 +6018,17 @@
 			(justify right)
 		)
 		(uuid "8feaed4c-24ea-4bb6-a6b5-8367f3a42283")
+	)
+	(hierarchical_label "USB-C_CC1"
+		(shape input)
+		(at 74.93 34.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cbd37934-689f-4a24-bb91-16c519382565")
 	)
 	(hierarchical_label "STM32_USB_D_N"
 		(shape input)

@@ -129,6 +129,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 40.64) (xy 189.23 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19ea4309-6945-4061-8cfe-9dedc1ce9cff")
+	)
+	(wire
+		(pts
 			(xy 175.26 19.05) (xy 116.84 19.05)
 		)
 		(stroke
@@ -169,7 +179,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 43.18) (xy 177.8 16.51)
+			(xy 177.8 33.02) (xy 177.8 16.51)
 		)
 		(stroke
 			(width 0)
@@ -299,7 +309,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 43.18) (xy 177.8 43.18)
+			(xy 189.23 33.02) (xy 177.8 33.02)
 		)
 		(stroke
 			(width 0)
@@ -759,7 +769,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 45.72) (xy 175.26 19.05)
+			(xy 175.26 35.56) (xy 175.26 19.05)
 		)
 		(stroke
 			(width 0)
@@ -769,7 +779,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 45.72) (xy 175.26 45.72)
+			(xy 189.23 35.56) (xy 175.26 35.56)
 		)
 		(stroke
 			(width 0)
@@ -806,6 +816,16 @@
 			(type default)
 		)
 		(uuid "f7e4c5b5-1a90-4a21-9aa3-37802c255928")
+	)
+	(wire
+		(pts
+			(xy 163.83 43.18) (xy 189.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9a0719e-5443-494e-943c-cfe9076fc6b8")
 	)
 	(wire
 		(pts
@@ -1265,6 +1285,26 @@
 				(justify right)
 			)
 		)
+		(pin "USB-C_CC1" input
+			(at 163.83 40.64 0)
+			(uuid "9896a1fd-64f0-40f2-a358-9bb116dcd275")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB-C_CC2" input
+			(at 163.83 43.18 0)
+			(uuid "009b0378-315f-483f-9e2a-d7148b4e2191")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
@@ -1616,8 +1656,8 @@
 		)
 	)
 	(sheet
-		(at 189.23 40.64)
-		(size 25.4 95.25)
+		(at 189.23 29.21)
+		(size 25.4 105.41)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1631,7 +1671,7 @@
 		)
 		(uuid "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5")
 		(property "Sheetname" "Peripherials"
-			(at 189.23 39.9284 0)
+			(at 189.23 28.4984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1642,7 +1682,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherials.kicad_sch"
-			(at 188.722 136.652 0)
+			(at 189.484 135.636 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1883,7 +1923,7 @@
 			)
 		)
 		(pin "I2C3_SCL" input
-			(at 189.23 43.18 180)
+			(at 189.23 33.02 180)
 			(uuid "5d9a06c3-b258-48e8-9e86-ee81668142b4")
 			(effects
 				(font
@@ -1893,7 +1933,7 @@
 			)
 		)
 		(pin "I2C3_SDA" input
-			(at 189.23 45.72 180)
+			(at 189.23 35.56 180)
 			(uuid "7f5e5a6e-4e4c-4b7f-923b-bc34b397c099")
 			(effects
 				(font
@@ -1905,6 +1945,26 @@
 		(pin "INT_RTC" input
 			(at 189.23 48.26 180)
 			(uuid "e1ed9ceb-5793-4fae-bd38-1e08f440fb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-C_CC1" input
+			(at 189.23 40.64 180)
+			(uuid "77fdc2f7-834f-4eab-af6a-1c2bb83361d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-C_CC2" input
+			(at 189.23 43.18 180)
+			(uuid "05dc7ad0-a90c-4da4-8d10-4cf7f4215dcd")
 			(effects
 				(font
 					(size 1.27 1.27)
