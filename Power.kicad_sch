@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "ce54564b-053f-4184-8bbf-14aa73263a86")
 	(paper "A4")
+	(title_block
+		(title "Power Schematic")
+		(date "2026-10-17")
+		(rev "0")
+		(comment 1 "Javier Aldana + Xander Beal")
+	)
 	(lib_symbols
 		(symbol "Connector:Barrel_Jack"
 			(pin_names

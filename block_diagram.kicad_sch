@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "2617ee09-e854-43e8-8470-82ee8b9e5d08")
 	(paper "A4")
+	(title_block
+		(title "Block Diagram Schematic")
+		(date "2026-10-17")
+		(rev "0")
+		(comment 1 "Javier Aldana + Xander Beal")
+	)
 	(lib_symbols)
 	(junction
 		(at 116.84 35.56)
