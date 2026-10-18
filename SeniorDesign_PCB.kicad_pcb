@@ -43195,18 +43195,6 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "SWDIO"
-		(at 135.89 75.3872 0)
-		(layer "F.SilkS")
-		(uuid "f7c0d2d6-4b01-48bd-a77f-18f7d0c9c698")
-		(effects
-			(font
-				(size 0.5 0.5)
-				(thickness 0.05)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "SWCLK"
 		(at 138.7094 76.6064 0)
 		(layer "F.SilkS")
@@ -43467,6 +43455,44 @@
 			(font
 				(size 0.5 0.5)
 				(thickness 0.05)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "V1 Rev0"
+		(at 100.584 125.222 0)
+		(layer "F.SilkS")
+		(uuid "a98bf5c5-e0f7-4bd9-9200-8bc1871eff8e")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.25)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MASHED PCB"
+		(at 80.01 115.316 0)
+		(layer "F.SilkS")
+		(uuid "8910eceb-ca79-411f-9c2c-71e2a8c3220e")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.75)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TEAM 20"
+		(at 84.328 121.158 0)
+		(layer "F.SilkS")
+		(uuid "f7c0d2d6-4b01-48bd-a77f-18f7d0c9c698")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.75)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
