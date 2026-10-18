@@ -2789,16 +2789,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 107.95) (xy 240.03 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68b60d3c-6ba4-4cbc-95fe-d61cef11a470")
-	)
-	(wire
-		(pts
 			(xy 27.94 39.37) (xy 27.94 41.91)
 		)
 		(stroke
@@ -2969,16 +2959,6 @@
 	)
 	(wire
 		(pts
-			(xy 234.95 102.87) (xy 240.03 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a8127d19-a55a-4651-a334-0c7f412f5415")
-	)
-	(wire
-		(pts
 			(xy 191.77 57.15) (xy 194.31 57.15)
 		)
 		(stroke
@@ -3059,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 102.87) (xy 240.03 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cea31691-9314-4738-822f-5f3f2d5798d7")
+	)
+	(wire
+		(pts
 			(xy 209.55 100.33) (xy 209.55 97.79)
 		)
 		(stroke
@@ -3086,6 +3076,16 @@
 			(type default)
 		)
 		(uuid "d0a6dd12-b4f1-4ef7-b63a-780aae46c4a7")
+	)
+	(wire
+		(pts
+			(xy 234.95 107.95) (xy 240.03 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d4758f5c-3cbb-4098-9458-31ace151084d")
 	)
 	(wire
 		(pts
@@ -3593,7 +3593,7 @@
 	)
 	(hierarchical_label "I2S3_CK"
 		(shape input)
-		(at 234.95 102.87 180)
+		(at 234.95 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3648,7 +3648,7 @@
 	)
 	(hierarchical_label "I2S3_WS"
 		(shape input)
-		(at 234.95 107.95 180)
+		(at 234.95 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)

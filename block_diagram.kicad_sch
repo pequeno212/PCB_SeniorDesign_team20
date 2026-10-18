@@ -135,16 +135,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 40.64) (xy 189.23 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "19ea4309-6945-4061-8cfe-9dedc1ce9cff")
-	)
-	(wire
-		(pts
 			(xy 175.26 19.05) (xy 116.84 19.05)
 		)
 		(stroke
@@ -825,16 +815,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 43.18) (xy 189.23 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a0719e-5443-494e-943c-cfe9076fc6b8")
-	)
-	(wire
-		(pts
 			(xy 87.63 27.94) (xy 125.73 27.94)
 		)
 		(stroke
@@ -1284,26 +1264,6 @@
 		(pin "INT_RTC" input
 			(at 163.83 48.26 0)
 			(uuid "65cea43f-0520-4b62-9aa2-482461a3095a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB-C_CC1" input
-			(at 163.83 40.64 0)
-			(uuid "9896a1fd-64f0-40f2-a358-9bb116dcd275")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB-C_CC2" input
-			(at 163.83 43.18 0)
-			(uuid "009b0378-315f-483f-9e2a-d7148b4e2191")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1951,26 +1911,6 @@
 		(pin "INT_RTC" input
 			(at 189.23 48.26 180)
 			(uuid "e1ed9ceb-5793-4fae-bd38-1e08f440fb25")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB-C_CC1" input
-			(at 189.23 40.64 180)
-			(uuid "77fdc2f7-834f-4eab-af6a-1c2bb83361d0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB-C_CC2" input
-			(at 189.23 43.18 180)
-			(uuid "05dc7ad0-a90c-4da4-8d10-4cf7f4215dcd")
 			(effects
 				(font
 					(size 1.27 1.27)

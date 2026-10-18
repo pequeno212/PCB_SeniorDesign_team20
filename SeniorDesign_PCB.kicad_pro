@@ -83,51 +83,51 @@
       ],
       "drc_exclusions": [
         [
-          "clearance|144571500|103798500|1ce5739b-dad1-4629-a668-aab7de0e6528|93e2214c-c577-4cac-8b45-97bc56d7bd0b",
+          "clearance|165139500|118409500|1ce5739b-dad1-4629-a668-aab7de0e6528|93e2214c-c577-4cac-8b45-97bc56d7bd0b",
           ""
         ],
         [
-          "clearance|144571500|103973500|1ce5739b-dad1-4629-a668-aab7de0e6528|e0bcff00-440e-4d9e-885a-aca0a8606dd1",
+          "clearance|165139500|119834500|678dc4da-d295-403a-9d00-da549ed31a92|c1b97402-c5fe-4b8c-9b35-18a7bd6be327",
           ""
         ],
         [
-          "clearance|145996500|103798500|678dc4da-d295-403a-9d00-da549ed31a92|c1b97402-c5fe-4b8c-9b35-18a7bd6be327",
+          "clearance|165314500|119834500|678dc4da-d295-403a-9d00-da549ed31a92|1ef9524b-6dd7-44af-b801-c5edf4323023",
           ""
         ],
         [
-          "clearance|145996500|104298500|1ef9524b-6dd7-44af-b801-c5edf4323023|678dc4da-d295-403a-9d00-da549ed31a92",
+          "clearance|165639500|118409500|e0bcff00-440e-4d9e-885a-aca0a8606dd1|1ce5739b-dad1-4629-a668-aab7de0e6528",
           ""
         ],
         [
-          "hole_clearance|107821000|121110000|5e2a55e0-a170-4548-8e2e-1542dd792824|164dd253-8ce7-4856-885b-af6432841c04",
+          "hole_clearance|135260400|130566200|5e2a55e0-a170-4548-8e2e-1542dd792824|164dd253-8ce7-4856-885b-af6432841c04",
           ""
         ],
         [
-          "hole_clearance|107821000|121110000|9c7fe3fc-e910-4cde-9c66-0cca352666b4|164dd253-8ce7-4856-885b-af6432841c04",
+          "hole_clearance|135260400|130566200|9c7fe3fc-e910-4cde-9c66-0cca352666b4|164dd253-8ce7-4856-885b-af6432841c04",
           ""
         ],
         [
-          "hole_clearance|113921000|121110000|ae716c6b-bc6b-4937-8576-626ded349972|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          "hole_clearance|141360400|130566200|ae716c6b-bc6b-4937-8576-626ded349972|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
           ""
         ],
         [
-          "hole_clearance|113921000|121110000|ff7682e1-3853-49fb-ad8d-59e9b8e20173|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
+          "hole_clearance|141360400|130566200|ff7682e1-3853-49fb-ad8d-59e9b8e20173|7620b631-0b3a-43ac-8ab8-f25562b8fb6e",
           ""
         ],
         [
-          "hole_clearance|67060300|64529000|6d9a094e-0c78-47df-82a4-ca0dcf9b6012|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          "hole_clearance|74404600|130395000|6d9a094e-0c78-47df-82a4-ca0dcf9b6012|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
           ""
         ],
         [
-          "hole_clearance|67060300|64529000|b4853df9-1bd8-46c4-82c9-0e9edf8523f2|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
+          "hole_clearance|74404600|130395000|b4853df9-1bd8-46c4-82c9-0e9edf8523f2|ffd9e0dd-bc96-4ccf-a322-85637fb70304",
           ""
         ],
         [
-          "hole_clearance|67060300|70629000|06711c73-e9a0-4836-aeff-04d6886e2169|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          "hole_clearance|80504600|130395000|06711c73-e9a0-4836-aeff-04d6886e2169|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
           ""
         ],
         [
-          "hole_clearance|67060300|70629000|b404b5ff-9cbd-4fb5-9e7c-f29dee23a629|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
+          "hole_clearance|80504600|130395000|b404b5ff-9cbd-4fb5-9e7c-f29dee23a629|c40f6f05-3b2f-4215-984d-cf8a5c13c48a",
           ""
         ]
       ],
@@ -335,7 +335,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "duplicate_reference|2235200|977900|40d485b5-a193-41f4-87a9-6e46dbc910ab|a30bfb66-aa0d-441c-9644-0b15b48cef9d|||",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -766,7 +771,7 @@
         "uuid": "88e1ced0-9576-4565-ab29-f74bf51ccbda"
       }
     ],
-    "used_designators": "U1-16,Y1-2,#FLG1-7,R1-85,J1-21,D1-10,L1-4,AE1,#PWR1-155,C1-55,Q1-5,P1-3,SW1-7,F1,TSAL1-3",
+    "used_designators": "U1-16,Y1-2,#FLG1-7,R1-85,J1-21,J24,D1-10,L1-4,AE1,#PWR1-155,C1-55,Q1-5,P1-3,SW1-7,F1,TSAL1-3",
     "variants": []
   },
   "sheets": [
