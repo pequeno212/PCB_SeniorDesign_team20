@@ -6940,7 +6940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 157.1752 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -7184,7 +7184,7 @@
 				)
 			)
 		)
-		(property "Value" "+12V"
+		(property "Value" "20"
 			(at 146.05 173.99 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7438,7 +7438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:IHLP5050EZER1R5M01"
 			(at 260.35 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7460,7 +7460,7 @@
 				)
 			)
 		)
-		(property "Description" "Inductor"
+		(property "Description" "IHLP5050EZER1R5M01"
 			(at 260.35 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8892,6 +8892,88 @@
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 134.62 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "432b1fe1-d7e6-428c-b78d-6ae3e8925cea")
+		(property "Reference" "C3"
+			(at 138.43 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 138.43 201.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.5852 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL31A226KAHNNNE"
+			(at 134.62 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9edf5f1a-565a-4ee2-9582-f3be264debd6")
+		)
+		(pin "1"
+			(uuid "e1cd9ebe-cd22-4259-8f6c-adb491ed30f7")
+		)
+		(instances
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -10744,7 +10826,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 248.92 173.0248 0)
 			(hide yes)
 			(show_name no)
@@ -10766,7 +10848,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "EMK107B7104KA-T"
 			(at 245.11 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -11943,7 +12025,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 279.4 188.2648 0)
 			(hide yes)
 			(show_name no)
@@ -11965,7 +12047,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "GRM1555C1E471JA01D"
 			(at 275.59 189.23 0)
 			(hide yes)
 			(show_name no)
@@ -11993,7 +12075,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 146.05 201.93 0)
+		(at 124.46 200.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12002,9 +12084,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "abe8025b-1011-4202-bcb3-a8afc882df20")
-		(property "Reference" "C3"
-			(at 149.86 200.6599 0)
+		(uuid "a97a10bd-04ed-43f5-b9ef-7143f91608b8")
+		(property "Reference" "C7"
+			(at 128.27 199.3899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12014,8 +12096,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "66u"
-			(at 149.86 203.1999 0)
+		(property "Value" "22"
+			(at 128.27 201.9299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12026,7 +12108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 147.0152 205.74 0)
+			(at 125.4252 204.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12036,8 +12118,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 146.05 201.93 0)
+		(property "Datasheet" "CL31A226KAHNNNE"
+			(at 124.46 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12047,8 +12129,8 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 201.93 0)
+		(property "Description" "CL31A226KAHNNNE"
+			(at 124.46 200.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12057,17 +12139,17 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "1"
-			(uuid "fe390ac6-180d-4614-8987-d6739c9ec96a")
 		)
 		(pin "2"
-			(uuid "104a74a3-0172-47d0-92f0-339032ea26c7")
+			(uuid "6022a8db-9f5b-48e4-bd5c-ea9edcf2acd1")
+		)
+		(pin "1"
+			(uuid "025a9e10-6477-4abb-aca5-ba71cb6a0586")
 		)
 		(instances
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
-					(reference "C3")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -12155,6 +12237,88 @@
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C51")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 114.3 200.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ad0ae07d-f52e-411b-ba66-f34a550251ad")
+		(property "Reference" "C8"
+			(at 118.11 199.3899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22"
+			(at 118.11 201.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.2652 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "CL31A226KAHNNNE"
+			(at 114.3 200.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "9454aeb1-ac1e-4171-9f05-7983eb06b1b1")
+		)
+		(pin "1"
+			(uuid "6e40b040-159f-4d76-a94e-bcdb41555f3e")
+		)
+		(instances
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -13547,7 +13711,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 252.73 191.008 90)
 			(hide yes)
 			(show_name no)
@@ -13569,7 +13733,7 @@
 				)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "EMK107B7104KA-T"
 			(at 252.73 189.23 0)
 			(hide yes)
 			(show_name no)
