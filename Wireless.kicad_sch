@@ -2990,7 +2990,7 @@
 	)
 	(text_box "Antenna required controled impedance JLC stack up\n\n- Standerd stackup is the same just looser tolerances by +- 10%"
 		(exclude_from_sim no)
-		(at 66.04 40.9339 0)
+		(at 68.58 42.2039 0)
 		(size 27.94 16.2161)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -3008,10 +3008,10 @@
 		)
 		(uuid "4434fc39-4837-4a96-b079-bcd5d19e7a10")
 	)
-	(text_box "ESP: 35+j10 ohms\nAntenna: 50 ohms\n\nPi Filter: "
+	(text_box "ESP32-C3: 35+j0 ohms\nAntenna: 50 ohms\n\nPi Filter: "
 		(exclude_from_sim no)
-		(at 72.39 29.2878 0)
-		(size 24.13 10.0822)
+		(at 72.39 28.5132 0)
+		(size 24.13 12.1268)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
