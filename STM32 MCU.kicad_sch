@@ -3534,18 +3534,6 @@
 		)
 		(uuid "f7e41c38-a4e6-4e27-ab2a-9c1ff5130bf3")
 	)
-	(rectangle
-		(start 252.73 19.05)
-		(end 279.4 44.45)
-		(stroke
-			(width 0.254)
-			(type solid)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f812d998-ee8c-4727-9fdc-337f7c028112")
-	)
 	(text "I2C PULLUPS\n"
 		(exclude_from_sim no)
 		(at 164.084 62.992 0)
@@ -3573,16 +3561,6 @@
 			)
 		)
 		(uuid "0a35792d-320d-4e91-8eb8-9c47ef3a496f")
-	)
-	(text "pa10 - usbpd dbcc2\npa9 - usbpd dbcc1"
-		(exclude_from_sim no)
-		(at 129.794 51.054 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "18e467bc-fce4-451a-bd40-14cc110c3bbe")
 	)
 	(text "SPI ZERO OHMS RES"
 		(exclude_from_sim no)
@@ -3653,20 +3631,6 @@
 			)
 		)
 		(uuid "5b65d8d9-a756-4112-ab8f-8729f41853b6")
-	)
-	(text "3V3 BUS MONITOR"
-		(exclude_from_sim no)
-		(at 265.938 17.018 0)
-		(effects
-			(font
-				(size 2.54 2.54)
-				(thickness 0.508)
-				(bold yes)
-				(italic yes)
-				(color 0 0 194 1)
-			)
-		)
-		(uuid "622ceaf0-c78b-4012-9c66-0f2588f0dcf6")
 	)
 	(text "STM32G4 MCU"
 		(exclude_from_sim no)
@@ -3903,14 +3867,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa4ad83b-fb71-49d8-b54c-6b825eb7a677")
-	)
-	(no_connect
-		(at 52.07 95.25)
-		(uuid "0ad00f12-1c40-43c3-9f14-a0b10ef61196")
-	)
-	(no_connect
-		(at 52.07 97.79)
-		(uuid "83a04670-ee11-4f5b-a40e-0524b309428b")
 	)
 	(no_connect
 		(at 52.07 54.61)
@@ -4563,16 +4519,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 25.4) (xy 256.54 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6884f85c-9786-4af5-9828-298132385fb3")
-	)
-	(wire
-		(pts
 			(xy 46.99 27.94) (xy 64.77 27.94)
 		)
 		(stroke
@@ -4691,16 +4637,6 @@
 			(type default)
 		)
 		(uuid "7ccd1438-4fa0-4f9e-a393-40cb40a0fd1d")
-	)
-	(wire
-		(pts
-			(xy 275.59 38.1) (xy 256.54 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d093e31-b4d7-4824-af91-fd4efab45bc3")
 	)
 	(wire
 		(pts
@@ -5041,16 +4977,6 @@
 			(type default)
 		)
 		(uuid "bf84def5-a900-4ad0-835a-ecbfb4226201")
-	)
-	(wire
-		(pts
-			(xy 256.54 38.1) (xy 256.54 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c04fbc01-ad4e-49a9-92ff-43270f520a8a")
 	)
 	(wire
 		(pts
@@ -5412,16 +5338,6 @@
 		)
 		(uuid "0fbe7198-ac18-4a85-bf06-b80031f619a2")
 	)
-	(label "3V3_VOLTS"
-		(at 275.59 38.1 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2530ce78-c2a7-47cd-b521-29bbe0284429")
-	)
 	(label "nRST"
 		(at 31.75 41.91 0)
 		(effects
@@ -5672,16 +5588,6 @@
 		)
 		(uuid "d1fbfa43-4efb-47ec-af5d-4f59584fb5ed")
 	)
-	(label "3V3_VOLTS"
-		(at 107.95 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d361a673-7393-4637-875c-722b48779a41")
-	)
 	(label "CLK_IN"
 		(at 153.67 118.11 0)
 		(effects
@@ -5712,7 +5618,7 @@
 		)
 		(uuid "e7143171-504f-4490-b346-d2f8851a8b07")
 	)
-	(hierarchical_label "5V_VOLTS"
+	(hierarchical_label "I_ANA"
 		(shape input)
 		(at 107.95 44.45 0)
 		(effects
@@ -5721,7 +5627,18 @@
 			)
 			(justify left)
 		)
-		(uuid "05cb5dd8-6c64-4241-80df-b7b92333dd60")
+		(uuid "06e133b0-6e80-4dbb-830c-a801013d3657")
+	)
+	(hierarchical_label "USBPD_CC1"
+		(shape input)
+		(at 107.95 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0aab6b38-9a01-4b01-8608-01d8f7a152cb")
 	)
 	(hierarchical_label "SPI_CS_SD_CARD"
 		(shape input)
@@ -5810,6 +5727,17 @@
 			(justify right)
 		)
 		(uuid "477d9d21-5747-4c5a-a78a-215dcdb2cf24")
+	)
+	(hierarchical_label "MATRIX_C"
+		(shape input)
+		(at 52.07 97.79 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4d79bd8d-26d6-42c6-aea9-75982236d9ad")
 	)
 	(hierarchical_label "MATRIX_CLK"
 		(shape input)
@@ -5965,6 +5893,17 @@
 		)
 		(uuid "a26f7f6a-23fc-4544-8f50-d3de8399d023")
 	)
+	(hierarchical_label "MATRIX_R1"
+		(shape input)
+		(at 52.07 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a45ce941-b48b-4d44-961f-7fd850a41852")
+	)
 	(hierarchical_label "INT_RTC"
 		(shape input)
 		(at 31.75 74.93 180)
@@ -5998,6 +5937,17 @@
 		)
 		(uuid "ae125146-515b-4c8d-b60e-bddf7bfff42b")
 	)
+	(hierarchical_label "USBPD_CC2"
+		(shape input)
+		(at 107.95 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b131c27a-bf41-4237-a2c8-de7f6ab8b873")
+	)
 	(hierarchical_label "I2S3_WS"
 		(shape input)
 		(at 107.95 74.93 0)
@@ -6008,17 +5958,6 @@
 			(justify left)
 		)
 		(uuid "b6533052-3dad-4c21-87e7-a0746a9454c1")
-	)
-	(hierarchical_label "MATRIX_R1"
-		(shape input)
-		(at 107.95 95.25 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "bbe7d456-870b-482c-bb1a-808d68252cc7")
 	)
 	(hierarchical_label "STM32_USB_D_N"
 		(shape input)
@@ -6118,17 +6057,6 @@
 			(justify left)
 		)
 		(uuid "ef68589d-1209-48c7-afe1-1e1d63e628cc")
-	)
-	(hierarchical_label "MATRIX_C"
-		(shape input)
-		(at 107.95 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ef8ee11b-7d7b-4d9d-bbb7-820c5879667c")
 	)
 	(hierarchical_label "MATRIX_B1"
 		(shape input)
@@ -8545,7 +8473,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.3"
+		(property "Value" "3.3k"
 			(at 210.82 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8763,87 +8691,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 256.54 31.75 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b41a12c6-a857-49b4-8ee8-a2d482ad1de5")
-		(property "Reference" "R15"
-			(at 257.556 29.972 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 257.556 33.782 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 254.762 31.75 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 256.54 31.75 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c77cd45a-05ea-44fb-905d-8390546c28ad")
-		)
-		(pin "2"
-			(uuid "48f6427e-f906-4e09-a4c4-f912c8c39b5d")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 166.37 77.47 180)
 		(unit 1)
 		(body_style 1)
@@ -8997,83 +8844,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 256.54 25.4 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bfab02e9-9d21-468b-bdd8-fc6de45b99dd")
-		(property "Reference" "#PWR0136"
-			(at 256.54 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "3V3"
-			(at 256.54 21.59 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 256.54 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 256.54 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 256.54 25.4 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "738c60c1-eae3-4f5b-b12d-69aff5415903")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/27166b61-357c-42c1-9fa2-b71231f12fe0"
-					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -9927,7 +9697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "17"
+		(property "Value" "17k"
 			(at 210.82 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
