@@ -3710,7 +3710,7 @@
 		)
 		(uuid "fdcb892f-df4b-480c-a9a7-d40d03a32def")
 	)
-	(text_box "USB Spec 4.5V - 5.5V"
+	(text_box "USB Spec 20V"
 		(exclude_from_sim no)
 		(at 190.5 87.9871 0)
 		(size 13.97 5.9929)
@@ -8545,7 +8545,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "3.3"
 			(at 210.82 85.344 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9927,7 +9927,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k"
+		(property "Value" "17"
 			(at 210.82 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
