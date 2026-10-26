@@ -6318,6 +6318,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 217.17) (xy 280.67 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14f0307e-f764-4840-99a8-6711d5f6891a")
+	)
+	(wire
+		(pts
 			(xy 27.94 231.14) (xy 27.94 233.68)
 		)
 		(stroke
@@ -6918,6 +6928,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 194.31) (xy 283.21 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4febfe96-0637-49ee-ad7e-cd7cffd51d44")
+	)
+	(wire
+		(pts
 			(xy 254 115.57) (xy 269.24 115.57)
 		)
 		(stroke
@@ -7455,6 +7475,16 @@
 			(type default)
 		)
 		(uuid "809f10c8-d3d6-484e-87b7-3c90cc470d83")
+	)
+	(wire
+		(pts
+			(xy 276.86 222.25) (xy 283.21 222.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "82ca1736-f44f-4fe1-b0df-f46fd7884935")
 	)
 	(wire
 		(pts
@@ -8999,6 +9029,17 @@
 		)
 		(uuid "22141333-581d-4379-a1c8-daf340d7b316")
 	)
+	(hierarchical_label "PD_EN"
+		(shape input)
+		(at 283.21 222.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c80306b-383b-499a-8683-e9993b869f5f")
+	)
 	(hierarchical_label "I2C3_SCL"
 		(shape input)
 		(at 283.21 209.55 0)
@@ -9097,6 +9138,17 @@
 			(justify left)
 		)
 		(uuid "dd17101f-03b3-4df0-a5ef-c7ecf3811b7c")
+	)
+	(hierarchical_label "PD_FLG"
+		(shape input)
+		(at 283.21 194.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f19a39c2-d977-48ec-ab95-38f3dd4379dd")
 	)
 	(symbol
 		(lib_name "NMOS_2")
@@ -12500,6 +12552,83 @@
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 280.67 217.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3dab16cd-4aa0-47b4-9a7d-005e8d571d4c")
+		(property "Reference" "#PWR086"
+			(at 280.67 223.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 216.154 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 217.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82264067-1096-43f8-ac8a-c40a3ac066bc")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)

@@ -3868,10 +3868,6 @@
 		(color 0 0 0 0)
 		(uuid "fa4ad83b-fb71-49d8-b54c-6b825eb7a677")
 	)
-	(no_connect
-		(at 52.07 54.61)
-		(uuid "c18c1a90-2dce-4aa6-baef-bad10f1f2131")
-	)
 	(wire
 		(pts
 			(xy 87.63 67.31) (xy 107.95 67.31)
@@ -4195,6 +4191,16 @@
 			(type default)
 		)
 		(uuid "3404614b-ca14-4a40-8f08-42709f27603c")
+	)
+	(wire
+		(pts
+			(xy 41.91 54.61) (xy 52.07 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340dd6f9-081a-4b7a-b88b-c44bcdb9abb7")
 	)
 	(wire
 		(pts
@@ -5695,6 +5701,17 @@
 		)
 		(uuid "202202cb-8463-4370-8325-21ccf227f1ae")
 	)
+	(hierarchical_label "PD_FLG"
+		(shape input)
+		(at 41.91 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2ac2c628-d281-4ef1-8ebd-8fe2ae921880")
+	)
 	(hierarchical_label "I2S2_WS"
 		(shape input)
 		(at 107.95 110.49 0)
@@ -5760,6 +5777,17 @@
 			(justify right)
 		)
 		(uuid "513711e4-56b4-4087-8d46-d90b8241e2f4")
+	)
+	(hierarchical_label "PD_EN"
+		(shape input)
+		(at 107.95 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "59fa7444-b73d-48c4-943a-c8fa180bd13e")
 	)
 	(hierarchical_label "MATRIX_G1"
 		(shape input)
