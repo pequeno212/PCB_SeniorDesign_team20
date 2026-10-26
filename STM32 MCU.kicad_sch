@@ -3574,6 +3574,16 @@
 		)
 		(uuid "0a35792d-320d-4e91-8eb8-9c47ef3a496f")
 	)
+	(text "pa10 - usbpd dbcc2\npa9 - usbpd dbcc1"
+		(exclude_from_sim no)
+		(at 129.794 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "18e467bc-fce4-451a-bd40-14cc110c3bbe")
+	)
 	(text "SPI ZERO OHMS RES"
 		(exclude_from_sim no)
 		(at 207.518 108.204 0)
