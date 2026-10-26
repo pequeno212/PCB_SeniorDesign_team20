@@ -6096,6 +6096,10 @@
 		(at 276.86 181.61)
 		(uuid "f84d844e-4973-4192-a69c-b5d865dc4c3f")
 	)
+	(no_connect
+		(at 283.21 194.31)
+		(uuid "fbc17355-5f94-4868-8a46-53e8bd70ab75")
+	)
 	(wire
 		(pts
 			(xy 241.3 185.42) (xy 241.3 184.15)
@@ -6385,6 +6389,16 @@
 			(type default)
 		)
 		(uuid "18b4f91a-213d-41db-806c-cbdb9b8d98ac")
+	)
+	(wire
+		(pts
+			(xy 276.86 194.31) (xy 283.21 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19fc33c3-badf-4fe7-ad84-29fd07cd8dbd")
 	)
 	(wire
 		(pts
@@ -6925,16 +6939,6 @@
 			(type default)
 		)
 		(uuid "4d18896f-10db-444a-8f32-357d280fa544")
-	)
-	(wire
-		(pts
-			(xy 276.86 194.31) (xy 283.21 194.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4febfe96-0637-49ee-ad7e-cd7cffd51d44")
 	)
 	(wire
 		(pts
@@ -9138,17 +9142,6 @@
 			(justify left)
 		)
 		(uuid "dd17101f-03b3-4df0-a5ef-c7ecf3811b7c")
-	)
-	(hierarchical_label "PD_FLG"
-		(shape input)
-		(at 283.21 194.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f19a39c2-d977-48ec-ab95-38f3dd4379dd")
 	)
 	(symbol
 		(lib_name "NMOS_2")
@@ -12825,7 +12818,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22u"
 			(at 147.32 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14427,7 +14420,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "DNP"
+		(property "Value" "0R"
 			(at 85.09 121.158 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16655,7 +16648,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22u"
 			(at 137.16 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16912,7 +16905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "22u"
 			(at 128.27 129.5399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20227,7 +20220,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0R"
+		(property "Value" "DNP"
 			(at 83.82 137.668 0)
 			(show_name no)
 			(do_not_autoplace no)
