@@ -11797,7 +11797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 224.4852 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12392,7 +12392,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 219.4052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -13480,7 +13480,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 138.1252 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14583,7 +14583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 143.2052 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -15159,7 +15159,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 130.81 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -15483,7 +15483,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.072 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -17248,7 +17248,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 229.5652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -19317,7 +19317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
 			(at 191.77 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19396,7 +19396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 182.88 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -20179,7 +20179,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 195.072 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -20668,7 +20668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 214.3252 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20829,7 +20829,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 206.7052 49.53 0)
 			(hide yes)
 			(show_name no)
