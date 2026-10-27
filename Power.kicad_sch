@@ -9600,6 +9600,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9849,6 +9855,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C59")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10005,6 +10017,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR0166")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0166")
 					(unit 1)
 				)
@@ -10449,7 +10467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15f43d3e-5dfd-414c-bd9f-485e10b1a4a9")
-		(property "Reference" "C64"
+		(property "Reference" "C2"
 			(at 152.4 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10793,6 +10811,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "U12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10910,6 +10934,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "Q7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10984,6 +11014,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0162")
 					(unit 1)
 				)
@@ -11077,6 +11113,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "U18")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "U18")
 					(unit 1)
 				)
@@ -11326,6 +11368,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11340,7 +11388,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "228db0f4-9fea-4ae4-8558-9c06a5fd4345")
-		(property "Reference" "L10"
+		(property "Reference" "L2"
 			(at 252.73 95.25 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11489,6 +11537,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R87")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R87")
 					(unit 1)
 				)
@@ -11762,6 +11816,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C30")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11797,7 +11857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 224.4852 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11839,6 +11899,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C79")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C79")
 					(unit 1)
 				)
@@ -12131,6 +12197,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12270,6 +12342,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "U17")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -12392,7 +12470,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 219.4052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -12434,6 +12512,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C75")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C75")
 					(unit 1)
 				)
@@ -12513,6 +12597,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R48")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R48")
 					(unit 1)
 				)
@@ -12773,6 +12863,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C60")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13023,6 +13119,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -13205,7 +13307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "432b1fe1-d7e6-428c-b78d-6ae3e8925cea")
-		(property "Reference" "C63"
+		(property "Reference" "C3"
 			(at 142.24 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13480,7 +13582,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 138.1252 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -13522,6 +13624,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C77")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C77")
 					(unit 1)
 				)
@@ -13687,6 +13795,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR052")
 					(unit 1)
 				)
@@ -14198,6 +14312,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14212,7 +14332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "60bea437-7037-4607-9475-7774284589a3")
-		(property "Reference" "C65"
+		(property "Reference" "C1"
 			(at 163.83 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14375,6 +14495,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "D11")
 					(unit 1)
 				)
@@ -14548,6 +14674,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "R63")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -14583,7 +14715,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 143.2052 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14625,6 +14757,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C72")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C72")
 					(unit 1)
 				)
@@ -14789,6 +14927,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C78")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C78")
 					(unit 1)
 				)
@@ -15041,6 +15185,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15159,7 +15309,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
+		(property "Footprint" ""
 			(at 130.81 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -15201,6 +15351,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R86")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R86")
 					(unit 1)
 				)
@@ -15279,6 +15435,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR0167")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0167")
 					(unit 1)
 				)
@@ -15448,6 +15610,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -15483,7 +15651,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 195.072 45.72 90)
 			(hide yes)
 			(show_name no)
@@ -15525,6 +15693,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R46")
 					(unit 1)
 				)
@@ -15603,6 +15777,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -15937,6 +16117,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0163")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16014,6 +16200,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R88")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R88")
 					(unit 1)
 				)
@@ -16221,6 +16413,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "U4")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16303,6 +16501,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "J25")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16381,6 +16585,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -16454,6 +16664,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR084")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR084")
 					(unit 1)
 				)
@@ -16619,6 +16835,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C57")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C57")
 					(unit 1)
 				)
@@ -17043,6 +17265,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C56")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17057,7 +17285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a97a10bd-04ed-43f5-b9ef-7143f91608b8")
-		(property "Reference" "C62"
+		(property "Reference" "C7"
 			(at 132.08 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17213,6 +17441,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C58")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17248,7 +17482,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 229.5652 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -17294,6 +17528,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C76")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -17308,7 +17548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad0ae07d-f52e-411b-ba66-f34a550251ad")
-		(property "Reference" "C61"
+		(property "Reference" "C8"
 			(at 123.19 126.9999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17456,6 +17696,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR0165")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0165")
 					(unit 1)
 				)
@@ -17621,6 +17867,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R66")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R66")
 					(unit 1)
 				)
@@ -17870,6 +18122,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0115")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18027,6 +18285,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR051")
 					(unit 1)
 				)
@@ -18274,6 +18538,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0164")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18348,6 +18618,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR0173")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0173")
 					(unit 1)
 				)
@@ -18684,6 +18960,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0168")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -18962,6 +19244,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR017")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19036,6 +19324,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR035")
 					(unit 1)
 				)
@@ -19284,6 +19578,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19317,7 +19617,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_12x12mm_H6mm"
+		(property "Footprint" ""
 			(at 191.77 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -19363,6 +19663,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "L3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19396,7 +19702,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 182.88 37.1348 0)
 			(hide yes)
 			(show_name no)
@@ -19438,6 +19744,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C66")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C66")
 					(unit 1)
 				)
@@ -19520,6 +19832,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R64")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R64")
 					(unit 1)
 				)
@@ -19896,6 +20214,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "J12")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -19971,6 +20295,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R61")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R61")
 					(unit 1)
 				)
@@ -20053,6 +20383,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R65")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R65")
 					(unit 1)
 				)
@@ -20179,7 +20515,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" ""
 			(at 195.072 57.15 90)
 			(hide yes)
 			(show_name no)
@@ -20221,6 +20557,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R67")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R67")
 					(unit 1)
 				)
@@ -20299,6 +20641,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR016")
 					(unit 1)
 				)
@@ -20552,6 +20900,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0171")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20633,6 +20987,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "R77")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20668,7 +21028,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 214.3252 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20710,6 +21070,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C74")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C74")
 					(unit 1)
 				)
@@ -20794,6 +21160,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "R16")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -20829,7 +21201,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 206.7052 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -20871,6 +21243,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "C73")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "C73")
 					(unit 1)
 				)
@@ -20949,6 +21327,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR037")
 					(unit 1)
 				)
@@ -21120,6 +21504,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "C31")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21195,6 +21585,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "R49")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R49")
 					(unit 1)
 				)
@@ -21363,6 +21759,12 @@
 					(unit 1)
 				)
 			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
+					(reference "#PWR0170")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -21463,6 +21865,12 @@
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+			(project "Power"
+				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "D1")
 					(unit 1)
 				)
@@ -21725,4 +22133,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
