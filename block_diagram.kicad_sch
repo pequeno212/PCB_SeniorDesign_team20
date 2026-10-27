@@ -285,16 +285,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 34.29) (xy 102.87 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f6cf795-2166-4e84-a619-a7aa4b8f65c7")
-	)
-	(wire
-		(pts
 			(xy 82.55 179.07) (xy 82.55 156.21)
 		)
 		(stroke
@@ -1776,16 +1766,6 @@
 		(pin "USBPD_CC2" input
 			(at 64.77 27.94 0)
 			(uuid "70f05ecd-8f3a-4b66-bee7-df7934cb2233")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "5V_VOLTS" input
-			(at 64.77 34.29 0)
-			(uuid "6e2c1a7e-ce1e-4c2d-b637-224dc48ca448")
 			(effects
 				(font
 					(size 1.27 1.27)
