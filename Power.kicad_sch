@@ -9206,7 +9206,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 285.75 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -9228,7 +9228,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "RQ6C050UNTR"
 			(at 288.29 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -10606,7 +10606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
 			(at 304.8 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -10628,7 +10628,7 @@
 				)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, drain/source/gate"
+		(property "Description" "RQ6C050UNTR"
 			(at 302.26 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -17364,7 +17364,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 240.03 170.688 90)
 			(hide yes)
 			(show_name no)
@@ -19033,7 +19033,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 189.23 90)
 			(hide yes)
 			(show_name no)
@@ -19822,7 +19822,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 239.522 203.2 90)
 			(hide yes)
 			(show_name no)
