@@ -555,6 +555,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 129.54) (xy 166.37 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c5fd273-ff5b-4400-8019-7f0a5fdd77c8")
+	)
+	(wire
+		(pts
 			(xy 85.09 57.15) (xy 93.98 57.15)
 		)
 		(stroke
@@ -1321,16 +1331,6 @@
 				(justify right)
 			)
 		)
-		(pin "5V_VOLTS" input
-			(at 102.87 34.29 180)
-			(uuid "76f91d90-cd64-4d14-8ec8-4b935d93126a")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "I_ANA" input
 			(at 102.87 31.75 180)
 			(uuid "2aa2f711-7f34-4de9-af99-a832adecacfb")
@@ -1369,6 +1369,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SPI_CS_ESPMini" input
+			(at 140.97 129.54 0)
+			(uuid "009424d3-ecc0-4908-b902-cb00cdde37b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
@@ -2051,6 +2061,16 @@
 		(pin "INT_RTC" input
 			(at 166.37 68.58 180)
 			(uuid "e1ed9ceb-5793-4fae-bd38-1e08f440fb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CS_ESPMini" input
+			(at 166.37 129.54 180)
+			(uuid "80b655f8-ebe1-4b8d-9d16-6e2ced92c184")
 			(effects
 				(font
 					(size 1.27 1.27)

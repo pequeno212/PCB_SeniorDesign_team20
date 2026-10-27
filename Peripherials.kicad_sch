@@ -6810,6 +6810,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "U13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -6885,6 +6891,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R62")
 					(unit 1)
 				)
@@ -6966,6 +6978,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7041,6 +7059,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R51")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R51")
 					(unit 1)
 				)
@@ -7126,6 +7150,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J15")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7199,6 +7229,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR018")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR018")
 					(unit 1)
 				)
@@ -7278,6 +7314,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R53")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R53")
 					(unit 1)
 				)
@@ -7363,6 +7405,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "C46")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7436,6 +7484,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR090")
 					(unit 1)
 				)
@@ -7521,6 +7575,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "C25")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7596,6 +7656,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R47")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R47")
 					(unit 1)
 				)
@@ -7696,6 +7762,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "J26")
 					(unit 1)
 				)
@@ -7801,6 +7873,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J18")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -7875,6 +7953,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR028")
 					(unit 1)
 				)
@@ -7979,6 +8063,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J9")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8075,6 +8165,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "U2")
 					(unit 1)
 				)
@@ -8176,6 +8272,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "D7")
 					(unit 1)
 				)
@@ -8302,6 +8404,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J14")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8375,6 +8483,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR096")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR096")
 					(unit 1)
 				)
@@ -8460,6 +8574,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "C41")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8533,6 +8653,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0117")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0117")
 					(unit 1)
 				)
@@ -8612,6 +8738,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "R50")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "R50")
 					(unit 1)
 				)
@@ -8697,6 +8829,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "C22")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8770,6 +8908,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0147")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0147")
 					(unit 1)
 				)
@@ -8852,6 +8996,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -8925,6 +9075,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0113")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0113")
 					(unit 1)
 				)
@@ -9006,6 +9162,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9083,6 +9245,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C24")
 					(unit 1)
 				)
@@ -9169,6 +9337,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J27")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9248,6 +9422,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "R52")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9320,6 +9500,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "H1")
 					(unit 1)
 				)
@@ -9405,6 +9591,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "R8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9478,6 +9670,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0146")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0146")
 					(unit 1)
 				)
@@ -9559,6 +9757,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#FLG04")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9631,6 +9835,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "H4")
 					(unit 1)
 				)
@@ -9711,6 +9921,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "H2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9784,6 +10000,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR087")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR087")
 					(unit 1)
 				)
@@ -9867,6 +10089,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "R45")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -9941,6 +10169,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0174")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0174")
 					(unit 1)
 				)
@@ -10022,6 +10256,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR0111")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10095,6 +10335,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR085")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR085")
 					(unit 1)
 				)
@@ -10200,6 +10446,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "D8")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10273,6 +10525,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR093")
 					(unit 1)
 				)
@@ -10354,6 +10612,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10431,6 +10695,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "C23")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "C23")
 					(unit 1)
 				)
@@ -10553,6 +10823,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "J13")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10671,6 +10947,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "Q2")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10744,6 +11026,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR094")
 					(unit 1)
 				)
@@ -10824,6 +11112,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "H3")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -10897,6 +11191,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR089")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR089")
 					(unit 1)
 				)
@@ -11002,6 +11302,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "D6")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11079,6 +11385,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR0127")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11152,6 +11464,12 @@
 		(instances
 			(project "Peripherials"
 				(path "/22d5d384-b339-428f-a273-255c68f093f7"
+					(reference "#PWR0126")
+					(unit 1)
+				)
+			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
 					(reference "#PWR0126")
 					(unit 1)
 				)
@@ -11237,6 +11555,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "R7")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -11314,6 +11638,12 @@
 					(unit 1)
 				)
 			)
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/c56479bc-1a8a-4e8e-8fbe-073cb4f795b5"
+					(reference "#PWR091")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(sheet_instances
@@ -11321,5 +11651,4 @@
 			(page "1")
 		)
 	)
-	(embedded_fonts no)
 )
