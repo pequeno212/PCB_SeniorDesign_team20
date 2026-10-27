@@ -105,6 +105,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 135.89) (xy 166.37 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1212ce64-965f-4b5d-88c5-cda7a22d4fd5")
+	)
+	(wire
+		(pts
 			(xy 64.77 87.63) (xy 102.87 87.63)
 		)
 		(stroke
@@ -152,6 +162,16 @@
 			(type default)
 		)
 		(uuid "1d4b809d-5345-4288-9585-7103999448ba")
+	)
+	(wire
+		(pts
+			(xy 140.97 59.69) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20d7941b-73a5-4264-b62b-dc16fd5c111f")
 	)
 	(wire
 		(pts
@@ -472,6 +492,16 @@
 			(type default)
 		)
 		(uuid "7f933eac-6c6e-4aaa-ada3-a95b34b763e4")
+	)
+	(wire
+		(pts
+			(xy 140.97 62.23) (xy 166.37 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828ad2be-5924-4754-9e26-198ca1505108")
 	)
 	(wire
 		(pts
@@ -1371,6 +1401,36 @@
 				(justify left)
 			)
 		)
+		(pin "SPI_CS_ESPMini" input
+			(at 140.97 135.89 0)
+			(uuid "8edc3805-5ba7-460a-8808-841b0df2a4a2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_RX" input
+			(at 140.97 62.23 0)
+			(uuid "f280731b-411a-439d-b7ea-7b138bacd4c5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "UART_TX" input
+			(at 140.97 59.69 0)
+			(uuid "845ea048-a00e-4fe1-aa5f-21f023511273")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
@@ -2051,6 +2111,36 @@
 		(pin "INT_RTC" input
 			(at 166.37 68.58 180)
 			(uuid "e1ed9ceb-5793-4fae-bd38-1e08f440fb25")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SPI_CS_ESPMini" input
+			(at 166.37 135.89 180)
+			(uuid "5574286a-5857-45ae-8c01-4f9e278b7c2e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" input
+			(at 166.37 62.23 180)
+			(uuid "621f95e2-62d1-48df-bde8-dd7d4437e70e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" input
+			(at 166.37 59.69 180)
+			(uuid "8d78d018-da4d-4177-829f-a6af15fac7e7")
 			(effects
 				(font
 					(size 1.27 1.27)

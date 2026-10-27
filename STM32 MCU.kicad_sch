@@ -5048,16 +5048,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 86.36) (xy 259.08 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b74c3fa4-970d-4833-a0b8-65d79516ce84")
-	)
-	(wire
-		(pts
 			(xy 66.04 171.45) (xy 66.04 170.18)
 		)
 		(stroke
@@ -5065,16 +5055,6 @@
 			(type default)
 		)
 		(uuid "bf84def5-a900-4ad0-835a-ecbfb4226201")
-	)
-	(wire
-		(pts
-			(xy 251.46 83.82) (xy 259.08 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bfbe4726-daa3-40b6-8f69-a7cc6b5b5dbf")
 	)
 	(wire
 		(pts
@@ -5911,17 +5891,6 @@
 		)
 		(uuid "68a0c550-7ba4-47d2-82e1-f15761e4a28d")
 	)
-	(hierarchical_label "UART_RX"
-		(shape input)
-		(at 251.46 86.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "74588c3f-0462-4b01-9368-09a34a3d2aef")
-	)
 	(hierarchical_label "MATRIX_OE"
 		(shape input)
 		(at 107.95 115.57 0)
@@ -6218,17 +6187,6 @@
 			(justify left)
 		)
 		(uuid "e8dc0289-d995-4b09-a97f-e785608b2b6b")
-	)
-	(hierarchical_label "UART_TX"
-		(shape input)
-		(at 251.46 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e9ceeaae-18e6-4596-a653-dfe784a78116")
 	)
 	(hierarchical_label "FAN_PWM"
 		(shape input)
