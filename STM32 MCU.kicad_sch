@@ -4186,6 +4186,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 46.99) (xy 107.95 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d49cabc-0c40-4c30-849c-e9f72279c9bf")
+	)
+	(wire
+		(pts
 			(xy 165.1 22.86) (xy 165.1 26.67)
 		)
 		(stroke
@@ -4644,16 +4654,6 @@
 			(type default)
 		)
 		(uuid "723f9d07-ac13-4d91-9d84-b980ede3993c")
-	)
-	(wire
-		(pts
-			(xy 87.63 46.99) (xy 107.95 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7706513d-c75d-4b44-a51a-e3792b37411f")
 	)
 	(wire
 		(pts
@@ -5716,16 +5716,6 @@
 		)
 		(uuid "e283fddd-23ff-4e0b-ad77-96564a3c9af5")
 	)
-	(label "5V_Detect"
-		(at 107.95 46.99 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e4b9663a-cc88-490e-a7a9-f984f9a6551e")
-	)
 	(label "USB_VBUS_DETECT"
 		(at 190.5 78.74 0)
 		(effects
@@ -5956,6 +5946,17 @@
 		)
 		(uuid "7f62080c-f04a-4f93-9ef9-c56d0262484f")
 	)
+	(hierarchical_label "SPI1_MOSI"
+		(shape input)
+		(at 107.95 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "850eafdc-8966-45fa-9ba6-5611fe08a162")
+	)
 	(hierarchical_label "MATRIX_B"
 		(shape input)
 		(at 107.95 85.09 0)
@@ -6099,6 +6100,17 @@
 		)
 		(uuid "c23a9b2c-c3fd-4930-a85b-42e09a17c497")
 	)
+	(hierarchical_label "SPI1_MISO"
+		(shape input)
+		(at 107.95 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c4e7ce69-a821-4250-be50-f3bb48a4a377")
+	)
 	(hierarchical_label "SPI1_SCLK"
 		(shape input)
 		(at 226.06 114.3 0)
@@ -6109,6 +6121,17 @@
 			(justify left)
 		)
 		(uuid "c6d53ae4-452e-4f2c-b406-6100ebde1485")
+	)
+	(hierarchical_label "SPI_CS_ESPMini"
+		(shape input)
+		(at 107.95 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cfbc04b8-6d7b-448c-bf12-a122aa04c8ab")
 	)
 	(hierarchical_label "SPI_CS_ESP"
 		(shape input)
@@ -6142,6 +6165,17 @@
 			(justify right)
 		)
 		(uuid "e15be975-037c-4a35-b36e-9ae2c8a4d246")
+	)
+	(hierarchical_label "SPI1_SCLK"
+		(shape input)
+		(at 107.95 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e2b032dd-c87c-43ac-ad83-6b5ef903ab4a")
 	)
 	(hierarchical_label "MATRIX_G2"
 		(shape input)
