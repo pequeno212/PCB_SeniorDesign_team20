@@ -5550,7 +5550,7 @@
 		)
 		(uuid "f52c09e8-972d-445b-a0ba-95b8e04d62e1")
 	)
-	(text "20V-5V Buck Converter"
+	(text "20V to 5V Buck Converter"
 		(exclude_from_sim no)
 		(at 142.24 89.662 0)
 		(effects
