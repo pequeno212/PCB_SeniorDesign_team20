@@ -5123,17 +5123,7 @@
 		)
 		(uuid "fe8a8b40-a102-483e-b045-6c47c000234a")
 	)
-	(label "SPI1_MOSI_0"
-		(at 107.95 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0b49d04b-d688-47a2-8314-c35f16d3ed3a")
-	)
-	(label "SPI1_MISO_0"
+	(label "SPI1_MISO0"
 		(at 187.96 118.11 0)
 		(effects
 			(font
@@ -5153,7 +5143,7 @@
 		)
 		(uuid "3d63e71e-9812-4919-96bb-0cc521e5e162")
 	)
-	(label "SPI1_SCLK_0"
+	(label "SPI1_SCLK0"
 		(at 187.96 114.3 0)
 		(effects
 			(font
@@ -5162,6 +5152,16 @@
 			(justify left bottom)
 		)
 		(uuid "400a39dc-a2a9-4c1a-9ac7-db2101bb9c05")
+	)
+	(label "SPI1_MISO0"
+		(at 107.95 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44bc84ff-c31e-455c-af7f-ab2e8893d389")
 	)
 	(label "TEST_LED"
 		(at 31.75 77.47 0)
@@ -5193,16 +5193,6 @@
 		)
 		(uuid "5399e839-b2b3-4bed-8c12-228ead30d800")
 	)
-	(label "SPI1_SCLK_0"
-		(at 107.95 49.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6369da11-a3fb-444a-9058-2216a220d187")
-	)
 	(label "SWDIO"
 		(at 187.96 31.75 0)
 		(effects
@@ -5212,6 +5202,16 @@
 			(justify left bottom)
 		)
 		(uuid "78edbe7c-37bd-4611-85ae-d0654faf0c77")
+	)
+	(label "SPI1_SCLK0"
+		(at 107.95 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "843b4bc0-4aa8-4fc6-b2c4-5fe44e689dc0")
 	)
 	(label "I2C3_SDA"
 		(at 36.83 87.63 0)
@@ -5253,7 +5253,7 @@
 		)
 		(uuid "924f8304-428d-4406-9922-527b3bd71944")
 	)
-	(label "SPI1_MOSI_0"
+	(label "SPI1_MOSI0"
 		(at 187.96 121.92 0)
 		(effects
 			(font
@@ -5282,16 +5282,6 @@
 			(justify left bottom)
 		)
 		(uuid "a416b280-4b49-4776-a319-ec48ae82697d")
-	)
-	(label "SPI1_MISO_0"
-		(at 107.95 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abf5ffc0-7f4c-4f75-b744-c34229a3d3af")
 	)
 	(label "BOOT0"
 		(at 187.96 26.67 0)
@@ -5322,6 +5312,16 @@
 			(justify left bottom)
 		)
 		(uuid "ba624fb7-485d-4b8e-a111-89e0a1014f20")
+	)
+	(label "SPI1_MOSI0"
+		(at 107.95 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c2487c60-2bb8-491b-af48-31530768ef3c")
 	)
 	(label "USB_VBUS_DETECT"
 		(at 107.95 59.69 180)
@@ -5414,17 +5414,6 @@
 		)
 		(uuid "06e133b0-6e80-4dbb-830c-a801013d3657")
 	)
-	(hierarchical_label "SPI1_MOSI"
-		(shape input)
-		(at 107.95 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "087e87c2-5450-411a-a25a-92ba27f6229f")
-	)
 	(hierarchical_label "USBPD_CC1"
 		(shape input)
 		(at 107.95 95.25 0)
@@ -5479,17 +5468,6 @@
 			(justify right)
 		)
 		(uuid "202202cb-8463-4370-8325-21ccf227f1ae")
-	)
-	(hierarchical_label "SPI1_SCLK"
-		(shape input)
-		(at 107.95 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "224dfe65-0a8e-407a-8a83-ac95f75c2e2e")
 	)
 	(hierarchical_label "I2S2_WS"
 		(shape input)
@@ -5567,17 +5545,6 @@
 			(justify right)
 		)
 		(uuid "513711e4-56b4-4087-8d46-d90b8241e2f4")
-	)
-	(hierarchical_label "SPI1_MISO"
-		(shape input)
-		(at 107.95 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5b12de35-ee31-4cf3-a180-48df647718cd")
 	)
 	(hierarchical_label "MATRIX_G1"
 		(shape input)

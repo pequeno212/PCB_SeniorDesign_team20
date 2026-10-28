@@ -61,7 +61,7 @@
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
           "min_clearance": 0.2032,
-          "min_island_area": 10.0,
+          "min_island_area": 9.9999993548,
           "min_thickness": 0.25,
           "pad_connection": 2,
           "remove_islands": 1,
@@ -81,7 +81,40 @@
           "width": 0.2032
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "hole_clearance|155700000|95157000|28e6059f-1c73-4554-8afc-5bdf6ba21cba|0af93e97-1959-485e-bc42-05831f2a473d",
+          ""
+        ],
+        [
+          "hole_clearance|155700000|95157000|bcb2d17d-8b2c-487a-aad3-af19d2624cf8|0af93e97-1959-485e-bc42-05831f2a473d",
+          ""
+        ],
+        [
+          "hole_clearance|161800000|95157000|336db387-f48f-4ac6-8be7-cdde2b1c8bc6|604ba5f7-8573-42da-8c26-69b17d09a73d",
+          ""
+        ],
+        [
+          "hole_clearance|161800000|95157000|fcfa2f87-d608-4ac2-8b02-7b2fe5145bed|604ba5f7-8573-42da-8c26-69b17d09a73d",
+          ""
+        ],
+        [
+          "hole_clearance|82711000|136843000|f1246aec-4397-4b98-aacf-6a71119ab643|be385747-46f7-4f3c-89b1-aebcca383a54",
+          ""
+        ],
+        [
+          "hole_clearance|82711000|136843000|fdc0e7e5-dd86-4a74-a97c-d43675ce4899|be385747-46f7-4f3c-89b1-aebcca383a54",
+          ""
+        ],
+        [
+          "hole_clearance|82711000|142943000|524753c9-3076-43a1-bd92-e5f08ee75761|59ba6ddc-c214-4f15-b99c-2c82ef10ed46",
+          ""
+        ],
+        [
+          "hole_clearance|82711000|142943000|66f089d4-1f5e-43d9-aea0-16225455c313|59ba6ddc-c214-4f15-b99c-2c82ef10ed46",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -217,7 +250,7 @@
       "track_widths": [
         0.0,
         0.254,
-        0.37084,
+        0.32004,
         0.508,
         1.27
       ],
@@ -722,7 +755,7 @@
         "uuid": "88e1ced0-9576-4565-ab29-f74bf51ccbda"
       }
     ],
-    "used_designators": "P1-3,F1,L1-4,TSAL1-3,AE1,U1-18,C1-60,C66-79,SW1-7,R1-88,Y1-2,#PWR1-155,#PWR162-174,D1-12,Q1-7,#FLG1-7,J1-21,J24-25,TP1",
+    "used_designators": "TP1,#FLG1-7,R1-88,J1-21,J24-25,Y1-2,Q1-7,#PWR1-155,#PWR162-174,D1-12,U1-18,C1-60,C66-79,SW1-7,L1-4,AE1,TSAL1-3,F1,P1-3",
     "variants": []
   },
   "sheets": [
