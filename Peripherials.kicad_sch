@@ -6926,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 172.72 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8944,14 +8944,15 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 77.47 161.29 0)
+		(property "Value" "5V"
+			(at 80.01 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10561,7 +10562,7 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "5V"
 			(at 222.25 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
