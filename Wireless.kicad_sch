@@ -3649,6 +3649,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 135.89) (xy 205.74 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51045256-aad8-46d1-afac-56b2ea6eebad")
+	)
+	(wire
+		(pts
 			(xy 171.45 38.1) (xy 173.99 38.1)
 		)
 		(stroke
@@ -3666,16 +3676,6 @@
 			(type default)
 		)
 		(uuid "5385aacd-f5a2-4742-8aae-f16e4b5b192d")
-	)
-	(wire
-		(pts
-			(xy 190.5 153.67) (xy 205.74 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "558d6ea8-cb2b-4677-a27f-4e88b4b682ae")
 	)
 	(wire
 		(pts
@@ -3749,6 +3749,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 156.21) (xy 205.74 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64dc086c-95f9-441c-be5b-bdaa890df139")
+	)
+	(wire
+		(pts
 			(xy 41.91 88.9) (xy 41.91 92.71)
 		)
 		(stroke
@@ -3756,16 +3766,6 @@
 			(type default)
 		)
 		(uuid "67fc1105-8a19-46bc-b3cc-e4dbb856a31e")
-	)
-	(wire
-		(pts
-			(xy 190.5 138.43) (xy 205.74 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69bb763e-34de-4688-b2ae-f888126932dc")
 	)
 	(wire
 		(pts
@@ -3809,16 +3809,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 135.89) (xy 205.74 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7453e8e7-ed48-4ad2-80cf-6d667d1faf24")
-	)
-	(wire
-		(pts
 			(xy 166.37 35.56) (xy 166.37 41.91)
 		)
 		(stroke
@@ -3836,6 +3826,16 @@
 			(type default)
 		)
 		(uuid "7824e99d-fa0c-4298-9cf8-9800a1130614")
+	)
+	(wire
+		(pts
+			(xy 190.5 153.67) (xy 205.74 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b353af2-8ad5-4455-8d8b-f3ce4cc537a7")
 	)
 	(wire
 		(pts
@@ -4059,16 +4059,6 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 156.21) (xy 205.74 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a68fb952-c2bf-4e85-b7ff-9860553daf9f")
-	)
-	(wire
-		(pts
 			(xy 57.15 38.1) (xy 59.69 38.1)
 		)
 		(stroke
@@ -4136,6 +4126,16 @@
 			(type default)
 		)
 		(uuid "b82a0c14-5bd4-44db-bf7e-eb89294bd0d1")
+	)
+	(wire
+		(pts
+			(xy 190.5 138.43) (xy 205.74 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf94d6b3-f4a7-45f8-a017-a7f2966b31da")
 	)
 	(wire
 		(pts
@@ -5167,7 +5167,7 @@
 		(uuid "50c58acb-e740-41d9-8520-2198e1b48e13")
 	)
 	(label "SPI1_MOSI"
-		(at 190.5 138.43 0)
+		(at 190.5 135.89 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5187,7 +5187,7 @@
 		(uuid "6089d618-11a3-4db3-bc7c-6e0f7db4525f")
 	)
 	(label "SPI1_SCLK"
-		(at 190.5 135.89 0)
+		(at 190.5 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5207,7 @@
 		(uuid "6989e693-1f3c-4f5a-aa3e-8e45b7ab7420")
 	)
 	(label "GPIO8"
-		(at 190.5 153.67 0)
+		(at 190.5 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5307,7 +5307,7 @@
 		(uuid "cabda050-3816-4965-945f-748b3137f19c")
 	)
 	(label "ESP32_RST"
-		(at 190.5 156.21 0)
+		(at 190.5 153.67 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6947,7 +6947,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Inductor_SMD:L_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
 			(at 53.34 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -8900,7 +8900,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 60.6552 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -9749,7 +9749,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder"
 			(at 47.9552 48.26 0)
 			(hide yes)
 			(show_name no)
