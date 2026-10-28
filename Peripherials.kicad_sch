@@ -6584,17 +6584,6 @@
 		)
 		(uuid "af776a4d-7b11-4fbf-9ff3-95c18a9c7d01")
 	)
-	(hierarchical_label "5V_Buck"
-		(shape input)
-		(at 139.7 29.21 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bc148729-22bb-4fe7-9d4b-27bcf5351a2c")
-	)
 	(hierarchical_label "ESP32_USB_D_N"
 		(shape input)
 		(at 100.33 44.45 0)
