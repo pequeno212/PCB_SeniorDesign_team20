@@ -5380,7 +5380,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 29.21) (xy 146.05 29.21)
+			(xy 139.7 29.21) (xy 146.05 29.21)
 		)
 		(stroke
 			(width 0)
@@ -6328,16 +6328,6 @@
 		)
 		(uuid "437cf2a6-1cf6-4cd9-a8e2-d512011b0ace")
 	)
-	(label "VBUS_STM"
-		(at 130.81 29.21 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "664554bd-8de6-40cd-becb-928ab84fb5bb")
-	)
 	(label "UART_RX_Mini"
 		(at 240.03 105.41 180)
 		(effects
@@ -6593,6 +6583,17 @@
 			(justify right)
 		)
 		(uuid "af776a4d-7b11-4fbf-9ff3-95c18a9c7d01")
+	)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 139.7 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bc148729-22bb-4fe7-9d4b-27bcf5351a2c")
 	)
 	(hierarchical_label "ESP32_USB_D_N"
 		(shape input)
@@ -6925,7 +6926,7 @@
 				)
 			)
 		)
-		(property "Value" "USB_5V"
+		(property "Value" "+5V"
 			(at 172.72 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10120,14 +10121,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 72.39 161.29 0)
+		(property "Value" "3V3"
+			(at 74.93 165.0999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -10559,7 +10561,7 @@
 				)
 			)
 		)
-		(property "Value" "5V"
+		(property "Value" "+5V"
 			(at 222.25 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)

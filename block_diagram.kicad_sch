@@ -75,6 +75,16 @@
 	)
 	(wire
 		(pts
+			(xy 64.77 20.32) (xy 88.9 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07cdcc41-122e-4116-8c0d-e3e06a47114a")
+	)
+	(wire
+		(pts
 			(xy 64.77 99.06) (xy 102.87 99.06)
 		)
 		(stroke
@@ -115,6 +125,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 50.8) (xy 166.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15508060-ff14-44c2-905d-4cccf2ace6ef")
+	)
+	(wire
+		(pts
 			(xy 140.97 83.82) (xy 166.37 83.82)
 		)
 		(stroke
@@ -132,6 +152,16 @@
 			(type default)
 		)
 		(uuid "173d3050-cabc-4ee1-a187-068952b11cfd")
+	)
+	(wire
+		(pts
+			(xy 158.75 12.7) (xy 158.75 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197904fe-aeb5-4446-9c18-20e582770ff4")
 	)
 	(wire
 		(pts
@@ -362,6 +392,16 @@
 			(type default)
 		)
 		(uuid "62fe5ea2-67f2-418f-ba92-1f4f36bc6e74")
+	)
+	(wire
+		(pts
+			(xy 88.9 20.32) (xy 88.9 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63fe01fc-259d-48fa-bcc9-f344218287a3")
 	)
 	(wire
 		(pts
@@ -692,6 +732,16 @@
 			(type default)
 		)
 		(uuid "c9314bac-803e-460f-9c87-4dfb5826fdb3")
+	)
+	(wire
+		(pts
+			(xy 88.9 12.7) (xy 158.75 12.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a26563-58f3-4f07-9256-288940eafe42")
 	)
 	(wire
 		(pts
@@ -1636,8 +1686,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 21.59)
-		(size 25.4 40.64)
+		(at 39.37 16.51)
+		(size 25.4 45.72)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1652,7 +1702,7 @@
 		)
 		(uuid "ab582717-e2bf-4603-b10c-c3fa663dfded")
 		(property "Sheetname" "Power"
-			(at 39.37 20.8784 0)
+			(at 39.37 15.7984 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1773,6 +1823,16 @@
 				(justify right)
 			)
 		)
+		(pin "5V_Buck" input
+			(at 64.77 20.32 0)
+			(uuid "f14f4b15-1b4d-47e8-8859-e39772b5ee9c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda"
@@ -1782,8 +1842,8 @@
 		)
 	)
 	(sheet
-		(at 166.37 49.53)
-		(size 25.4 105.41)
+		(at 166.37 46.99)
+		(size 25.4 107.95)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1796,8 +1856,8 @@
 			(color 0 0 0 0)
 		)
 		(uuid "c56479bc-1a8a-4e8e-8fbe-073cb4f795b5")
-		(property "Sheetname" "Peripherials"
-			(at 166.37 48.8184 0)
+		(property "Sheetname" "Peripherals"
+			(at 166.37 46.2784 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1808,7 +1868,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherials.kicad_sch"
-			(at 166.624 155.956 0)
+			(at 166.624 153.416 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2051,6 +2111,16 @@
 		(pin "SPI_CS_ESPMini" input
 			(at 166.37 129.54 180)
 			(uuid "80b655f8-ebe1-4b8d-9d16-6e2ced92c184")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "5V_Buck" input
+			(at 166.37 50.8 180)
+			(uuid "bbdd3b6b-7e8b-4cf4-a27c-1fc5b7cfa52b")
 			(effects
 				(font
 					(size 1.27 1.27)

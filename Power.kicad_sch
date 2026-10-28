@@ -6185,12 +6185,6 @@
 		(uuid "ddee8b54-7338-472c-88ee-fc30155c2561")
 	)
 	(junction
-		(at 293.37 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de9131fc-14bd-460c-bed4-44475a9cbefe")
-	)
-	(junction
 		(at 218.44 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9389,6 +9383,17 @@
 			(justify left)
 		)
 		(uuid "8da93899-ea4f-4aba-a8dd-fed9dd022ec9")
+	)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 293.37 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3821511-47e0-42de-992e-cc2cee8b322a")
 	)
 	(hierarchical_label "STM32_USB_D_N"
 		(shape input)
@@ -18579,7 +18584,7 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
+		(property "Value" "3V3"
 			(at 255.778 171.958 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18901,14 +18906,15 @@
 				)
 			)
 		)
-		(property "Value" "+3V3"
-			(at 185.42 109.22 0)
+		(property "Value" "3V3"
+			(at 187.96 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -19892,84 +19898,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "R67")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 293.37 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "def7d4ac-5ad1-4e0f-a89e-ac94ed283f20")
-		(property "Reference" "#PWR016"
-			(at 293.37 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+5V"
-			(at 293.37 95.25 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 293.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 293.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 293.37 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "902dbe89-ab29-46ea-b4af-8c9f36b50bc9")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "#PWR016")
 					(unit 1)
 				)
 			)
