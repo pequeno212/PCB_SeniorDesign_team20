@@ -3518,6 +3518,16 @@
 			"RETEBApgEREREyiARURETKAAFhERMYECWERExAT/BxMuriD5rP5bAAAAAElFTkSuQmCC"
 		)
 	)
+	(label "I2C3_SDA"
+		(at 34.29 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e27cdfd-0832-4849-8f65-d28ae24e9c65")
+	)
 	(label "I2C3_SCL"
 		(at 33.02 82.55 0)
 		(effects
@@ -3527,16 +3537,6 @@
 			(justify left bottom)
 		)
 		(uuid "4e7e405f-f3f4-45e3-86f1-c1451be7afc9")
-	)
-	(label "I2C3_SCL"
-		(at 34.29 36.83 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9e5873ab-99f0-4b26-a148-ef38c822a113")
 	)
 	(label "I2C3_SDA"
 		(at 33.02 80.01 0)
@@ -3548,7 +3548,7 @@
 		)
 		(uuid "b861355c-47a0-425c-a8e5-f4db945cb971")
 	)
-	(label "I2C3_SDA"
+	(label "I2C3_SCL"
 		(at 34.29 31.75 0)
 		(effects
 			(font
@@ -3556,7 +3556,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "d11e5fa6-633e-4d09-818d-5ef11d39db63")
+		(uuid "f7c32dc6-603b-4178-8ee3-dbd64412a739")
 	)
 	(hierarchical_label "I2C3_SDA"
 		(shape input)

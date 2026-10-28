@@ -6005,12 +6005,6 @@
 		(uuid "7f43ab6d-c280-4cc6-a566-d638fa23f704")
 	)
 	(junction
-		(at 176.53 168.91)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7f9d3760-fbe3-42c2-90de-7b243e626245")
-	)
-	(junction
 		(at 160.02 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8623,16 +8617,6 @@
 			(type default)
 		)
 		(uuid "ce1f911d-1698-4885-acc0-a536529bd42c")
-	)
-	(wire
-		(pts
-			(xy 176.53 168.91) (xy 176.53 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ce4f22d5-387a-4843-8bf5-3c54cac41619")
 	)
 	(wire
 		(pts
@@ -14422,7 +14406,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 148.2852 46.99 0)
 			(hide yes)
 			(show_name no)
@@ -14834,7 +14818,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 130.81 39.878 90)
 			(hide yes)
 			(show_name no)
@@ -15647,7 +15631,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+		(property "Footprint" "Resistor_SMD:R_1210_3225Metric_Pad1.30x2.65mm_HandSolder"
 			(at 130.81 33.528 90)
 			(hide yes)
 			(show_name no)
@@ -19898,6 +19882,83 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "R67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 176.53 179.07 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dffa7589-4dea-41b2-9267-1d6cbb8a7419")
+		(property "Reference" "#PWR074"
+			(at 176.53 182.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3V3"
+			(at 173.228 177.038 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 176.53 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 176.53 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 176.53 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a869cca9-a4a5-4bf9-814e-5f6182c9cc53")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
