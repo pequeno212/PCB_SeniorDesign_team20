@@ -5976,12 +5976,6 @@
 		(uuid "d7431bcc-a6fd-4630-8cc5-790f48075bfe")
 	)
 	(junction
-		(at 325.12 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d7c311db-5182-4e04-a5e9-9a4eac515b47")
-	)
-	(junction
 		(at 138.43 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6727,16 +6721,6 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 95.25) (xy 325.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3790bee3-519f-4f25-ba66-cb73dba15cef")
-	)
-	(wire
-		(pts
 			(xy 278.13 100.33) (xy 256.54 100.33)
 		)
 		(stroke
@@ -7417,16 +7401,6 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 100.33) (xy 325.12 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c97bba7-bb2b-4bf0-aa77-61ffd0bebc54")
-	)
-	(wire
-		(pts
 			(xy 361.95 177.8) (xy 365.76 177.8)
 		)
 		(stroke
@@ -7727,7 +7701,7 @@
 	)
 	(wire
 		(pts
-			(xy 325.12 100.33) (xy 342.9 100.33)
+			(xy 320.04 100.33) (xy 342.9 100.33)
 		)
 		(stroke
 			(width 0)
@@ -8274,16 +8248,6 @@
 			(type default)
 		)
 		(uuid "c2a3d2e9-68bb-411c-a809-e15c6b7f4013")
-	)
-	(wire
-		(pts
-			(xy 325.12 95.25) (xy 336.55 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c32df6a3-c916-4f48-ac8f-97f036d35738")
 	)
 	(wire
 		(pts
@@ -8887,7 +8851,7 @@
 	)
 	(wire
 		(pts
-			(xy 24.13 45.72) (xy 39.37 45.72)
+			(xy 33.02 45.72) (xy 39.37 45.72)
 		)
 		(stroke
 			(width 0)
@@ -8975,16 +8939,6 @@
 		)
 		(uuid "76ac43fe-8f4c-41ac-956b-256b43f3aa54")
 	)
-	(label "5V_AMPS_2"
-		(at 336.55 95.25 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ada52655-b7d5-42e5-a30e-81b72c13d212")
-	)
 	(label "VBUS_STM"
 		(at 114.3 45.72 0)
 		(effects
@@ -9035,16 +8989,6 @@
 		)
 		(uuid "c96faeff-3b68-4b0a-a5f2-c7c33c726dfc")
 	)
-	(label "5V_AMPS_2"
-		(at 24.13 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cda15c6f-b3fd-4828-b66a-318a47835a75")
-	)
 	(label "3V3_AMPS_1"
 		(at 242.57 36.83 180)
 		(effects
@@ -9094,6 +9038,17 @@
 			(justify left bottom)
 		)
 		(uuid "f82661e1-fb22-4227-97bb-c9fa008caa78")
+	)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 33.02 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "02c4de9f-603e-4714-8ee9-b9824536a7b6")
 	)
 	(hierarchical_label "5V_Buck"
 		(shape input)
