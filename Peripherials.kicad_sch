@@ -6496,6 +6496,17 @@
 		)
 		(uuid "3ca484b6-f14e-4881-bd13-7caae43c3fa7")
 	)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 139.7 29.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "496fa731-a2f5-4e1a-b590-153427f39e02")
+	)
 	(hierarchical_label "SPI1_SCLK"
 		(shape input)
 		(at 36.83 171.45 180)

@@ -5658,12 +5658,6 @@
 		(uuid "0895b864-cd33-4004-8e56-e1a2ff740564")
 	)
 	(junction
-		(at 349.25 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0decfc63-b04b-4d1f-9701-2de36580da7a")
-	)
-	(junction
 		(at 35.56 215.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5688,12 +5682,6 @@
 		(uuid "22710ef9-8d16-4efe-a075-a56d233dad81")
 	)
 	(junction
-		(at 363.22 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "23507f4d-c5ca-4577-a7a5-44c7bec77d4a")
-	)
-	(junction
 		(at 278.13 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5712,12 +5700,6 @@
 		(uuid "2e150212-9d95-4af1-ba83-0d8c560fcf9b")
 	)
 	(junction
-		(at 342.9 113.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30c412fe-d7d1-44ca-a732-27337c0dd47e")
-	)
-	(junction
 		(at 35.56 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5734,12 +5716,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f19c9e1-5713-4be4-89ad-59a0c6fefc57")
-	)
-	(junction
-		(at 342.9 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "416e5532-8c9c-48bf-a266-76c72cb9b60e")
 	)
 	(junction
 		(at 93.98 45.72)
@@ -6201,7 +6177,7 @@
 	)
 	(wire
 		(pts
-			(xy 387.35 162.56) (xy 374.65 162.56)
+			(xy 378.46 162.56) (xy 374.65 162.56)
 		)
 		(stroke
 			(width 0)
@@ -6418,16 +6394,6 @@
 			(type default)
 		)
 		(uuid "1bb76607-b8e1-4c3a-8230-2da065bf89d5")
-	)
-	(wire
-		(pts
-			(xy 342.9 100.33) (xy 342.9 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ca81a18-4249-4f4c-8f25-fe702c7f688f")
 	)
 	(wire
 		(pts
@@ -6941,16 +6907,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 110.49) (xy 349.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47f009d2-1adc-4c1d-a62f-31204503cd39")
-	)
-	(wire
-		(pts
 			(xy 138.43 31.75) (xy 138.43 38.1)
 		)
 		(stroke
@@ -7191,16 +7147,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 113.03) (xy 342.9 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6304a1a3-b631-47d3-b66d-88b59f08bbef")
-	)
-	(wire
-		(pts
 			(xy 297.18 176.53) (xy 297.18 186.69)
 		)
 		(stroke
@@ -7288,16 +7234,6 @@
 			(type default)
 		)
 		(uuid "6ab36d69-f537-48e5-8bb1-96a832665e72")
-	)
-	(wire
-		(pts
-			(xy 342.9 100.33) (xy 353.06 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c510bbe-34a1-4071-bd2b-3cde8d7507f8")
 	)
 	(wire
 		(pts
@@ -7941,16 +7877,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 113.03) (xy 349.25 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f2c9ad1-3cd8-4bcd-bd67-4678ac2f2333")
-	)
-	(wire
-		(pts
 			(xy 309.88 165.1) (xy 309.88 168.91)
 		)
 		(stroke
@@ -7968,16 +7894,6 @@
 			(type default)
 		)
 		(uuid "a0d59dce-40ea-4a36-848c-4d935581527d")
-	)
-	(wire
-		(pts
-			(xy 369.57 97.79) (xy 369.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1756616-3378-48a3-b4c6-025de9eeac9c")
 	)
 	(wire
 		(pts
@@ -8068,16 +7984,6 @@
 			(type default)
 		)
 		(uuid "a7e0b89d-f46c-4ab7-8e14-289c594bc1e8")
-	)
-	(wire
-		(pts
-			(xy 349.25 100.33) (xy 349.25 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a898d64e-4c1d-4413-9875-c3057a0c5ba3")
 	)
 	(wire
 		(pts
@@ -8318,16 +8224,6 @@
 			(type default)
 		)
 		(uuid "bfc2bb50-5d75-46c0-98fc-391e8bbb40c2")
-	)
-	(wire
-		(pts
-			(xy 360.68 100.33) (xy 369.57 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c13f8dd0-4f47-4474-81ca-be6822f0bde2")
 	)
 	(wire
 		(pts
@@ -8748,16 +8644,6 @@
 			(type default)
 		)
 		(uuid "dfccdf70-8e31-4fe3-bd7a-ea15197f0b0d")
-	)
-	(wire
-		(pts
-			(xy 342.9 110.49) (xy 342.9 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfed74cd-5e35-4715-a533-584aef866312")
 	)
 	(wire
 		(pts
@@ -9209,15 +9095,16 @@
 		)
 		(uuid "f82661e1-fb22-4227-97bb-c9fa008caa78")
 	)
-	(label "5V_AMPS_2"
-		(at 387.35 162.56 180)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 378.46 162.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "fa32d6e3-9425-47b2-a7b6-e3bc9986d5b5")
+		(uuid "04f42a11-7311-4034-957d-6775e3e0d9a3")
 	)
 	(hierarchical_label "I2C3_SDA"
 		(shape input)
@@ -9328,6 +9215,17 @@
 			(justify left)
 		)
 		(uuid "8da93899-ea4f-4aba-a8dd-fed9dd022ec9")
+	)
+	(hierarchical_label "5V_Buck"
+		(shape input)
+		(at 342.9 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d39f324b-ef9d-4b31-8bfb-62839c8b939d")
 	)
 	(hierarchical_label "STM32_USB_D_N"
 		(shape input)
@@ -11457,83 +11355,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 369.57 97.79 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "27864602-0580-49a7-9696-37a4d5e21cd6")
-		(property "Reference" "#PWR0136"
-			(at 369.57 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5V"
-			(at 369.57 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 369.57 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 369.57 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 369.57 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "17be80c9-f08e-437e-9934-cb2ac8b48854")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "#PWR0136")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 93.98 78.74 180)
 		(unit 1)
@@ -11615,107 +11436,6 @@
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "R74")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 356.87 100.33 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2c580738-5cb5-4a8b-95b7-c96253557117")
-		(property "Reference" "D10"
-			(at 356.362 98.044 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 355.854 102.87 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_1206_3216Metric_Pad1.42x1.75mm_HandSolder"
-			(at 356.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 356.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Diode"
-			(at 356.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 356.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 356.87 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a4d4af1-0ae2-4967-ac55-ae27d4f91810")
-		)
-		(pin "2"
-			(uuid "8bc9336a-e0a0-4198-bbcb-570b935c1ea9")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -14646,87 +14366,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 349.25 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7022f3e8-05d0-408d-924e-f26b85b7e82b")
-		(property "Reference" "C54"
-			(at 349.25 104.648 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100n"
-			(at 349.25 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 350.2152 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 349.25 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "22d6ede5-eab1-420a-8bf6-096a732968f1")
-		)
-		(pin "1"
-			(uuid "d24cac27-9176-4f04-979f-da185e90af41")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "C54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 365.76 52.07 0)
 		(unit 1)
@@ -14963,87 +14602,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "#PWR0167")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 342.9 106.68 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "797f15ca-97c7-4dd0-b408-74c12938b320")
-		(property "Reference" "C51"
-			(at 342.9 104.648 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1u"
-			(at 342.9 108.712 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 343.8652 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 342.9 106.68 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "a4d6154d-7c70-4dc2-9e55-5fcd8d199b44")
-		)
-		(pin "1"
-			(uuid "0f655543-14f5-46cd-b5a7-6a973a2b8851")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -15534,83 +15092,6 @@
 			(project "Power"
 				(path "/ce54564b-053f-4184-8bbf-14aa73263a86"
 					(reference "#PWR0104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 363.22 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8398279e-4833-47ad-8ed8-0c9b85fbb8b8")
-		(property "Reference" "#FLG07"
-			(at 363.22 98.425 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 363.22 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 363.22 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 363.22 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 363.22 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c1a211b7-e80d-48ea-8432-776d1856d64b")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "#FLG07")
 					(unit 1)
 				)
 			)
@@ -16141,83 +15622,6 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "J25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 342.9 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "93f4f799-fb94-4bdf-8d78-1df1a25f4456")
-		(property "Reference" "#PWR0124"
-			(at 342.9 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 342.9 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 342.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 342.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 342.9 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "15e0d65f-3f35-4453-97e0-b2853e2b7057")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
