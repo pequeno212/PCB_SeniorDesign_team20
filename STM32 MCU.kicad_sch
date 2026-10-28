@@ -5657,17 +5657,6 @@
 		)
 		(uuid "0aab6b38-9a01-4b01-8608-01d8f7a152cb")
 	)
-	(hierarchical_label "SPI_CS_SD_CARD"
-		(shape input)
-		(at 107.95 41.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c5f69c1-d041-4005-9131-2bc9e29e3786")
-	)
 	(hierarchical_label "MATRIX_R2"
 		(shape input)
 		(at 107.95 92.71 0)
@@ -5733,6 +5722,17 @@
 			(justify left)
 		)
 		(uuid "2e1bf60f-719a-43f1-b50f-b98dba9e3aed")
+	)
+	(hierarchical_label "SPI_CS_ESP"
+		(shape input)
+		(at 107.95 46.99 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3ea1fd37-fa95-4e12-868c-d21e6794414b")
 	)
 	(hierarchical_label "I2C3_SDA"
 		(shape input)
@@ -5811,17 +5811,6 @@
 		)
 		(uuid "5cad8fd8-8522-4058-888f-58fa728150b0")
 	)
-	(hierarchical_label "SPI_CS_ESPMini"
-		(shape input)
-		(at 107.95 46.99 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "60c9ea16-a9c5-4fca-bb41-6933b9a6d247")
-	)
 	(hierarchical_label "MATRIX_A"
 		(shape input)
 		(at 107.95 87.63 0)
@@ -5832,6 +5821,17 @@
 			(justify left)
 		)
 		(uuid "68a0c550-7ba4-47d2-82e1-f15761e4a28d")
+	)
+	(hierarchical_label "SPI_CS_SD_CARD"
+		(shape input)
+		(at 107.95 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "68e0ddd3-abc6-49bf-85f6-ddbe8418e785")
 	)
 	(hierarchical_label "MATRIX_OE"
 		(shape input)
@@ -5877,6 +5877,17 @@
 		)
 		(uuid "7f62080c-f04a-4f93-9ef9-c56d0262484f")
 	)
+	(hierarchical_label "MATRIX_LAT"
+		(shape input)
+		(at 107.95 41.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "84a683de-5e53-410f-acf6-02f3ad738161")
+	)
 	(hierarchical_label "MATRIX_B"
 		(shape input)
 		(at 107.95 85.09 0)
@@ -5887,6 +5898,17 @@
 			(justify left)
 		)
 		(uuid "8698db9d-c948-4128-8f23-df2957f30495")
+	)
+	(hierarchical_label "SPI_CS_ESPMini"
+		(shape input)
+		(at 31.75 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8a3adc85-e6fe-4494-8a58-3c69b453a70c")
 	)
 	(hierarchical_label "TV_IR_PWM_1"
 		(shape input)
@@ -5965,17 +5987,6 @@
 		)
 		(uuid "a4d7ccfb-96bb-4e1a-b964-fa2185d437db")
 	)
-	(hierarchical_label "MATRIX_LAT"
-		(shape input)
-		(at 107.95 107.95 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "aa525e9e-2cd1-491e-a9be-bd2012583567")
-	)
 	(hierarchical_label "LEFT_SD_MODE"
 		(shape input)
 		(at 31.75 67.31 180)
@@ -6030,17 +6041,6 @@
 			(justify left)
 		)
 		(uuid "c6d53ae4-452e-4f2c-b406-6100ebde1485")
-	)
-	(hierarchical_label "SPI_CS_ESP"
-		(shape input)
-		(at 31.75 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "dbf2cabb-9384-4505-b511-949240e03de0")
 	)
 	(hierarchical_label "I2C3_SCL"
 		(shape input)
