@@ -10340,7 +10340,7 @@
 				)
 			)
 		)
-		(property "Value" "RGEF1400"
+		(property "Value" "Glass Fuse Clip"
 			(at 326.39 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
