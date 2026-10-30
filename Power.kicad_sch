@@ -2353,7 +2353,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "NMOS_2"
+		(symbol "NMOS_1"
 			(pin_numbers
 				(hide yes)
 			)
@@ -2365,29 +2365,27 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "Q"
-				(at 5.08 1.27 0)
+			(property "Reference" "Q6"
+				(at 8.89 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
 			(property "Value" "NMOS"
-				(at 5.08 -1.27 0)
+				(at 6.35 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
 				(at 5.08 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2409,7 +2407,7 @@
 					)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, drain/source/gate"
+			(property "Description" "STD120N4LF6"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -2464,7 +2462,7 @@
 					)
 				)
 			)
-			(symbol "NMOS_2_0_1"
+			(symbol "NMOS_1_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2631,11 +2629,11 @@
 					)
 				)
 			)
-			(symbol "NMOS_2_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
+			(symbol "NMOS_1_1_1"
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "D"
+					(name "G"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2650,10 +2648,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
+				(pin passive line
+					(at 2.54 5.08 270)
 					(length 2.54)
-					(name "G"
+					(name "D"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6221,16 +6219,6 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 176.53) (xy 283.21 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fa5b7ee-36e2-4b00-88fe-7a8e0c4c08d2")
-	)
-	(wire
-		(pts
 			(xy 181.61 184.15) (xy 182.88 184.15)
 		)
 		(stroke
@@ -6938,6 +6926,16 @@
 			(type default)
 		)
 		(uuid "49c19d38-5efe-4aa4-8565-1737aee940c6")
+	)
+	(wire
+		(pts
+			(xy 283.21 176.53) (xy 283.21 186.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aa90c86-fb9e-4fa8-8e2f-e1287166bc66")
 	)
 	(wire
 		(pts
@@ -9215,123 +9213,6 @@
 		(uuid "dd17101f-03b3-4df0-a5ef-c7ecf3811b7c")
 	)
 	(symbol
-		(lib_name "NMOS_2")
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 283.21 171.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "001a5b76-897c-4d24-8c77-b256019c3caa")
-		(property "Reference" "Q6"
-			(at 283.21 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 283.21 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 280.67 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 295.91 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AO3400A"
-			(at 283.21 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 300.355 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 302.26 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 298.45 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "16ca4236-7ae0-45f1-80f8-a2fdeabdaf9e")
-		)
-		(pin "3"
-			(uuid "3fa4ce3f-7cb9-40bf-b179-8dfc3735041d")
-		)
-		(pin "2"
-			(uuid "c11ebf54-cf12-4881-bce9-521c17cd7df3")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "Q6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 93.98 63.5 0)
 		(unit 1)
@@ -10272,123 +10153,6 @@
 		)
 	)
 	(symbol
-		(lib_name "NMOS_2")
-		(lib_id "Simulation_SPICE:NMOS")
-		(at 297.18 171.45 270)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "18b8076c-a9f8-4241-92f4-f3659d02e514")
-		(property "Reference" "Q7"
-			(at 297.18 162.56 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NMOS"
-			(at 297.18 165.1 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23"
-			(at 299.72 166.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
-			(at 284.48 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "AO3400A"
-			(at 297.18 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Device" "NMOS"
-			(at 280.035 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Type" "VDMOS"
-			(at 278.13 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=D 2=G 3=S"
-			(at 281.94 171.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c6d0f47f-ccb6-435c-86c7-896490ae06e9")
-		)
-		(pin "3"
-			(uuid "81e04fab-256f-4a48-bd8d-cbf0cd63ae01")
-		)
-		(pin "2"
-			(uuid "3cc6cdb0-3d07-43b3-a10e-5c8ca5b1330e")
-		)
-		(instances
-			(project "SeniorDesign_PCB"
-				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
-					(reference "Q7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:Polyfuse")
 		(at 302.26 100.33 90)
 		(unit 1)
@@ -10542,6 +10306,123 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "#PWR0162")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 297.18 171.45 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1dd335bf-0684-48b2-a780-7873743b928e")
+		(property "Reference" "Q8"
+			(at 297.18 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 297.18 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 299.72 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 284.48 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STD120N4LF6"
+			(at 297.18 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 280.035 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 278.13 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 281.94 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "51c24bfe-ca07-41ac-a694-6f4a97ddad8c")
+		)
+		(pin "3"
+			(uuid "b943d543-deed-476b-ad7b-09467694c2ad")
+		)
+		(pin "2"
+			(uuid "2142ac87-ae1b-45d9-acb7-49606483410b")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -13750,6 +13631,122 @@
 			(project "SeniorDesign_PCB"
 				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "NMOS_1")
+		(lib_id "Simulation_SPICE:NMOS")
+		(at 283.21 171.45 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "613e753c-39a2-48da-8c7f-edfeb3721ff3")
+		(property "Reference" "Q10"
+			(at 283.21 162.56 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NMOS"
+			(at 283.21 165.1 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:TO-252-2"
+			(at 280.67 166.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_MOSFETs"
+			(at 295.91 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "STD120N4LF6"
+			(at 283.21 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "NMOS"
+			(at 300.355 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Type" "VDMOS"
+			(at 302.26 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=D 2=G 3=S"
+			(at 298.45 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9b5fd5ac-a238-4fc9-9ab8-fbbbbab8713b")
+		)
+		(pin "3"
+			(uuid "73f5fc1b-8bd3-40a4-8456-6fb7b55bba62")
+		)
+		(pin "2"
+			(uuid "be0a2d30-2e0c-4989-b10b-b35ea22c4edf")
+		)
+		(instances
+			(project "SeniorDesign_PCB"
+				(path "/88e1ced0-9576-4565-ab29-f74bf51ccbda/ab582717-e2bf-4603-b10c-c3fa663dfded"
+					(reference "Q10")
 					(unit 1)
 				)
 			)
